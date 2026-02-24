@@ -123,11 +123,12 @@
       <selectionEntries>
         <selectionEntry type="upgrade" import="true" name="Equipment" hidden="false" id="cc6b-3634-f3b0-4819" page="0" collective="false" sortIndex="4">
           <constraints>
-            <constraint type="min" value="0" field="selections" scope="parent" shared="false" id="f254-c7ac-bb73-24fd" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <constraint type="min" value="1" field="selections" scope="parent" shared="false" id="f254-c7ac-bb73-24fd" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="3a95-aea3-6869-91f0" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
           </constraints>
           <entryLinks>
-            <entryLink import="true" name="Equipment" hidden="false" id="c1c0-4ea6-7336-2d8c" type="selectionEntryGroup" targetId="b453-549f-51d0-026d"/>
+            <entryLink import="true" name="Dark Elf Equipment" hidden="false" id="c1c0-4ea6-7336-2d8c" type="selectionEntryGroup" targetId="fcdc-21f3-0bfb-0885"/>
+            <entryLink import="true" name="Equipment" hidden="false" id="93c7-7301-062f-c7a5" type="selectionEntryGroup" targetId="2247-1f56-bc59-0ead"/>
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="0"/>
