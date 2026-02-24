@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="e2ce-f1a1-0c5e-a9ae" name="Druchii (2a)" gameSystemId="e8b2-6de5-eca8-99eb" gameSystemRevision="15" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="false" id="8399-ca75-acae-c34b" name="Druchii (2a)" gameSystemId="7a9b-8ef3-c662-7242" gameSystemRevision="15" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry type="model" import="true" name="Beast Master" hidden="false" id="86f0-d83c-2aba-7197" page="0" collective="false">
       <constraints>
@@ -2924,7 +2924,7 @@ from a safe distance).</description>
     </selectionEntry>
   </selectionEntries>
   <catalogueLinks>
-    <catalogueLink type="catalogue" name="common-data" id="1a44-c1df-b672-a22d" targetId="fbea-3cc2-78d1-7b6f"/>
+    <catalogueLink type="catalogue" name="common-data" id="1a44-c1df-b672-a22d" targetId="4066-c18e-d885-6e7e"/>
   </catalogueLinks>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup name="Special Skills" id="af3f-c177-e4bb-3789" hidden="false" collective="false" import="true">

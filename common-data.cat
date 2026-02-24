@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="fbea-3cc2-78d1-7b6f" name="common-data" revision="21" battleScribeVersion="2.03" library="true" gameSystemId="e8b2-6de5-eca8-99eb" gameSystemRevision="15" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
+<catalogue id="4066-c18e-d885-6e7e" name="common-data" revision="21" battleScribeVersion="2.03" library="true" gameSystemId="7a9b-8ef3-c662-7242" gameSystemRevision="15" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
   <sharedSelectionEntries>
     <selectionEntry id="d769-0d85-e810-df60" name="Experience" page="0" hidden="false" collective="false" import="true" type="upgrade">
       <costs>
