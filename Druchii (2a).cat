@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="6fd8-43f9-b5cd-a555" name="Druchii (2a)" gameSystemId="9581-b01c-bb39-a315" gameSystemRevision="15" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="false" id="a31e-4cbc-5359-359b" name="Druchii (2a)" gameSystemId="fc43-e329-36ca-f3a2" gameSystemRevision="15" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry type="model" import="true" name="Beast Master" hidden="false" id="86f0-d83c-2aba-7197" page="0" collective="false">
       <constraints>
@@ -127,11 +127,7 @@
             <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="3a95-aea3-6869-91f0" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
           </constraints>
           <entryLinks>
-            <entryLink import="true" name="Equipment" hidden="false" id="ddb5-d5c2-40cf-55ca" collective="false" targetId="2247-1f56-bc59-0ead" type="selectionEntryGroup">
-              <entryLinks>
-                <entryLink import="true" name="Equipment" hidden="false" id="ef78-2a70-4349-0428" type="selectionEntryGroup" targetId="b453-549f-51d0-026d"/>
-              </entryLinks>
-            </entryLink>
+            <entryLink import="true" name="Equipment" hidden="false" id="c1c0-4ea6-7336-2d8c" type="selectionEntryGroup" targetId="b453-549f-51d0-026d"/>
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="0"/>
@@ -2903,7 +2899,7 @@ from a safe distance).</description>
     </selectionEntry>
   </selectionEntries>
   <catalogueLinks>
-    <catalogueLink type="catalogue" name="common-data" id="1a44-c1df-b672-a22d" targetId="dc52-eaba-44b0-479d"/>
+    <catalogueLink type="catalogue" name="common-data" id="1a44-c1df-b672-a22d" targetId="3f74-7c3d-ff1a-174d"/>
   </catalogueLinks>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup name="Special Skills" id="af3f-c177-e4bb-3789" hidden="false" collective="false" import="true">
@@ -3243,6 +3239,13 @@ wishing to charge a Beastmaster with one of these weapons must first take a fea
                 <cost name="pts" typeId="points" value="10"/>
                 <cost name="Warband Rating" typeId="wb-rating" value="0"/>
               </costs>
+              <modifiers>
+                <modifier type="set" value="false" field="hidden">
+                  <conditions>
+                    <condition type="atLeast" value="1" field="selections" scope="86f0-d83c-2aba-7197" childId="any" shared="true"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
@@ -3251,6 +3254,7 @@ wishing to charge a Beastmaster with one of these weapons must first take a fea
     <selectionEntryGroup name="Equipment" id="b453-549f-51d0-026d" hidden="false">
       <entryLinks>
         <entryLink import="true" name="Dark Elf Equipment" hidden="false" id="2785-8074-9a59-24fd" type="selectionEntryGroup" targetId="fcdc-21f3-0bfb-0885"/>
+        <entryLink import="true" name="Equipment" hidden="false" id="0e5e-1fcb-ebcb-ccd2" type="selectionEntryGroup" targetId="2247-1f56-bc59-0ead"/>
       </entryLinks>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>

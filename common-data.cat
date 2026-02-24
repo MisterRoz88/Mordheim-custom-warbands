@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="dc52-eaba-44b0-479d" name="common-data" revision="21" battleScribeVersion="2.03" library="true" gameSystemId="9581-b01c-bb39-a315" gameSystemRevision="15" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
+<catalogue id="3f74-7c3d-ff1a-174d" name="common-data" revision="21" battleScribeVersion="2.03" library="true" gameSystemId="fc43-e329-36ca-f3a2" gameSystemRevision="15" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
   <sharedSelectionEntries>
     <selectionEntry id="d769-0d85-e810-df60" name="Experience" page="0" hidden="false" collective="false" import="true" type="upgrade">
       <costs>
@@ -3525,26 +3525,406 @@ Strength is used for close combat weapons, the bonus applies to all such weapons
         <constraint field="selections" scope="parent" value="0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="70e0-a7b1-cc1f-5995" type="min"/>
       </constraints>
       <entryLinks>
-        <entryLink id="171c-83e4-a36f-1d53" name="Axe" hidden="false" collective="false" import="true" targetId="5d01-06b9-3a86-73c9" type="selectionEntry"/>
+        <entryLink id="171c-83e4-a36f-1d53" name="Axe" hidden="false" collective="false" import="true" targetId="5d01-06b9-3a86-73c9" type="selectionEntry">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Darksteel Weapon" hidden="false" id="6e3b-e7cf-71a3-bc94">
+              <costs>
+                <cost name="pts" typeId="points" value="10"/>
+                <cost name="Warband Rating" typeId="wb-rating" value="0"/>
+              </costs>
+              <profiles>
+                <profile name="Darksteel Weapon" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="HtH Weapon" hidden="false" id="7257-741d-ba83-9f7a">
+                  <characteristics>
+                    <characteristic name="Str" typeId="f10cfcb7-b71e-4c27-9836-75d341e28f68"/>
+                    <characteristic name="Special" typeId="80dd3fd5-3811-af0b-e182-2ecbc7ad5d8e">Critical damage, Wicked edge</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules>
+                <rule name="Critical Damage" id="fdef-4576-f6d2-ad44" hidden="false">
+                  <description>Darksteel weapons inflict serious damage on their opponents. When rolling on the critical hit chart, a Darksteel weapon will add +1 to the result.</description>
+                </rule>
+                <rule name="Wicked Edge" id="691e-a18b-f3b8-8759" hidden="false">
+                  <description>Darksteel weapons are set with sharp protrusions and serrated edges which inflict serious damage on an opponent.
+A roll of 2-4 on the injury table is a stunned result.</description>
+                </rule>
+                <rule name="Rarity" id="d2e5-149c-90e5-a04a" hidden="false">
+                  <description>Rarity 9</description>
+                </rule>
+              </rules>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="d2ad-d1d8-9bf6-dc05"/>
+              </constraints>
+            </selectionEntry>
+          </selectionEntries>
+        </entryLink>
         <entryLink id="d13c-59be-32c5-5123" name="Ball and Chain" hidden="false" collective="false" import="true" targetId="ae81-7b68-5718-38e1" type="selectionEntry"/>
-        <entryLink id="7c07-de31-9522-0cea" name="Dagger" hidden="false" collective="false" import="true" targetId="64e0-0bb6-542b-4beb" type="selectionEntry"/>
-        <entryLink id="0af6-ca33-8390-fe31" name="Double Handed Weapon" hidden="false" collective="false" import="true" targetId="a0a1-b311-e3aa-6c3b" type="selectionEntry"/>
-        <entryLink id="8e21-6a26-6d56-b358" name="Flail" hidden="false" collective="false" import="true" targetId="fea6-684b-02c4-6c62" type="selectionEntry"/>
-        <entryLink id="496a-78c5-ac2a-28ea" name="Halberd" hidden="false" collective="false" import="true" targetId="3c52-9e92-25ec-1939" type="selectionEntry"/>
-        <entryLink id="0f30-0baf-444b-41ef" name="Hammer, staff, mace or club" hidden="false" collective="false" import="true" targetId="cfcc-39fd-aeb4-876a" type="selectionEntry"/>
-        <entryLink id="d36b-b7a5-972c-1b09" name="Lance" hidden="false" collective="false" import="true" targetId="5223-13a6-14ec-f372" type="selectionEntry"/>
-        <entryLink id="34d9-99b5-1f17-6ce2" name="Morning Star" hidden="false" collective="false" import="true" targetId="d5f3-1906-da91-4e8f" type="selectionEntry"/>
-        <entryLink id="b875-8164-dca6-2e7a" name="Spear" hidden="false" collective="false" import="true" targetId="005e-e397-8108-f198" type="selectionEntry"/>
-        <entryLink id="003a-c940-fae4-0931" name="Sword" hidden="false" collective="false" import="true" targetId="34fd-d6a3-50ee-ee06" type="selectionEntry"/>
+        <entryLink id="7c07-de31-9522-0cea" name="Dagger" hidden="false" collective="false" import="true" targetId="64e0-0bb6-542b-4beb" type="selectionEntry">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Darksteel Weapon" hidden="false" id="db6e-e9a5-154d-42e7">
+              <costs>
+                <cost name="pts" typeId="points" value="4"/>
+                <cost name="Warband Rating" typeId="wb-rating" value="0"/>
+              </costs>
+              <profiles>
+                <profile name="Darksteel Weapon" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="HtH Weapon" hidden="false" id="f22f-0be9-9bf8-9f8c">
+                  <characteristics>
+                    <characteristic name="Str" typeId="f10cfcb7-b71e-4c27-9836-75d341e28f68"/>
+                    <characteristic name="Special" typeId="80dd3fd5-3811-af0b-e182-2ecbc7ad5d8e">Critical damage, Wicked edge</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules>
+                <rule name="Critical Damage" id="c3e8-711d-3219-562b" hidden="false">
+                  <description>Darksteel weapons inflict serious damage on their opponents. When rolling on the critical hit chart, a Darksteel weapon will add +1 to the result.</description>
+                </rule>
+                <rule name="Wicked Edge" id="1263-ce27-1e83-53cb" hidden="false">
+                  <description>Darksteel weapons are set with sharp protrusions and serrated edges which inflict serious damage on an opponent.
+A roll of 2-4 on the injury table is a stunned result.</description>
+                </rule>
+                <rule name="Rarity" id="61cf-5a5a-9a34-4072" hidden="false">
+                  <description>Rarity 9</description>
+                </rule>
+              </rules>
+            </selectionEntry>
+          </selectionEntries>
+        </entryLink>
+        <entryLink id="0af6-ca33-8390-fe31" name="Double Handed Weapon" hidden="false" collective="false" import="true" targetId="a0a1-b311-e3aa-6c3b" type="selectionEntry">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Darksteel Weapon" hidden="false" id="97b8-8d77-c472-a905">
+              <costs>
+                <cost name="pts" typeId="points" value="30"/>
+                <cost name="Warband Rating" typeId="wb-rating" value="0"/>
+              </costs>
+              <profiles>
+                <profile name="Darksteel Weapon" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="HtH Weapon" hidden="false" id="23ff-6733-f806-6f82">
+                  <characteristics>
+                    <characteristic name="Str" typeId="f10cfcb7-b71e-4c27-9836-75d341e28f68"/>
+                    <characteristic name="Special" typeId="80dd3fd5-3811-af0b-e182-2ecbc7ad5d8e">Critical damage, Wicked edge</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules>
+                <rule name="Critical Damage" id="715e-38e5-c51a-444a" hidden="false">
+                  <description>Darksteel weapons inflict serious damage on their opponents. When rolling on the critical hit chart, a Darksteel weapon will add +1 to the result.</description>
+                </rule>
+                <rule name="Wicked Edge" id="f6e0-ec4f-3297-9a34" hidden="false">
+                  <description>Darksteel weapons are set with sharp protrusions and serrated edges which inflict serious damage on an opponent.
+A roll of 2-4 on the injury table is a stunned result.</description>
+                </rule>
+                <rule name="Rarity" id="a726-7123-0d21-89b4" hidden="false">
+                  <description>Rarity 9</description>
+                </rule>
+              </rules>
+            </selectionEntry>
+          </selectionEntries>
+        </entryLink>
+        <entryLink id="8e21-6a26-6d56-b358" name="Flail" hidden="false" collective="false" import="true" targetId="fea6-684b-02c4-6c62" type="selectionEntry">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Darksteel Weapon" hidden="false" id="0b51-15ad-b630-6b7d">
+              <costs>
+                <cost name="pts" typeId="points" value="30"/>
+                <cost name="Warband Rating" typeId="wb-rating" value="0"/>
+              </costs>
+              <profiles>
+                <profile name="Darksteel Weapon" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="HtH Weapon" hidden="false" id="6f3b-f650-b967-6e84">
+                  <characteristics>
+                    <characteristic name="Str" typeId="f10cfcb7-b71e-4c27-9836-75d341e28f68"/>
+                    <characteristic name="Special" typeId="80dd3fd5-3811-af0b-e182-2ecbc7ad5d8e">Critical damage, Wicked edge</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules>
+                <rule name="Critical Damage" id="1ab8-9521-45b5-4723" hidden="false">
+                  <description>Darksteel weapons inflict serious damage on their opponents. When rolling on the critical hit chart, a Darksteel weapon will add +1 to the result.</description>
+                </rule>
+                <rule name="Wicked Edge" id="ba0c-743e-9d6f-60ff" hidden="false">
+                  <description>Darksteel weapons are set with sharp protrusions and serrated edges which inflict serious damage on an opponent.
+A roll of 2-4 on the injury table is a stunned result.</description>
+                </rule>
+                <rule name="Rarity" id="558c-293e-d445-6d53" hidden="false">
+                  <description>Rarity 9</description>
+                </rule>
+              </rules>
+            </selectionEntry>
+          </selectionEntries>
+        </entryLink>
+        <entryLink id="496a-78c5-ac2a-28ea" name="Halberd" hidden="false" collective="false" import="true" targetId="3c52-9e92-25ec-1939" type="selectionEntry">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Darksteel Weapon" hidden="false" id="9e78-7174-0ed4-73bd">
+              <costs>
+                <cost name="pts" typeId="points" value="20"/>
+                <cost name="Warband Rating" typeId="wb-rating" value="0"/>
+              </costs>
+              <profiles>
+                <profile name="Darksteel Weapon" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="HtH Weapon" hidden="false" id="3013-ee03-7e81-2637">
+                  <characteristics>
+                    <characteristic name="Str" typeId="f10cfcb7-b71e-4c27-9836-75d341e28f68"/>
+                    <characteristic name="Special" typeId="80dd3fd5-3811-af0b-e182-2ecbc7ad5d8e">Critical damage, Wicked edge</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules>
+                <rule name="Critical Damage" id="f988-0bcf-0135-2de5" hidden="false">
+                  <description>Darksteel weapons inflict serious damage on their opponents. When rolling on the critical hit chart, a Darksteel weapon will add +1 to the result.</description>
+                </rule>
+                <rule name="Wicked Edge" id="acb5-ad9d-1dcd-76dd" hidden="false">
+                  <description>Darksteel weapons are set with sharp protrusions and serrated edges which inflict serious damage on an opponent.
+A roll of 2-4 on the injury table is a stunned result.</description>
+                </rule>
+                <rule name="Rarity" id="87d3-e0a2-c30a-b75d" hidden="false">
+                  <description>Rarity 9</description>
+                </rule>
+              </rules>
+            </selectionEntry>
+          </selectionEntries>
+        </entryLink>
+        <entryLink id="0f30-0baf-444b-41ef" name="Hammer, staff, mace or club" hidden="false" collective="false" import="true" targetId="cfcc-39fd-aeb4-876a" type="selectionEntry">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Darksteel Weapon" hidden="false" id="474c-45e8-69ef-cacb">
+              <costs>
+                <cost name="pts" typeId="points" value="6"/>
+                <cost name="Warband Rating" typeId="wb-rating" value="0"/>
+              </costs>
+              <profiles>
+                <profile name="Darksteel Weapon" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="HtH Weapon" hidden="false" id="2be1-5eb0-3a7c-cbea">
+                  <characteristics>
+                    <characteristic name="Str" typeId="f10cfcb7-b71e-4c27-9836-75d341e28f68"/>
+                    <characteristic name="Special" typeId="80dd3fd5-3811-af0b-e182-2ecbc7ad5d8e">Critical damage, Wicked edge</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules>
+                <rule name="Critical Damage" id="c883-c706-4aa7-3978" hidden="false">
+                  <description>Darksteel weapons inflict serious damage on their opponents. When rolling on the critical hit chart, a Darksteel weapon will add +1 to the result.</description>
+                </rule>
+                <rule name="Wicked Edge" id="62de-2c61-ef80-fdc3" hidden="false">
+                  <description>Darksteel weapons are set with sharp protrusions and serrated edges which inflict serious damage on an opponent.
+A roll of 2-4 on the injury table is a stunned result.</description>
+                </rule>
+                <rule name="Rarity" id="3926-4dc8-100b-7827" hidden="false">
+                  <description>Rarity 9</description>
+                </rule>
+              </rules>
+            </selectionEntry>
+          </selectionEntries>
+        </entryLink>
+        <entryLink id="d36b-b7a5-972c-1b09" name="Lance" hidden="false" collective="false" import="true" targetId="5223-13a6-14ec-f372" type="selectionEntry">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Darksteel Weapon" hidden="false" id="796f-64e0-3203-0230">
+              <costs>
+                <cost name="pts" typeId="points" value="80"/>
+                <cost name="Warband Rating" typeId="wb-rating" value="0"/>
+              </costs>
+              <profiles>
+                <profile name="Darksteel Weapon" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="HtH Weapon" hidden="false" id="1f81-d412-4fd4-ea34">
+                  <characteristics>
+                    <characteristic name="Str" typeId="f10cfcb7-b71e-4c27-9836-75d341e28f68"/>
+                    <characteristic name="Special" typeId="80dd3fd5-3811-af0b-e182-2ecbc7ad5d8e">Critical damage, Wicked edge</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules>
+                <rule name="Critical Damage" id="2018-2609-8efc-e8d6" hidden="false">
+                  <description>Darksteel weapons inflict serious damage on their opponents. When rolling on the critical hit chart, a Darksteel weapon will add +1 to the result.</description>
+                </rule>
+                <rule name="Wicked Edge" id="4584-dcff-b1f9-cc84" hidden="false">
+                  <description>Darksteel weapons are set with sharp protrusions and serrated edges which inflict serious damage on an opponent.
+A roll of 2-4 on the injury table is a stunned result.</description>
+                </rule>
+                <rule name="Rarity" id="96b5-7f62-5d90-4a95" hidden="false">
+                  <description>Rarity 9</description>
+                </rule>
+              </rules>
+            </selectionEntry>
+          </selectionEntries>
+        </entryLink>
+        <entryLink id="34d9-99b5-1f17-6ce2" name="Morning Star" hidden="false" collective="false" import="true" targetId="d5f3-1906-da91-4e8f" type="selectionEntry">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Darksteel Weapon" hidden="false" id="6178-4496-c9d9-3e5e">
+              <costs>
+                <cost name="pts" typeId="points" value="30"/>
+                <cost name="Warband Rating" typeId="wb-rating" value="0"/>
+              </costs>
+              <profiles>
+                <profile name="Darksteel Weapon" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="HtH Weapon" hidden="false" id="1480-f824-abe5-f1fe">
+                  <characteristics>
+                    <characteristic name="Str" typeId="f10cfcb7-b71e-4c27-9836-75d341e28f68"/>
+                    <characteristic name="Special" typeId="80dd3fd5-3811-af0b-e182-2ecbc7ad5d8e">Critical damage, Wicked edge</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules>
+                <rule name="Critical Damage" id="6740-224b-1bfc-4c0b" hidden="false">
+                  <description>Darksteel weapons inflict serious damage on their opponents. When rolling on the critical hit chart, a Darksteel weapon will add +1 to the result.</description>
+                </rule>
+                <rule name="Wicked Edge" id="a4f1-582b-c57f-e6c8" hidden="false">
+                  <description>Darksteel weapons are set with sharp protrusions and serrated edges which inflict serious damage on an opponent.
+A roll of 2-4 on the injury table is a stunned result.</description>
+                </rule>
+                <rule name="Rarity" id="8aaa-c932-c76c-b51f" hidden="false">
+                  <description>Rarity 9</description>
+                </rule>
+              </rules>
+            </selectionEntry>
+          </selectionEntries>
+        </entryLink>
+        <entryLink id="b875-8164-dca6-2e7a" name="Spear" hidden="false" collective="false" import="true" targetId="005e-e397-8108-f198" type="selectionEntry">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Darksteel Weapon" hidden="false" id="f2f2-cefa-6652-dec3">
+              <costs>
+                <cost name="pts" typeId="points" value="20"/>
+                <cost name="Warband Rating" typeId="wb-rating" value="0"/>
+              </costs>
+              <profiles>
+                <profile name="Darksteel Weapon" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="HtH Weapon" hidden="false" id="42df-d0a5-0fab-a8bc">
+                  <characteristics>
+                    <characteristic name="Str" typeId="f10cfcb7-b71e-4c27-9836-75d341e28f68"/>
+                    <characteristic name="Special" typeId="80dd3fd5-3811-af0b-e182-2ecbc7ad5d8e">Critical damage, Wicked edge</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules>
+                <rule name="Critical Damage" id="612f-6c84-fcc6-b6fe" hidden="false">
+                  <description>Darksteel weapons inflict serious damage on their opponents. When rolling on the critical hit chart, a Darksteel weapon will add +1 to the result.</description>
+                </rule>
+                <rule name="Wicked Edge" id="7eda-da1c-e889-5e9f" hidden="false">
+                  <description>Darksteel weapons are set with sharp protrusions and serrated edges which inflict serious damage on an opponent.
+A roll of 2-4 on the injury table is a stunned result.</description>
+                </rule>
+                <rule name="Rarity" id="2ec5-640a-ce63-51e0" hidden="false">
+                  <description>Rarity 9</description>
+                </rule>
+              </rules>
+            </selectionEntry>
+          </selectionEntries>
+        </entryLink>
+        <entryLink id="003a-c940-fae4-0931" name="Sword" hidden="false" collective="false" import="true" targetId="34fd-d6a3-50ee-ee06" type="selectionEntry">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Darksteel Weapon" hidden="false" id="15fb-fdea-0d50-0e89">
+              <costs>
+                <cost name="pts" typeId="points" value="20"/>
+                <cost name="Warband Rating" typeId="wb-rating" value="0"/>
+              </costs>
+              <profiles>
+                <profile name="Darksteel Weapon" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="HtH Weapon" hidden="false" id="ae2e-36a0-4ca8-5dd6">
+                  <characteristics>
+                    <characteristic name="Str" typeId="f10cfcb7-b71e-4c27-9836-75d341e28f68"/>
+                    <characteristic name="Special" typeId="80dd3fd5-3811-af0b-e182-2ecbc7ad5d8e">Critical damage, Wicked edge</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules>
+                <rule name="Critical Damage" id="b506-c9f2-010b-a3ea" hidden="false">
+                  <description>Darksteel weapons inflict serious damage on their opponents. When rolling on the critical hit chart, a Darksteel weapon will add +1 to the result.</description>
+                </rule>
+                <rule name="Wicked Edge" id="1db1-a07e-9a73-492f" hidden="false">
+                  <description>Darksteel weapons are set with sharp protrusions and serrated edges which inflict serious damage on an opponent.
+A roll of 2-4 on the injury table is a stunned result.</description>
+                </rule>
+                <rule name="Rarity" id="7ee7-cd77-332a-94b5" hidden="false">
+                  <description>Rarity 9</description>
+                </rule>
+              </rules>
+            </selectionEntry>
+          </selectionEntries>
+        </entryLink>
         <entryLink id="d0ac-18d9-8c39-2900" name="Squigg Prodder" hidden="false" collective="false" import="true" targetId="5dcd-265b-9fef-751d" type="selectionEntry"/>
-        <entryLink id="89c8-d069-f3b4-9387" name="Fighting Claws" hidden="false" collective="false" import="true" targetId="c9bb-a349-a1d0-79b7" type="selectionEntry"/>
+        <entryLink id="89c8-d069-f3b4-9387" name="Fighting Claws" hidden="false" collective="false" import="true" targetId="c9bb-a349-a1d0-79b7" type="selectionEntry">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Darksteel Weapon" hidden="false" id="1b7d-5095-f2c6-7867">
+              <costs>
+                <cost name="pts" typeId="points" value="70"/>
+                <cost name="Warband Rating" typeId="wb-rating" value="0"/>
+              </costs>
+              <profiles>
+                <profile name="Darksteel Weapon" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="HtH Weapon" hidden="false" id="dfc6-e295-0d80-b1a5">
+                  <characteristics>
+                    <characteristic name="Str" typeId="f10cfcb7-b71e-4c27-9836-75d341e28f68"/>
+                    <characteristic name="Special" typeId="80dd3fd5-3811-af0b-e182-2ecbc7ad5d8e">Critical damage, Wicked edge</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules>
+                <rule name="Critical Damage" id="2c27-b822-994a-786e" hidden="false">
+                  <description>Darksteel weapons inflict serious damage on their opponents. When rolling on the critical hit chart, a Darksteel weapon will add +1 to the result.</description>
+                </rule>
+                <rule name="Wicked Edge" id="67e6-74de-9946-427a" hidden="false">
+                  <description>Darksteel weapons are set with sharp protrusions and serrated edges which inflict serious damage on an opponent.
+A roll of 2-4 on the injury table is a stunned result.</description>
+                </rule>
+                <rule name="Rarity" id="1550-2409-bb5e-f7f8" hidden="false">
+                  <description>Rarity 9</description>
+                </rule>
+              </rules>
+            </selectionEntry>
+          </selectionEntries>
+        </entryLink>
         <entryLink id="7e32-018b-fb3c-516d" name="Cathayan Longsword" hidden="false" collective="false" import="true" targetId="c3c1-acf0-6d76-fa15" type="selectionEntry"/>
         <entryLink id="77c2-cd19-1a82-e607" name="Starsword" hidden="false" collective="false" import="true" targetId="d555-01a5-feb1-9251" type="selectionEntry"/>
         <entryLink id="7dbd-0cff-c5d6-0c9d" name="Starblade" hidden="false" collective="false" import="true" targetId="ec90-545c-e303-099b" type="selectionEntry"/>
         <entryLink id="b1e6-5b0e-41d7-eeaf" name="Claw of the Old Ones" hidden="false" collective="false" import="true" targetId="993b-b4c4-118f-3ce3" type="selectionEntry"/>
-        <entryLink import="true" name="Pike" hidden="false" id="9f83-3b50-5491-90f2" type="selectionEntry" targetId="68ec-2a33-6ca8-d146"/>
+        <entryLink import="true" name="Pike" hidden="false" id="9f83-3b50-5491-90f2" type="selectionEntry" targetId="68ec-2a33-6ca8-d146">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Darksteel Weapon" hidden="false" id="e445-20ae-2997-6b86">
+              <costs>
+                <cost name="pts" typeId="points" value="24"/>
+                <cost name="Warband Rating" typeId="wb-rating" value="0"/>
+              </costs>
+              <profiles>
+                <profile name="Darksteel Weapon" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="HtH Weapon" hidden="false" id="7d8a-6379-2058-14b3">
+                  <characteristics>
+                    <characteristic name="Str" typeId="f10cfcb7-b71e-4c27-9836-75d341e28f68"/>
+                    <characteristic name="Special" typeId="80dd3fd5-3811-af0b-e182-2ecbc7ad5d8e">Critical damage, Wicked edge</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules>
+                <rule name="Critical Damage" id="ca68-056c-bfee-94a8" hidden="false">
+                  <description>Darksteel weapons inflict serious damage on their opponents. When rolling on the critical hit chart, a Darksteel weapon will add +1 to the result.</description>
+                </rule>
+                <rule name="Wicked Edge" id="fbdb-2bc0-6242-cc1e" hidden="false">
+                  <description>Darksteel weapons are set with sharp protrusions and serrated edges which inflict serious damage on an opponent.
+A roll of 2-4 on the injury table is a stunned result.</description>
+                </rule>
+                <rule name="Rarity" id="69c2-0f3e-943c-3377" hidden="false">
+                  <description>Rarity 9</description>
+                </rule>
+              </rules>
+            </selectionEntry>
+          </selectionEntries>
+        </entryLink>
         <entryLink import="true" name="Boat Hook" hidden="false" id="355b-13e-2e5b-921c" type="selectionEntry" targetId="8bf0-e215-6bbb-383e"/>
-        <entryLink id="9207-7478-84e5-465e" name="Weeping Blades" hidden="false" collective="false" import="true" targetId="2829-3390-ba79-b7de" type="selectionEntry"/>
+        <entryLink id="9207-7478-84e5-465e" name="Weeping Blades" hidden="false" collective="false" import="true" targetId="2829-3390-ba79-b7de" type="selectionEntry">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Darksteel Weapon" hidden="false" id="0415-53f6-5daf-635b">
+              <costs>
+                <cost name="pts" typeId="points" value="100"/>
+                <cost name="Warband Rating" typeId="wb-rating" value="0"/>
+              </costs>
+              <profiles>
+                <profile name="Darksteel Weapon" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="HtH Weapon" hidden="false" id="428e-8efc-76ea-e237">
+                  <characteristics>
+                    <characteristic name="Str" typeId="f10cfcb7-b71e-4c27-9836-75d341e28f68"/>
+                    <characteristic name="Special" typeId="80dd3fd5-3811-af0b-e182-2ecbc7ad5d8e">Critical damage, Wicked edge</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules>
+                <rule name="Critical Damage" id="b090-f27e-85e5-df6b" hidden="false">
+                  <description>Darksteel weapons inflict serious damage on their opponents. When rolling on the critical hit chart, a Darksteel weapon will add +1 to the result.</description>
+                </rule>
+                <rule name="Wicked Edge" id="e2d0-959d-1178-8579" hidden="false">
+                  <description>Darksteel weapons are set with sharp protrusions and serrated edges which inflict serious damage on an opponent.
+A roll of 2-4 on the injury table is a stunned result.</description>
+                </rule>
+                <rule name="Rarity" id="179f-49f4-4633-bb8f" hidden="false">
+                  <description>Rarity 9</description>
+                </rule>
+              </rules>
+            </selectionEntry>
+          </selectionEntries>
+        </entryLink>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="1937-df4f-3c68-e0be" name="Missile Weapons" hidden="false" collective="false" import="true">
