@@ -1268,14 +1268,14 @@ from a safe distance). </description>
         <profile name="Noble" typeId="e1beaa44-e54d-dd6b-d1f2-446b333c9bb9" typeName="Model" hidden="false" id="f5cc-2e9a-d74d-170a" page="0">
           <characteristics>
             <characteristic name="M" typeId="2a0bcc4c-8266-418f-13d6-a6b44def5e92">5</characteristic>
-            <characteristic name="WS" typeId="d5aca8ba-0204-b324-b976-c2b536e09924">4</characteristic>
+            <characteristic name="WS" typeId="d5aca8ba-0204-b324-b976-c2b536e09924">5</characteristic>
             <characteristic name="BS" typeId="5b4d181b-23ae-5ed7-9262-c1d2f79246a8">4</characteristic>
             <characteristic name="S" typeId="7f1f0a4d-68dc-b0df-5703-c4d0d91a93b9">3</characteristic>
             <characteristic name="T" typeId="54f4796b-dedb-c296-8b1a-ff7f8043293a">3</characteristic>
             <characteristic name="W" typeId="3172c8dc-ebe4-0c40-72ab-8fd0076b9442">1</characteristic>
             <characteristic name="I" typeId="a6fd52b0-be0a-655e-6314-87b392c9c90e">6</characteristic>
             <characteristic name="A" typeId="bf393c37-9d10-fc85-c147-62b1c01a89fe">1</characteristic>
-            <characteristic name="LD" typeId="e234eaea-a02a-2fb7-3e1f-605392aabb89">8</characteristic>
+            <characteristic name="LD" typeId="e234eaea-a02a-2fb7-3e1f-605392aabb89">9</characteristic>
           </characteristics>
           <modifiers>
             <modifier type="increment" value="1" field="54f4796b-dedb-c296-8b1a-ff7f8043293a">
@@ -3141,7 +3141,7 @@ If she engages a ﬂeeing enemy in the close combat phase she will score 1 autom
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
-    <selectionEntryGroup name="Dark Elf Equipment" id="fcdc-21f3-0bfb-0885" hidden="false">
+    <selectionEntryGroup name="Equipment" id="fcdc-21f3-0bfb-0885" hidden="false">
       <comment>Dark Elf Equipment</comment>
       <selectionEntryGroups>
         <selectionEntryGroup name="Armor" id="2736-137c-3c59-d850" hidden="false" sortIndex="2"/>
