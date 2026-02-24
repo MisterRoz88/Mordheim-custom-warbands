@@ -1384,7 +1384,11 @@ from a safe distance). </description>
             <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="9b1a-c788-33b4-bf85" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
           </constraints>
           <entryLinks>
-            <entryLink import="true" name="Equipment" hidden="false" id="5d0b-e4ae-f86f-c8a0" collective="false" targetId="2247-1f56-bc59-0ead" type="selectionEntryGroup"/>
+            <entryLink import="true" name="Equipment" hidden="false" id="5d0b-e4ae-f86f-c8a0" targetId="2247-1f56-bc59-0ead" type="selectionEntryGroup">
+              <entryLinks>
+                <entryLink import="true" name="Equipment" hidden="false" id="c487-4d45-c855-96c7" type="selectionEntryGroup" targetId="b453-549f-51d0-026d"/>
+              </entryLinks>
+            </entryLink>
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="0"/>
@@ -3141,7 +3145,7 @@ If she engages a ﬂeeing enemy in the close combat phase she will score 1 autom
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
-    <selectionEntryGroup name="Equipment" id="fcdc-21f3-0bfb-0885" hidden="false">
+    <selectionEntryGroup name="Dark Elf Equipment" id="fcdc-21f3-0bfb-0885" hidden="false">
       <comment>Dark Elf Equipment</comment>
       <selectionEntryGroups>
         <selectionEntryGroup name="Armor" id="2736-137c-3c59-d850" hidden="false" sortIndex="2"/>
@@ -3206,14 +3210,21 @@ is a stunned result.
 
 </description>
                     </rule>
+                    <rule name="Rarity" id="d2c4-7096-f3b4-5884" hidden="false">
+                      <description>Rarity 9</description>
+                    </rule>
                   </rules>
                 </selectionEntry>
               </selectionEntries>
             </selectionEntry>
-            <selectionEntry type="upgrade" import="true" name="Darksteel Weapon" hidden="false" id="6253-b795-97d1-c32c"/>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+    </selectionEntryGroup>
+    <selectionEntryGroup name="Equipment" id="b453-549f-51d0-026d" hidden="false">
+      <entryLinks>
+        <entryLink import="true" name="Dark Elf Equipment" hidden="false" id="2785-8074-9a59-24fd" type="selectionEntryGroup" targetId="fcdc-21f3-0bfb-0885"/>
+      </entryLinks>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
 </catalogue>
