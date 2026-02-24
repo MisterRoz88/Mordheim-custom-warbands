@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="3e2f-a36e-4f45-b930" name="Maneaters (1c)" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="fc43-e329-36ca-f3a2" gameSystemRevision="15" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
+<catalogue id="efa4-3a9c-4abd-3be8" name="Maneaters (1c)" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="fcbb-ca0a-d290-b873" gameSystemRevision="15" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
   <selectionEntries>
     <selectionEntry id="ea05-7e6b-115f-542a" name="Captain" hidden="false" collective="false" import="true" type="model">
       <constraints>
@@ -2196,6 +2196,6 @@ This skill may be taken only once and may not be taken by the Guide.</descriptio
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <catalogueLinks>
-    <catalogueLink id="ea9e-3eea-9d16-0ae6" name="common-data" targetId="3f74-7c3d-ff1a-174d" type="catalogue" importRootEntries="true"/>
+    <catalogueLink id="ea9e-3eea-9d16-0ae6" name="common-data" targetId="e268-e6ee-ed34-2d15" type="catalogue" importRootEntries="true"/>
   </catalogueLinks>
 </catalogue>

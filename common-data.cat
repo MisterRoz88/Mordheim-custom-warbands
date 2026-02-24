@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="3f74-7c3d-ff1a-174d" name="common-data" revision="21" battleScribeVersion="2.03" library="true" gameSystemId="fc43-e329-36ca-f3a2" gameSystemRevision="15" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
+<catalogue id="e268-e6ee-ed34-2d15" name="common-data" revision="21" battleScribeVersion="2.03" library="true" gameSystemId="fcbb-ca0a-d290-b873" gameSystemRevision="15" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
   <sharedSelectionEntries>
     <selectionEntry id="d769-0d85-e810-df60" name="Experience" page="0" hidden="false" collective="false" import="true" type="upgrade">
       <costs>
@@ -3586,6 +3586,9 @@ A roll of 2-4 on the injury table is a stunned result.</description>
                   <description>Rarity 9</description>
                 </rule>
               </rules>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="76c4-5410-dbc3-456d"/>
+              </constraints>
             </selectionEntry>
           </selectionEntries>
         </entryLink>
@@ -3616,6 +3619,9 @@ A roll of 2-4 on the injury table is a stunned result.</description>
                   <description>Rarity 9</description>
                 </rule>
               </rules>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="00a1-e4f9-9aed-497e"/>
+              </constraints>
             </selectionEntry>
           </selectionEntries>
         </entryLink>
@@ -3646,6 +3652,9 @@ A roll of 2-4 on the injury table is a stunned result.</description>
                   <description>Rarity 9</description>
                 </rule>
               </rules>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="923f-ff40-1ce3-6bfd"/>
+              </constraints>
             </selectionEntry>
           </selectionEntries>
         </entryLink>
@@ -3676,6 +3685,9 @@ A roll of 2-4 on the injury table is a stunned result.</description>
                   <description>Rarity 9</description>
                 </rule>
               </rules>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="b301-f21c-fd79-4cea"/>
+              </constraints>
             </selectionEntry>
           </selectionEntries>
         </entryLink>
@@ -3706,6 +3718,9 @@ A roll of 2-4 on the injury table is a stunned result.</description>
                   <description>Rarity 9</description>
                 </rule>
               </rules>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="2a64-0b11-545f-1fc5"/>
+              </constraints>
             </selectionEntry>
           </selectionEntries>
         </entryLink>
@@ -3736,6 +3751,9 @@ A roll of 2-4 on the injury table is a stunned result.</description>
                   <description>Rarity 9</description>
                 </rule>
               </rules>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ddc0-8278-b13c-1caa"/>
+              </constraints>
             </selectionEntry>
           </selectionEntries>
         </entryLink>
@@ -3766,6 +3784,9 @@ A roll of 2-4 on the injury table is a stunned result.</description>
                   <description>Rarity 9</description>
                 </rule>
               </rules>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="5dac-b574-5a57-61a9"/>
+              </constraints>
             </selectionEntry>
           </selectionEntries>
         </entryLink>
@@ -3796,6 +3817,9 @@ A roll of 2-4 on the injury table is a stunned result.</description>
                   <description>Rarity 9</description>
                 </rule>
               </rules>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="ce9f-2984-e8b8-da99"/>
+              </constraints>
             </selectionEntry>
           </selectionEntries>
         </entryLink>
@@ -3826,6 +3850,9 @@ A roll of 2-4 on the injury table is a stunned result.</description>
                   <description>Rarity 9</description>
                 </rule>
               </rules>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="6bb1-4c5d-5717-ec2f"/>
+              </constraints>
             </selectionEntry>
           </selectionEntries>
         </entryLink>
@@ -3857,6 +3884,9 @@ A roll of 2-4 on the injury table is a stunned result.</description>
                   <description>Rarity 9</description>
                 </rule>
               </rules>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="23c9-a92a-c7b2-5362"/>
+              </constraints>
             </selectionEntry>
           </selectionEntries>
         </entryLink>
@@ -3891,6 +3921,9 @@ A roll of 2-4 on the injury table is a stunned result.</description>
                   <description>Rarity 9</description>
                 </rule>
               </rules>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="e6b4-9b2e-df0d-53d4"/>
+              </constraints>
             </selectionEntry>
           </selectionEntries>
         </entryLink>
@@ -3922,6 +3955,9 @@ A roll of 2-4 on the injury table is a stunned result.</description>
                   <description>Rarity 9</description>
                 </rule>
               </rules>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="67e6-2e9d-f588-6b4e"/>
+              </constraints>
             </selectionEntry>
           </selectionEntries>
         </entryLink>
