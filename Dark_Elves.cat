@@ -1529,7 +1529,7 @@
         <cost name="Warband Rating" typeId="wb-rating" value="5"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="93700e68-f80c-ad1c-b5cd-06fd3c7e7537" name="Soceress" page="0" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="93700e68-f80c-ad1c-b5cd-06fd3c7e7537" name="Sorceress" page="0" hidden="false" collective="false" import="true" type="model">
       <constraints>
         <constraint field="selections" scope="roster" value="1" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="maxInRoster" type="max"/>
       </constraints>
@@ -5367,7 +5367,7 @@ result as knocked down instead. This save is not modified by the opponent’s St
     <rule id="140e74d1-bf16-356b-c7d1-08b3bb5052b5" name="Difficult To Use" page="0" hidden="false">
       <description>A model with aDifficult To Use  may not use a second weapon or buckler in his other hand because it requires all his skill to wield it. He may carry a shield as normal though.</description>
     </rule>
-    <rule id="bd2100cc-65f9-2311-e4b9-d0e6830884c3" name="EXP Adancement" page="0" hidden="false">
+    <rule id="bd2100cc-65f9-2311-e4b9-d0e6830884c3" name="EXP Advancement" page="0" hidden="false">
       <description>Heroes get new advances at 2, 4, 6, 8, 11, 14, 17, 20, 24, 28, 32, 36, 41, 46, 51, 57, 63, 69, 76, 83 and 90 experience.
 Henchmen and Hired Swords get new advances at 2, 5, 9 and 14 experience.</description>
     </rule>
