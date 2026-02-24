@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="8399-ca75-acae-c34b" name="Druchii (2a)" gameSystemId="7a9b-8ef3-c662-7242" gameSystemRevision="15" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="false" id="45fc-1362-d009-0ffb" name="Druchii (2a)" gameSystemId="4099-89c0-a420-bfb4" gameSystemRevision="15" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry type="model" import="true" name="Beast Master" hidden="false" id="86f0-d83c-2aba-7197" page="0" collective="false">
       <constraints>
@@ -184,7 +184,7 @@
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink import="true" name="Experience" hidden="false" id="da01-dcc6-162c-31da" collective="false" targetId="6ef4-ee68-c1ef-2e48" type="selectionEntry" sortIndex="2">
+        <entryLink import="true" name="Experience" hidden="false" id="77e7-6693-5e0b-e5af" collective="false" targetId="6ef4-ee68-c1ef-2e48" type="selectionEntry" sortIndex="2">
           <constraints>
             <constraint type="min" value="8" field="selections" scope="parent" shared="true" id="dd28-c08c-e0e5-cd19" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
           </constraints>
@@ -2964,7 +2964,7 @@ from a safe distance).</description>
     </selectionEntry>
   </selectionEntries>
   <catalogueLinks>
-    <catalogueLink type="catalogue" name="common-data" id="1a44-c1df-b672-a22d" targetId="4066-c18e-d885-6e7e"/>
+    <catalogueLink type="catalogue" name="common-data" id="1a44-c1df-b672-a22d" targetId="7759-6909-4fc3-892b"/>
   </catalogueLinks>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup name="Special Skills" id="af3f-c177-e4bb-3789" hidden="false" collective="false" import="true">
