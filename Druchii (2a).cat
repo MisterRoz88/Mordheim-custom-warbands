@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="3f3c-f45f-c0d4-d6db" name="Druchii (2a)" gameSystemId="68b3-2b58-a11a-4a0c" gameSystemRevision="15" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="false" id="d8c0-bb3f-446e-ddaa" name="Druchii (2a)" gameSystemId="06c1-8e9d-37ef-0e0d" gameSystemRevision="15" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry type="model" import="true" name="Beast Master" hidden="false" id="86f0-d83c-2aba-7197" page="0" collective="false">
       <constraints>
@@ -532,12 +532,7 @@
             <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="1cdb-677d-0897-b292" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
           </constraints>
           <entryLinks>
-            <entryLink import="true" name="Equipment" hidden="false" id="25c3-46b2-e873-2681" type="selectionEntryGroup" targetId="2247-1f56-bc59-0ead">
-              <entryLinks>
-                <entryLink import="true" name="Dark Elf Equipment" hidden="false" id="90a6-0048-fe62-c2d5" type="selectionEntryGroup" targetId="fcdc-21f3-0bfb-0885"/>
-                <entryLink import="true" name="Equipment" hidden="false" id="d7b9-9e78-0c82-f29d" type="selectionEntryGroup" targetId="2247-1f56-bc59-0ead"/>
-              </entryLinks>
-            </entryLink>
+            <entryLink import="true" name="Equipment" hidden="false" id="25c3-46b2-e873-2681" type="selectionEntryGroup" targetId="b453-549f-51d0-026d"/>
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="0"/>
@@ -996,12 +991,7 @@
             <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="1448-3b09-d783-97da" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
           </constraints>
           <entryLinks>
-            <entryLink import="true" name="Equipment" hidden="false" id="212e-aafd-5349-3d12" collective="false" targetId="2247-1f56-bc59-0ead" type="selectionEntryGroup">
-              <entryLinks>
-                <entryLink import="true" name="Dark Elf Equipment" hidden="false" id="15e4-ae0c-f44c-8759" type="selectionEntryGroup" targetId="fcdc-21f3-0bfb-0885"/>
-                <entryLink import="true" name="Equipment" hidden="false" id="970a-13e9-e61b-476a" type="selectionEntryGroup" targetId="2247-1f56-bc59-0ead"/>
-              </entryLinks>
-            </entryLink>
+            <entryLink import="true" name="Equipment" hidden="false" id="212e-aafd-5349-3d12" collective="false" targetId="b453-549f-51d0-026d" type="selectionEntryGroup"/>
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="0"/>
@@ -1365,12 +1355,7 @@
             <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="9b1a-c788-33b4-bf85" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
           </constraints>
           <entryLinks>
-            <entryLink import="true" name="Equipment" hidden="false" id="5d0b-e4ae-f86f-c8a0" targetId="2247-1f56-bc59-0ead" type="selectionEntryGroup">
-              <entryLinks>
-                <entryLink import="true" name="Dark Elf Equipment" hidden="false" id="78c9-48a8-cf9c-f8cd" type="selectionEntryGroup" targetId="fcdc-21f3-0bfb-0885"/>
-                <entryLink import="true" name="Equipment" hidden="false" id="eb26-8ea4-c126-1538" type="selectionEntryGroup" targetId="2247-1f56-bc59-0ead"/>
-              </entryLinks>
-            </entryLink>
+            <entryLink import="true" name="Equipment" hidden="false" id="5d0b-e4ae-f86f-c8a0" targetId="b453-549f-51d0-026d" type="selectionEntryGroup"/>
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="0"/>
@@ -1688,12 +1673,7 @@
             <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="d6bc-e90a-9f84-f396" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
           </constraints>
           <entryLinks>
-            <entryLink import="true" name="Equipment" hidden="false" id="8fab-f304-452c-1fd2" collective="false" targetId="2247-1f56-bc59-0ead" type="selectionEntryGroup">
-              <entryLinks>
-                <entryLink import="true" name="Dark Elf Equipment" hidden="false" id="f607-7e63-7a36-3d6d" type="selectionEntryGroup" targetId="fcdc-21f3-0bfb-0885"/>
-                <entryLink import="true" name="Equipment" hidden="false" id="cce6-0764-1fcb-805c" type="selectionEntryGroup" targetId="2247-1f56-bc59-0ead"/>
-              </entryLinks>
-            </entryLink>
+            <entryLink import="true" name="Equipment" hidden="false" id="8fab-f304-452c-1fd2" collective="false" targetId="b453-549f-51d0-026d" type="selectionEntryGroup"/>
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="0"/>
@@ -2152,12 +2132,7 @@
             <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="26b1-4d63-d496-c30b" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
           </constraints>
           <entryLinks>
-            <entryLink import="true" name="Equipment" hidden="false" id="00f1-d639-f8bc-7b03" collective="false" targetId="2247-1f56-bc59-0ead" type="selectionEntryGroup">
-              <entryLinks>
-                <entryLink import="true" name="Dark Elf Equipment" hidden="false" id="d301-29d4-5216-f2bb" type="selectionEntryGroup" targetId="fcdc-21f3-0bfb-0885"/>
-                <entryLink import="true" name="Equipment" hidden="false" id="380d-811b-39a8-45ca" type="selectionEntryGroup" targetId="2247-1f56-bc59-0ead"/>
-              </entryLinks>
-            </entryLink>
+            <entryLink import="true" name="Equipment" hidden="false" id="00f1-d639-f8bc-7b03" collective="false" targetId="b453-549f-51d0-026d" type="selectionEntryGroup"/>
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="0"/>
@@ -2536,12 +2511,7 @@
             <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="9a45-38ba-2b1c-0a8f" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
           </constraints>
           <entryLinks>
-            <entryLink import="true" name="Equipment" hidden="false" id="125c-9998-90a8-a2d2" collective="false" targetId="2247-1f56-bc59-0ead" type="selectionEntryGroup">
-              <entryLinks>
-                <entryLink import="true" name="Dark Elf Equipment" hidden="false" id="5efa-45f7-17e6-5c55" type="selectionEntryGroup" targetId="fcdc-21f3-0bfb-0885"/>
-                <entryLink import="true" name="Equipment" hidden="false" id="3b68-a88d-60f2-614e" type="selectionEntryGroup" targetId="2247-1f56-bc59-0ead"/>
-              </entryLinks>
-            </entryLink>
+            <entryLink import="true" name="Equipment" hidden="false" id="125c-9998-90a8-a2d2" collective="false" targetId="b453-549f-51d0-026d" type="selectionEntryGroup"/>
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="0"/>
@@ -2887,7 +2857,7 @@
     </selectionEntry>
   </selectionEntries>
   <catalogueLinks>
-    <catalogueLink type="catalogue" name="common-data" id="1a44-c1df-b672-a22d" targetId="4e32-cc86-42b2-2f76"/>
+    <catalogueLink type="catalogue" name="common-data" id="1a44-c1df-b672-a22d" targetId="fe9e-14bd-52ea-509d"/>
   </catalogueLinks>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup name="Special Skills" id="af3f-c177-e4bb-3789" hidden="false" collective="false" import="true">
