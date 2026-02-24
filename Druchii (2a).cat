@@ -411,10 +411,10 @@ knows about enemy model (has a line of sight, has
 unhided it etc.), the Beastmaster and all other
 slavehounds of the same warband can declare charge on
 this model even if they do not see it. No Initiative roll is
-necessary. </description>
+necessary.</description>
         </rule>
         <rule name="Beastmaster" id="c040-ad2b-0877-359c" hidden="false">
-          <description> Slavehounds are vicious creatures that are
+          <description>Slavehounds are vicious creatures that are
 barely kept under control by their Beastmaster. As long
 as Beastmaster is not knocked down, stunned or out of
 action, Slavehounds may use his Leadership instead of
@@ -427,7 +427,7 @@ in a battle, then neither will the beasts. If the warband
 does not contain a Beastmaster, there is no one able to
 control Slavehounds, so they have to stay in warband&apos;s
 camp (and when feeding time comes, it has to be done
-from a safe distance). </description>
+from a safe distance).</description>
         </rule>
       </rules>
       <categoryLinks>
@@ -3117,9 +3117,7 @@ in inches).</description>
 The affected model must roll on the injury chart.
 If successfully cast, the casting Sorceress is immediately knocked down.
 This cannot be prevented by using the
-Jump Up skill.
-
-</characteristic>
+Jump Up skill.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3162,8 +3160,7 @@ If she engages a ﬂeeing enemy in the close combat phase she will score 1 autom
                 </rule>
                 <rule name="Two-handed" id="a717-664a-9276-9dae" hidden="false">
                   <description>A model armed with a double-handed weapon may not use a shield, buckler or additional weapon in close combat.
-If the model is equipped with a shield, he will still get a +1 bonus to his armour save against shooting.
-</description>
+If the model is equipped with a shield, he will still get a +1 bonus to his armour save against shooting.</description>
                 </rule>
                 <rule name="Rarity" id="5a0c-3b30-3a31-458a" hidden="false">
                   <description>Rarity 8</description>
@@ -3204,12 +3201,17 @@ If the model is equipped with a shield, he will still get a +1 bonus to his arm
                     </rule>
                     <rule name="Wicked Edge" id="947d-79ca-be25-ba1b" hidden="false">
                       <description>Darksteel weapons are set with sharp protrusions and serrated edges which inflict serious damage on an opponent.
-A roll of 2-4 on the injury table is a stunned result.
-
-</description>
+A roll of 2-4 on the injury table is a stunned result.</description>
                     </rule>
                     <rule name="Rarity" id="d2c4-7096-f3b4-5884" hidden="false">
                       <description>Rarity 9</description>
+                      <modifiers>
+                        <modifier type="set" value="true" field="hidden">
+                          <conditions>
+                            <condition type="atLeast" value="1" field="selections" scope="root-entry" childId="upgrade" shared="true"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
                     </rule>
                   </rules>
                 </selectionEntry>
