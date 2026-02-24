@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="306dc1be-876f-4f6e-a4a8-4465e1309b7f" name="Dark Elves (1b)" revision="15" battleScribeVersion="2.03" library="false" gameSystemId="9481a749-7900-614b-1695-bdc2899069c1" gameSystemRevision="15" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
+<catalogue id="cfda-207b-f527-41c4" name="Dark Elves (1b)" revision="15" battleScribeVersion="2.03" library="false" gameSystemId="e8b2-6de5-eca8-99eb" gameSystemRevision="15" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
   <selectionEntries>
     <selectionEntry id="83acbe09-ec66-c45c-0f5b-1a9e0017016e" name="High Born" page="0" hidden="false" collective="false" import="true" type="model">
       <constraints>
@@ -2521,7 +2521,7 @@ Dark Elves Hate any High Elf warriors including High Elf Hired Swords.</descript
     </rule>
   </rules>
   <infoLinks>
-    <infoLink id="5acdcee6-8115-9d89-26d7-1908b50dda55" name="EXP Adancement" hidden="false" targetId="bd2100cc-65f9-2311-e4b9-d0e6830884c3" type="rule"/>
+    <infoLink id="5acdcee6-8115-9d89-26d7-1908b50dda55" name="EXP Advancement" hidden="false" targetId="bd2100cc-65f9-2311-e4b9-d0e6830884c3" type="rule"/>
     <infoLink id="3a347076-4145-7a31-2e75-67112fcaaf2f" name="Hatred" hidden="false" targetId="3ebe96a5-ad6a-b51d-0d99-f62dfb2a807c" type="rule"/>
   </infoLinks>
   <sharedSelectionEntries>
@@ -2657,15 +2657,6 @@ Dark Elves Hate any High Elf warriors including High Elf Hired Swords.</descript
     <selectionEntry id="b39ee84c-3f79-227e-4b39-8469fb19d56a" name="Gold" page="0" hidden="false" collective="false" import="true" type="upgrade">
       <costs>
         <cost name="pts" typeId="points" value="1"/>
-        <cost name="Warband Rating" typeId="wb-rating" value="0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="0f2c78d6-e019-6b88-136a-9e00031645e5" name="Promoted" page="0" hidden="false" collective="false" import="true" type="upgrade">
-      <constraints>
-        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
-      </constraints>
-      <costs>
-        <cost name="pts" typeId="points" value="0"/>
         <cost name="Warband Rating" typeId="wb-rating" value="0"/>
       </costs>
     </selectionEntry>
