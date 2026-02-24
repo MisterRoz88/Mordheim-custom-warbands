@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="e464-b654-a1db-833e" name="Druchii (2a)" gameSystemId="da16-6dac-608a-e298" gameSystemRevision="15" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="false" id="1472-a315-944e-a4c2" name="Druchii (2a)" gameSystemId="a0c5-b893-c7c7-4f4c" gameSystemRevision="15" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry type="model" import="true" name="Beast Master" hidden="false" id="86f0-d83c-2aba-7197" page="0" collective="false">
       <constraints>
@@ -2881,7 +2881,7 @@
     </selectionEntry>
   </selectionEntries>
   <catalogueLinks>
-    <catalogueLink type="catalogue" name="common-data" id="1a44-c1df-b672-a22d" targetId="77f0-b24d-b84f-881a"/>
+    <catalogueLink type="catalogue" name="common-data" id="1a44-c1df-b672-a22d" targetId="8e29-dcad-24bd-82b1"/>
   </catalogueLinks>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup name="Special Skills" id="af3f-c177-e4bb-3789" hidden="false" collective="false" import="true">
@@ -3221,13 +3221,9 @@ wishing to charge a Beastmaster with one of these weapons must first take a fea
                 <cost name="pts" typeId="points" value="10"/>
                 <cost name="Warband Rating" typeId="wb-rating" value="0"/>
               </costs>
-              <modifiers>
-                <modifier type="set" value="false" field="hidden">
-                  <conditions>
-                    <condition type="atLeast" value="1" field="selections" scope="86f0-d83c-2aba-7197" childId="any" shared="true"/>
-                  </conditions>
-                </modifier>
-              </modifiers>
+              <constraints>
+                <constraint type="max" value="1" field="selections" scope="86f0-d83c-2aba-7197" shared="true" id="6c78-0646-cfc8-8819"/>
+              </constraints>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
