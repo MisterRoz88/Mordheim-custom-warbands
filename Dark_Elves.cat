@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="d329-c4d5-ea35-679b" name="Dark Elves (1b)" revision="15" battleScribeVersion="2.03" library="false" gameSystemId="17b3-bc86-e513-9744" gameSystemRevision="15" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
+<catalogue id="d928-c051-c107-9433" name="Dark Elves (1b)" revision="15" battleScribeVersion="2.03" library="false" gameSystemId="9581-b01c-bb39-a315" gameSystemRevision="15" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
   <selectionEntries>
     <selectionEntry id="83acbe09-ec66-c45c-0f5b-1a9e0017016e" name="High Born" page="0" hidden="false" collective="false" import="true" type="model">
       <constraints>

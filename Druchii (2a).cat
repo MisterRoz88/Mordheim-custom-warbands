@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="2d83-9fde-87ed-0ba7" name="Druchii (2a)" gameSystemId="17b3-bc86-e513-9744" gameSystemRevision="15" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="false" id="6fd8-43f9-b5cd-a555" name="Druchii (2a)" gameSystemId="9581-b01c-bb39-a315" gameSystemRevision="15" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry type="model" import="true" name="Beast Master" hidden="false" id="86f0-d83c-2aba-7197" page="0" collective="false">
       <constraints>
@@ -1083,7 +1083,7 @@ from a safe distance).</description>
       <entryLinks>
         <entryLink import="true" name="Experience" hidden="false" id="5b73-3dd9-e773-72ba" collective="false" targetId="6ef4-ee68-c1ef-2e48" type="selectionEntry" sortIndex="2">
           <constraints>
-            <constraint type="min" value="12" field="selections" scope="parent" shared="true" id="b153-1d36-b29e-de56" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <constraint type="min" value="8" field="selections" scope="parent" shared="true" id="b153-1d36-b29e-de56" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
           </constraints>
         </entryLink>
         <entryLink import="true" name="Advancement (Hero)" hidden="false" id="3f03-8782-c0da-3dab" type="selectionEntry" targetId="58d8-3f16-6d18-b1d2" sortIndex="1">
@@ -2232,7 +2232,7 @@ from a safe distance).</description>
       <entryLinks>
         <entryLink import="true" name="Experience" hidden="false" id="1c5e-29bd-7f61-59a2" collective="false" targetId="6ef4-ee68-c1ef-2e48" type="selectionEntry" sortIndex="2">
           <constraints>
-            <constraint type="min" value="12" field="selections" scope="parent" shared="true" id="2b5d-8321-53c2-895a" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <constraint type="min" value="8" field="selections" scope="parent" shared="true" id="2b5d-8321-53c2-895a" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
           </constraints>
         </entryLink>
         <entryLink import="true" name="Magic" hidden="false" id="710f-ece3-1de8-3d82" collective="false" targetId="0c29-5ce4-ba2b-9f51" type="selectionEntryGroup" sortIndex="7"/>
@@ -2903,7 +2903,7 @@ from a safe distance).</description>
     </selectionEntry>
   </selectionEntries>
   <catalogueLinks>
-    <catalogueLink type="catalogue" name="common-data" id="1a44-c1df-b672-a22d" targetId="130e-ba35-73a5-6423"/>
+    <catalogueLink type="catalogue" name="common-data" id="1a44-c1df-b672-a22d" targetId="dc52-eaba-44b0-479d"/>
   </catalogueLinks>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup name="Special Skills" id="af3f-c177-e4bb-3789" hidden="false" collective="false" import="true">
@@ -3140,11 +3140,10 @@ If she engages a ﬂeeing enemy in the close combat phase she will score 1 autom
               <modifiers>
                 <modifier type="set" value="true" field="hidden">
                   <conditionGroups>
-                    <conditionGroup type="and">
+                    <conditionGroup type="or">
                       <conditions>
                         <condition type="atLeast" value="1" field="selections" scope="f5ff-acea-47c0-ad8c" childId="any" shared="true"/>
                         <condition type="atLeast" value="1" field="selections" scope="bc13-d249-73b3-0a46" childId="any" shared="true"/>
-                        <condition type="atLeast" value="1" field="selections" scope="f9b08d8e-4922-78d5-78ad-2047bff52dc8" childId="any" shared="true"/>
                       </conditions>
                     </conditionGroup>
                   </conditionGroups>
