@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="eb31-63da-0711-7658" name="Druchii (2a)" gameSystemId="fcbb-ca0a-d290-b873" gameSystemRevision="15" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="false" id="bc50-6aa9-7d49-f3b8" name="Druchii (2a)" gameSystemId="bce2-5bce-ef01-034d" gameSystemRevision="15" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry type="model" import="true" name="Beast Master" hidden="false" id="86f0-d83c-2aba-7197" page="0" collective="false">
       <constraints>
@@ -376,14 +376,9 @@
             <condition type="atLeast" value="1" field="selections" scope="roster" childId="86f0-d83c-2aba-7197" shared="false" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
           </conditions>
         </modifier>
-        <modifier type="set" value="3" field="e97c-b41b-8e74-80e1">
-          <conditions>
-            <condition type="equalTo" value="1" field="selections" scope="roster" childId="86f0-d83c-2aba-7197" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
-          </conditions>
-        </modifier>
       </modifiers>
       <constraints>
-        <constraint type="max" value="0" field="selections" scope="parent" shared="false" id="e97c-b41b-8e74-80e1" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+        <constraint type="max" value="3" field="selections" scope="roster" shared="false" id="e97c-b41b-8e74-80e1" percentValue="false" includeChildSelections="true" includeChildForces="true"/>
       </constraints>
       <profiles>
         <profile name="Slavehounds" typeId="e1beaa44-e54d-dd6b-d1f2-446b333c9bb9" typeName="Model" hidden="false" id="c0e3-2170-f1d5-805a" page="0">
@@ -405,29 +400,10 @@
           <description>Cold One Beasthounds are animals and all animal rules apply to them, they never gain experiance.</description>
         </rule>
         <rule name="Pack Work" id="ca5a-1922-49c2-61b3" hidden="false">
-          <description>Slavehounds are trained to detect hiding
-slaves and show them to their masters. If a Slavehound
-knows about enemy model (has a line of sight, has
-unhided it etc.), the Beastmaster and all other
-slavehounds of the same warband can declare charge on
-this model even if they do not see it. No Initiative roll is
-necessary.</description>
+          <description>Slavehounds are trained to detect hiding slaves and show them to their masters. If a Slavehound knows about enemy model (has a line of sight, has unhided it etc.), the Beastmaster and all other slavehounds of the same warband can declare charge on this model even if they do not see it. No Initiative roll is necessary.</description>
         </rule>
         <rule name="Beastmaster" id="c040-ad2b-0877-359c" hidden="false">
-          <description>Slavehounds are vicious creatures that are
-barely kept under control by their Beastmaster. As long
-as Beastmaster is not knocked down, stunned or out of
-action, Slavehounds may use his Leadership instead of
-their own for any Leadership test, provided that the
-Beastmaster is within 6&quot; of the Slavehound in
-question. But, since Beastmaster is the only authority they
-respect, they cannot use Leadership of warband Leader.
-Consequently, if the Beastmaster is unable to participate
-in a battle, then neither will the beasts. If the warband
-does not contain a Beastmaster, there is no one able to
-control Slavehounds, so they have to stay in warband&apos;s
-camp (and when feeding time comes, it has to be done
-from a safe distance).</description>
+          <description>Slavehounds are vicious creatures that are barely kept under control by their Beastmaster. As long as Beastmaster is not knocked down, stunned or out of action, Slavehounds may use his Leadership instead of their own for any Leadership test, provided that the Beastmaster is within 6&quot; of the Slavehound in question. But, since Beastmaster is the only authority they respect, they cannot use Leadership of warband Leader. Consequently, if the Beastmaster is unable to participate in a battle, then neither will the beasts. If the warband does not contain a Beastmaster, there is no one able to control Slavehounds, so they have to stay in warband&apos;s camp (and when feeding time comes, it has to be done from a safe distance).</description>
         </rule>
       </rules>
       <categoryLinks>
@@ -2896,10 +2872,16 @@ from a safe distance).</description>
         <cost name="pts" typeId="points" value="45"/>
         <cost name="Warband Rating" typeId="wb-rating" value="5"/>
       </costs>
+      <rules>
+        <rule name="Frenzy" id="6278-b6e9-96c1-9e03" hidden="false" page="Frenzy"/>
+      </rules>
+      <constraints>
+        <constraint type="max" value="3" field="selections" scope="roster" shared="true" id="46c9-9d24-741e-cb0c" includeChildSelections="true" includeChildForces="true"/>
+      </constraints>
     </selectionEntry>
   </selectionEntries>
   <catalogueLinks>
-    <catalogueLink type="catalogue" name="common-data" id="1a44-c1df-b672-a22d" targetId="e268-e6ee-ed34-2d15"/>
+    <catalogueLink type="catalogue" name="common-data" id="1a44-c1df-b672-a22d" targetId="b655-55a1-84a5-850d"/>
   </catalogueLinks>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup name="Special Skills" id="af3f-c177-e4bb-3789" hidden="false" collective="false" import="true">
