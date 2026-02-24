@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="e020-c282-277b-b173" name="common-data" revision="21" battleScribeVersion="2.03" library="true" gameSystemId="9481a749-7900-614b-1695-bdc2899069c1" gameSystemRevision="15" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
+<catalogue id="fbea-3cc2-78d1-7b6f" name="common-data" revision="21" battleScribeVersion="2.03" library="true" gameSystemId="e8b2-6de5-eca8-99eb" gameSystemRevision="15" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
   <sharedSelectionEntries>
     <selectionEntry id="d769-0d85-e810-df60" name="Experience" page="0" hidden="false" collective="false" import="true" type="upgrade">
       <costs>
@@ -3039,7 +3039,7 @@ If he fails he must roll on the injury table immediately with no saves treating 
           <modifiers>
             <modifier type="set" value="true" field="hidden">
               <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="force" childId="1df8-a2ec-8d5c-c7b" shared="true"/>
+                <condition type="instanceOf" value="1" field="selections" scope="force" childId="e6b7-7177-f4b0-f407" shared="true"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -3442,7 +3442,7 @@ Strength is used for close combat weapons, the bonus applies to all such weapons
           <modifiers>
             <modifier type="set" value="true" field="hidden">
               <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="force" childId="36fc-7d97-ad53-330b" shared="true"/>
+                <condition type="instanceOf" value="1" field="selections" scope="force" childId="4a90-2a9e-c488-c788" shared="true"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -3816,18 +3816,6 @@ must retire from the warband.</description>
           </constraints>
           <entryLinks>
             <entryLink id="0424-c053-ec01-5db3" name="Speed Skills" hidden="false" collective="false" import="true" targetId="e134-0fdf-67a2-4684" type="selectionEntryGroup"/>
-          </entryLinks>
-          <costs>
-            <cost name="pts" typeId="points" value="0"/>
-            <cost name="Warband Rating" typeId="wb-rating" value="0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="c736-d3a0-629d-0631" name="Strength Skills" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ca32-c763-3d0b-3356" type="max"/>
-          </constraints>
-          <entryLinks>
-            <entryLink id="fbf5-9c38-97a3-5bf6" name="Strength Skills" hidden="false" collective="false" import="true" targetId="e5ac-cd5b-9057-e096" type="selectionEntryGroup"/>
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="0"/>
@@ -4313,7 +4301,7 @@ In subsequent rounds of combat, or if charged by enemy warriors, the mounted w
           <modifiers>
             <modifier type="set" value="true" field="hidden">
               <conditions>
-                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="b048-4e27-b7f0-cf05" shared="true"/>
+                <condition type="instanceOf" value="1" field="selections" scope="ancestor" childId="63ed-ee3f-afd9-cf12" shared="true"/>
               </conditions>
             </modifier>
           </modifiers>

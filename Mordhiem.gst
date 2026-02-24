@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="9481a749-7900-614b-1695-bdc2899069c1" name="Mordheim" revision="15" battleScribeVersion="2.03" authorName="James" xmlns="http://www.battlescribe.net/schema/gameSystemSchema" type="gameSystem">
+<gameSystem id="e8b2-6de5-eca8-99eb" name="Mordheim" revision="15" battleScribeVersion="2.03" authorName="James" xmlns="http://www.battlescribe.net/schema/gameSystemSchema" type="gameSystem">
   <costTypes>
     <costType id="points" name="pts" defaultCostLimit="0" hidden="false"/>
     <costType id="wb-rating" name="Warband Rating" defaultCostLimit="-1" hidden="false"/>
@@ -79,4 +79,15 @@
   <publications>
     <publication name="GitHub" hidden="false" id="ff7c-2cb8-2105-563f" publisherUrl="https://github.com/BSData/mordheim"/>
   </publications>
+  <sharedSelectionEntries>
+    <selectionEntry id="0f2c78d6-e019-6b88-136a-9e00031645e5" name="Promoted" page="0" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="maxSelections" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="pts" typeId="points" value="0"/>
+        <cost name="Warband Rating" typeId="wb-rating" value="0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
 </gameSystem>
