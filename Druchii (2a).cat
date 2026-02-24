@@ -3158,16 +3158,11 @@ If she engages a ﬂeeing enemy in the close combat phase she will score 1 autom
               </costs>
               <rules>
                 <rule name="Swift" id="c303-3fd3-da04-173f" hidden="false">
-                  <description>A Draich, unlike other double-handed weapons,
-does not Strike last.</description>
+                  <description>A Draich, unlike other double-handed weapons, does not Strike last.</description>
                 </rule>
                 <rule name="Two-handed" id="a717-664a-9276-9dae" hidden="false">
-                  <description>A model armed with a double-handed
-weapon may not use a shield, buckler or additional
-weapon in close combat. If the model is equipped with
-a shield, he will still get a +1 bonus to his armour save
-against shooting.
-
+                  <description>A model armed with a double-handed weapon may not use a shield, buckler or additional weapon in close combat.
+If the model is equipped with a shield, he will still get a +1 bonus to his armour save against shooting.
 </description>
                 </rule>
                 <rule name="Rarity" id="5a0c-3b30-3a31-458a" hidden="false">
@@ -3198,15 +3193,11 @@ against shooting.
                   </profiles>
                   <rules>
                     <rule name="Critical Damage" id="20c7-b30f-6ba5-4f43" hidden="false">
-                      <description>Darksteel weapons inflict serious
-damage on their opponents. When rolling on the critical
-hit chart, a Darksteel weapon will add +1 to the result.</description>
+                      <description>Darksteel weapons inflict serious damage on their opponents. When rolling on the critical hit chart, a Darksteel weapon will add +1 to the result.</description>
                     </rule>
                     <rule name="Wicked Edge" id="947d-79ca-be25-ba1b" hidden="false">
-                      <description>Darksteel weapons are set with sharp
-protrusions and serrated edges which inflict serious
-damage on an opponent. A roll of 2-4 on the injury table
-is a stunned result.
+                      <description>Darksteel weapons are set with sharp protrusions and serrated edges which inflict serious damage on an opponent.
+A roll of 2-4 on the injury table is a stunned result.
 
 </description>
                     </rule>
