@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="26c6-e259-69bc-fb7d" name="Druchii (2a)" gameSystemId="8c2f-a8dc-c0d3-94d5" gameSystemRevision="15" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="false" id="2d83-9fde-87ed-0ba7" name="Druchii (2a)" gameSystemId="17b3-bc86-e513-9744" gameSystemRevision="15" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry type="model" import="true" name="Beast Master" hidden="false" id="86f0-d83c-2aba-7197" page="0" collective="false">
       <constraints>
@@ -127,7 +127,11 @@
             <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="3a95-aea3-6869-91f0" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
           </constraints>
           <entryLinks>
-            <entryLink import="true" name="Equipment" hidden="false" id="ddb5-d5c2-40cf-55ca" collective="false" targetId="2247-1f56-bc59-0ead" type="selectionEntryGroup"/>
+            <entryLink import="true" name="Equipment" hidden="false" id="ddb5-d5c2-40cf-55ca" collective="false" targetId="2247-1f56-bc59-0ead" type="selectionEntryGroup">
+              <entryLinks>
+                <entryLink import="true" name="Equipment" hidden="false" id="ef78-2a70-4349-0428" type="selectionEntryGroup" targetId="b453-549f-51d0-026d"/>
+              </entryLinks>
+            </entryLink>
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="0"/>
@@ -556,7 +560,11 @@ from a safe distance).</description>
             <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="1cdb-677d-0897-b292" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
           </constraints>
           <entryLinks>
-            <entryLink import="true" name="Equipment" hidden="false" id="dab0-c5bc-3de3-290b" collective="false" targetId="2247-1f56-bc59-0ead" type="selectionEntryGroup"/>
+            <entryLink import="true" name="Equipment" hidden="false" id="dab0-c5bc-3de3-290b" collective="false" targetId="2247-1f56-bc59-0ead" type="selectionEntryGroup">
+              <entryLinks>
+                <entryLink import="true" name="Equipment" hidden="false" id="edb7-8c4a-821f-7196" type="selectionEntryGroup" targetId="b453-549f-51d0-026d"/>
+              </entryLinks>
+            </entryLink>
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="0"/>
@@ -619,7 +627,7 @@ from a safe distance).</description>
       </selectionEntries>
       <entryLinks>
         <entryLink import="true" name="Promoted" hidden="false" id="b967-fc31-6e7e-e120" collective="false" targetId="0f2c78d6-e019-6b88-136a-9e00031645e5" type="selectionEntry" sortIndex="6"/>
-        <entryLink import="true" name="Experience" hidden="false" id="f9a6-5856-600d-339d" collective="false" targetId="d769-0d85-e810-df60" type="selectionEntry" sortIndex="3"/>
+        <entryLink import="true" name="Experience" hidden="false" id="f9a6-5856-600d-339d" collective="false" targetId="6ef4-ee68-c1ef-2e48" type="selectionEntry" sortIndex="3"/>
         <entryLink import="true" name="Advancement (Henchmen)" hidden="false" id="7af9-95a7-2003-0393" type="selectionEntry" targetId="672a-c6fb-d1d0-5c4c" sortIndex="1">
           <modifiers>
             <modifier type="set" value="true" field="hidden">
@@ -1005,11 +1013,6 @@ from a safe distance).</description>
           </modifiers>
         </profile>
       </profiles>
-      <rules>
-        <rule name="Melee Specialists" id="3987-3ada-15de-fdf5" hidden="false">
-          <description>Fellblades live by a strict code of close quarter fighting. Fellblades may not use missile weapons of any sort.</description>
-        </rule>
-      </rules>
       <categoryLinks>
         <categoryLink name="Heroes" hidden="false" id="ff36-2de9-3ec2-69c1" targetId="a0fce0bc-02e0-a064-7a39-5b97ff8a9c94" primary="true"/>
       </categoryLinks>
@@ -1020,7 +1023,11 @@ from a safe distance).</description>
             <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="1448-3b09-d783-97da" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
           </constraints>
           <entryLinks>
-            <entryLink import="true" name="Equipment" hidden="false" id="212e-aafd-5349-3d12" collective="false" targetId="2247-1f56-bc59-0ead" type="selectionEntryGroup"/>
+            <entryLink import="true" name="Equipment" hidden="false" id="212e-aafd-5349-3d12" collective="false" targetId="2247-1f56-bc59-0ead" type="selectionEntryGroup">
+              <entryLinks>
+                <entryLink import="true" name="Equipment" hidden="false" id="90a4-1618-8969-91cd" type="selectionEntryGroup" targetId="b453-549f-51d0-026d"/>
+              </entryLinks>
+            </entryLink>
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="0"/>
@@ -1074,7 +1081,7 @@ from a safe distance).</description>
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink import="true" name="Experience" hidden="false" id="5b73-3dd9-e773-72ba" collective="false" targetId="d769-0d85-e810-df60" type="selectionEntry" sortIndex="2">
+        <entryLink import="true" name="Experience" hidden="false" id="5b73-3dd9-e773-72ba" collective="false" targetId="6ef4-ee68-c1ef-2e48" type="selectionEntry" sortIndex="2">
           <constraints>
             <constraint type="min" value="12" field="selections" scope="parent" shared="true" id="b153-1d36-b29e-de56" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
           </constraints>
@@ -1440,7 +1447,7 @@ from a safe distance).</description>
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink import="true" name="Experience" hidden="false" id="4d7e-c21f-be31-0736" collective="false" targetId="d769-0d85-e810-df60" type="selectionEntry" sortIndex="2">
+        <entryLink import="true" name="Experience" hidden="false" id="4d7e-c21f-be31-0736" collective="false" targetId="6ef4-ee68-c1ef-2e48" type="selectionEntry" sortIndex="2">
           <constraints>
             <constraint type="min" value="20" field="selections" scope="parent" shared="true" id="4a8a-52d7-233f-b291" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
           </constraints>
@@ -1700,20 +1707,24 @@ from a safe distance).</description>
         <categoryLink name="Henchmen" hidden="false" id="2b5a-ee62-c707-70e7" targetId="f9b08d8e-4922-78d5-78ad-2047bff52dc8" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Equipment" hidden="false" id="13d6-def4-cf15-3e69" page="0" collective="false" sortIndex="4">
+        <selectionEntry type="upgrade" import="true" name="Equipment" hidden="false" id="13d6-def4-cf15-3e69" page="0" collective="false" sortIndex="5">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="false" id="75b5-a7e9-0b0d-408b" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="d6bc-e90a-9f84-f396" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
           </constraints>
           <entryLinks>
-            <entryLink import="true" name="Equipment" hidden="false" id="8fab-f304-452c-1fd2" collective="false" targetId="2247-1f56-bc59-0ead" type="selectionEntryGroup"/>
+            <entryLink import="true" name="Equipment" hidden="false" id="8fab-f304-452c-1fd2" collective="false" targetId="2247-1f56-bc59-0ead" type="selectionEntryGroup">
+              <entryLinks>
+                <entryLink import="true" name="Equipment" hidden="false" id="6f99-34f4-2048-4e7c" type="selectionEntryGroup" targetId="b453-549f-51d0-026d"/>
+              </entryLinks>
+            </entryLink>
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="0"/>
             <cost name="Warband Rating" typeId="wb-rating" value="0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Characteristic Increases" hidden="false" id="d4a2-5673-a26a-aa39" page="0" collective="false" sortIndex="3">
+        <selectionEntry type="upgrade" import="true" name="Characteristic Increases" hidden="false" id="d4a2-5673-a26a-aa39" page="0" collective="false" sortIndex="4">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="false" id="8399-05fe-c84a-5298" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="032e-9fe7-42f9-3e7c" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
@@ -1768,7 +1779,7 @@ from a safe distance).</description>
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink import="true" name="Experience" hidden="false" id="148b-f558-079c-fc26" collective="false" targetId="d769-0d85-e810-df60" type="selectionEntry" sortIndex="5"/>
+        <entryLink import="true" name="Experience" hidden="false" id="148b-f558-079c-fc26" collective="false" targetId="6ef4-ee68-c1ef-2e48" type="selectionEntry" sortIndex="3"/>
         <entryLink import="true" name="Promoted" hidden="false" id="b224-678d-2cee-dd2f" collective="false" targetId="0f2c78d6-e019-6b88-136a-9e00031645e5" type="selectionEntry" sortIndex="6"/>
         <entryLink import="true" name="Advancement (Henchmen)" hidden="false" id="8338-0b59-98fb-427f" type="selectionEntry" targetId="672a-c6fb-d1d0-5c4c" sortIndex="1">
           <modifiers>
@@ -2165,7 +2176,11 @@ from a safe distance).</description>
             <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="26b1-4d63-d496-c30b" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
           </constraints>
           <entryLinks>
-            <entryLink import="true" name="Equipment" hidden="false" id="00f1-d639-f8bc-7b03" collective="false" targetId="2247-1f56-bc59-0ead" type="selectionEntryGroup"/>
+            <entryLink import="true" name="Equipment" hidden="false" id="00f1-d639-f8bc-7b03" collective="false" targetId="2247-1f56-bc59-0ead" type="selectionEntryGroup">
+              <entryLinks>
+                <entryLink import="true" name="Equipment" hidden="false" id="36a3-e9da-f3ee-8fcd" type="selectionEntryGroup" targetId="b453-549f-51d0-026d"/>
+              </entryLinks>
+            </entryLink>
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="0"/>
@@ -2215,7 +2230,7 @@ from a safe distance).</description>
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink import="true" name="Experience" hidden="false" id="1c5e-29bd-7f61-59a2" collective="false" targetId="d769-0d85-e810-df60" type="selectionEntry" sortIndex="2">
+        <entryLink import="true" name="Experience" hidden="false" id="1c5e-29bd-7f61-59a2" collective="false" targetId="6ef4-ee68-c1ef-2e48" type="selectionEntry" sortIndex="2">
           <constraints>
             <constraint type="min" value="12" field="selections" scope="parent" shared="true" id="2b5d-8321-53c2-895a" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
           </constraints>
@@ -2544,7 +2559,11 @@ from a safe distance).</description>
             <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="9a45-38ba-2b1c-0a8f" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
           </constraints>
           <entryLinks>
-            <entryLink import="true" name="Equipment" hidden="false" id="125c-9998-90a8-a2d2" collective="false" targetId="2247-1f56-bc59-0ead" type="selectionEntryGroup"/>
+            <entryLink import="true" name="Equipment" hidden="false" id="125c-9998-90a8-a2d2" collective="false" targetId="2247-1f56-bc59-0ead" type="selectionEntryGroup">
+              <entryLinks>
+                <entryLink import="true" name="Equipment" hidden="false" id="6149-418f-3c97-e5e7" type="selectionEntryGroup" targetId="b453-549f-51d0-026d"/>
+              </entryLinks>
+            </entryLink>
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="0"/>
@@ -2884,7 +2903,7 @@ from a safe distance).</description>
     </selectionEntry>
   </selectionEntries>
   <catalogueLinks>
-    <catalogueLink type="catalogue" name="common-data" id="1a44-c1df-b672-a22d" targetId="ed2d-8853-04a6-35b5"/>
+    <catalogueLink type="catalogue" name="common-data" id="1a44-c1df-b672-a22d" targetId="130e-ba35-73a5-6423"/>
   </catalogueLinks>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup name="Special Skills" id="af3f-c177-e4bb-3789" hidden="false" collective="false" import="true">
@@ -3118,6 +3137,19 @@ If she engages a ﬂeeing enemy in the close combat phase she will score 1 autom
                 <cost name="pts" typeId="points" value="30"/>
                 <cost name="Warband Rating" typeId="wb-rating" value="0"/>
               </costs>
+              <modifiers>
+                <modifier type="set" value="true" field="hidden">
+                  <conditionGroups>
+                    <conditionGroup type="and">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="f5ff-acea-47c0-ad8c" childId="any" shared="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="bc13-d249-73b3-0a46" childId="any" shared="true"/>
+                        <condition type="atLeast" value="1" field="selections" scope="f9b08d8e-4922-78d5-78ad-2047bff52dc8" childId="any" shared="true"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
+                </modifier>
+              </modifiers>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
@@ -3195,9 +3227,7 @@ A roll of 2-4 on the injury table is a stunned result.</description>
               </profiles>
               <rules>
                 <rule name="Whipcrack" id="0d47-cbb5-8862-8a16" hidden="false">
-                  <description>When the wielder charges they gain +1A for that turn. This bonus attack is added after any other modifications. When the wielder is charged they gain +1A that they may only use against the charger. This additional attack will ‘strike first’. If the wielder is simultaneously charged by two or more opponents he will still only receive a total of +1A. If the wielder is using two whips at the same time then he gets +1A for the additional hand weapon, but only the first whip gets the Whipcrack +1A.
-
-</description>
+                  <description>When the wielder charges they gain +1A for that turn. This bonus attack is added after any other modifications. When the wielder is charged they gain +1A that they may only use against the charger. This additional attack will ‘strike first’. If the wielder is simultaneously charged by two or more opponents he will still only receive a total of +1A. If the wielder is using two whips at the same time then he gets +1A for the additional hand weapon, but only the first whip gets the Whipcrack +1A.</description>
                 </rule>
                 <rule name="Beastbane" id="25d5-5ef9-eedb-a861" hidden="false">
                   <description>The Beastmaster wielding a Beastlash causes Fear in animals. Any animal charged by or
