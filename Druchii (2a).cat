@@ -3205,13 +3205,6 @@ A roll of 2-4 on the injury table is a stunned result.</description>
                     </rule>
                     <rule name="Rarity" id="d2c4-7096-f3b4-5884" hidden="false">
                       <description>Rarity 9</description>
-                      <modifiers>
-                        <modifier type="set" value="true" field="hidden">
-                          <conditions>
-                            <condition type="atLeast" value="1" field="selections" scope="root-entry" childId="upgrade" shared="true"/>
-                          </conditions>
-                        </modifier>
-                      </modifiers>
                     </rule>
                   </rules>
                 </selectionEntry>
