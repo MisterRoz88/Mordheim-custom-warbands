@@ -3167,6 +3167,13 @@ If the model is equipped with a shield, he will still get a +1 bonus to his arm
                 </rule>
                 <rule name="Rarity" id="5a0c-3b30-3a31-458a" hidden="false">
                   <description>Rarity 8</description>
+                  <modifiers>
+                    <modifier type="set" value="true" field="hidden">
+                      <conditions>
+                        <condition type="atLeast" value="1" field="selections" scope="parent" childId="upgrade" shared="true"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
                 </rule>
               </rules>
               <profiles>
