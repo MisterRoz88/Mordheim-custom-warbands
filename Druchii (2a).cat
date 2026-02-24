@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="45fc-1362-d009-0ffb" name="Druchii (2a)" gameSystemId="4099-89c0-a420-bfb4" gameSystemRevision="15" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="false" id="26c6-e259-69bc-fb7d" name="Druchii (2a)" gameSystemId="8c2f-a8dc-c0d3-94d5" gameSystemRevision="15" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry type="model" import="true" name="Beast Master" hidden="false" id="86f0-d83c-2aba-7197" page="0" collective="false">
       <constraints>
@@ -550,7 +550,7 @@ from a safe distance).</description>
         <categoryLink name="Henchmen" hidden="false" id="176a-ff6e-5087-f5b8" targetId="f9b08d8e-4922-78d5-78ad-2047bff52dc8" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Equipment" hidden="false" id="aa9a-736f-4b9c-fbfb" page="0" collective="false" sortIndex="4">
+        <selectionEntry type="upgrade" import="true" name="Equipment" hidden="false" id="aa9a-736f-4b9c-fbfb" page="0" collective="false" sortIndex="5">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="false" id="a482-8a56-7cab-42de" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="1cdb-677d-0897-b292" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
@@ -563,7 +563,7 @@ from a safe distance).</description>
             <cost name="Warband Rating" typeId="wb-rating" value="0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Characteristic Increases" hidden="false" id="5a4c-6ec5-0f24-1019" page="0" collective="false" sortIndex="3">
+        <selectionEntry type="upgrade" import="true" name="Characteristic Increases" hidden="false" id="5a4c-6ec5-0f24-1019" page="0" collective="false" sortIndex="4">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="false" id="2460-f349-0f71-25d6" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="5704-77f1-7910-9354" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
@@ -619,271 +619,271 @@ from a safe distance).</description>
       </selectionEntries>
       <entryLinks>
         <entryLink import="true" name="Promoted" hidden="false" id="b967-fc31-6e7e-e120" collective="false" targetId="0f2c78d6-e019-6b88-136a-9e00031645e5" type="selectionEntry" sortIndex="6"/>
-        <entryLink import="true" name="Experience" hidden="false" id="f9a6-5856-600d-339d" collective="false" targetId="d769-0d85-e810-df60" type="selectionEntry" sortIndex="5"/>
-        <entryLink import="true" name="Advancement (Henchmen)" hidden="false" id="7af9-95a7-2003-0393" type="selectionEntry" targetId="583e-a0c5-873-acdc" sortIndex="1">
+        <entryLink import="true" name="Experience" hidden="false" id="f9a6-5856-600d-339d" collective="false" targetId="d769-0d85-e810-df60" type="selectionEntry" sortIndex="3"/>
+        <entryLink import="true" name="Advancement (Henchmen)" hidden="false" id="7af9-95a7-2003-0393" type="selectionEntry" targetId="672a-c6fb-d1d0-5c4c" sortIndex="1">
           <modifiers>
-            <modifier type="increment" value="1" field="5feb-168d-0f82-f739">
-              <conditions>
-                <condition type="greaterThan" value="1" field="selections" scope="parent" childId="583e-a0c5-873-acdc" shared="true" includeChildSelections="false"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" value="1" field="5feb-168d-0f82-f739">
-              <conditions>
-                <condition type="greaterThan" value="4" field="selections" scope="parent" childId="583e-a0c5-873-acdc" shared="true" includeChildSelections="false"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" value="1" field="5feb-168d-0f82-f739">
-              <conditions>
-                <condition type="greaterThan" value="8" field="selections" scope="parent" childId="583e-a0c5-873-acdc" shared="true" includeChildSelections="false"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" value="1" field="5feb-168d-0f82-f739">
-              <conditions>
-                <condition type="greaterThan" value="13" field="selections" scope="parent" childId="583e-a0c5-873-acdc" shared="true" includeChildSelections="false"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" value="1" field="f476-aea1-3a67-fc2d">
-              <conditions>
-                <condition type="greaterThan" value="1" field="selections" scope="parent" childId="583e-a0c5-873-acdc" shared="true" includeChildSelections="false"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" value="1" field="f476-aea1-3a67-fc2d">
-              <conditions>
-                <condition type="greaterThan" value="4" field="selections" scope="parent" childId="583e-a0c5-873-acdc" shared="true" includeChildSelections="false"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" value="1" field="f476-aea1-3a67-fc2d">
-              <conditions>
-                <condition type="greaterThan" value="8" field="selections" scope="parent" childId="583e-a0c5-873-acdc" shared="true" includeChildSelections="false"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" value="1" field="f476-aea1-3a67-fc2d">
-              <conditions>
-                <condition type="greaterThan" value="13" field="selections" scope="parent" childId="583e-a0c5-873-acdc" shared="true" includeChildSelections="false"/>
-              </conditions>
-            </modifier>
             <modifier type="set" value="true" field="hidden">
               <conditions>
                 <condition type="atLeast" value="1" field="selections" scope="parent" childId="0f2c78d6-e019-6b88-136a-9e00031645e5" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
               </conditions>
             </modifier>
+            <modifier type="increment" value="1" field="cb7f-7be7-a042-c941">
+              <conditions>
+                <condition type="greaterThan" value="1" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="false"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="1" field="cb7f-7be7-a042-c941">
+              <conditions>
+                <condition type="greaterThan" value="4" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="false"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="1" field="cb7f-7be7-a042-c941">
+              <conditions>
+                <condition type="greaterThan" value="8" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="false"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="1" field="cb7f-7be7-a042-c941">
+              <conditions>
+                <condition type="greaterThan" value="13" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="false"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="1" field="11ea-2487-41c2-b42e">
+              <conditions>
+                <condition type="greaterThan" value="1" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="false"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="1" field="11ea-2487-41c2-b42e">
+              <conditions>
+                <condition type="greaterThan" value="4" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="false"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="1" field="11ea-2487-41c2-b42e">
+              <conditions>
+                <condition type="greaterThan" value="8" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="false"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="1" field="11ea-2487-41c2-b42e">
+              <conditions>
+                <condition type="greaterThan" value="13" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="false"/>
+              </conditions>
+            </modifier>
           </modifiers>
         </entryLink>
-        <entryLink import="true" name="Advancement (Hero)" hidden="true" id="b5f3-b5e1-09a0-8bec" type="selectionEntry" targetId="c26e-414e-293-2621" sortIndex="2">
+        <entryLink import="true" name="Advancement (Hero)" hidden="true" id="b5f3-b5e1-09a0-8bec" type="selectionEntry" targetId="58d8-3f16-6d18-b1d2" sortIndex="2">
           <modifiers>
-            <modifier type="increment" value="1" field="cbfc-731b-08fc-958d">
-              <conditions>
-                <condition type="greaterThan" value="1" field="selections" scope="parent" childId="c26e-414e-293-2621" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" value="1" field="cbfc-731b-08fc-958d">
-              <conditions>
-                <condition type="greaterThan" value="3" field="selections" scope="parent" childId="c26e-414e-293-2621" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" value="1" field="cbfc-731b-08fc-958d">
-              <conditions>
-                <condition type="greaterThan" value="5" field="selections" scope="parent" childId="c26e-414e-293-2621" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" value="1" field="cbfc-731b-08fc-958d">
-              <conditions>
-                <condition type="greaterThan" value="7" field="selections" scope="parent" childId="c26e-414e-293-2621" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" value="1" field="cbfc-731b-08fc-958d">
-              <conditions>
-                <condition type="greaterThan" value="10" field="selections" scope="parent" childId="c26e-414e-293-2621" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" value="1" field="cbfc-731b-08fc-958d">
-              <conditions>
-                <condition type="greaterThan" value="13" field="selections" scope="parent" childId="c26e-414e-293-2621" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" value="1" field="cbfc-731b-08fc-958d">
-              <conditions>
-                <condition type="greaterThan" value="16" field="selections" scope="parent" childId="c26e-414e-293-2621" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" value="1" field="cbfc-731b-08fc-958d">
-              <conditions>
-                <condition type="greaterThan" value="19" field="selections" scope="parent" childId="c26e-414e-293-2621" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" value="1" field="cbfc-731b-08fc-958d">
-              <conditions>
-                <condition type="greaterThan" value="23" field="selections" scope="parent" childId="c26e-414e-293-2621" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" value="1" field="cbfc-731b-08fc-958d">
-              <conditions>
-                <condition type="greaterThan" value="27" field="selections" scope="parent" childId="c26e-414e-293-2621" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" value="1" field="cbfc-731b-08fc-958d">
-              <conditions>
-                <condition type="greaterThan" value="31" field="selections" scope="parent" childId="c26e-414e-293-2621" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" value="1" field="cbfc-731b-08fc-958d">
-              <conditions>
-                <condition type="greaterThan" value="35" field="selections" scope="parent" childId="c26e-414e-293-2621" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" value="1" field="cbfc-731b-08fc-958d">
-              <conditions>
-                <condition type="greaterThan" value="40" field="selections" scope="parent" childId="c26e-414e-293-2621" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" value="1" field="cbfc-731b-08fc-958d">
-              <conditions>
-                <condition type="greaterThan" value="45" field="selections" scope="parent" childId="c26e-414e-293-2621" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" value="1" field="cbfc-731b-08fc-958d">
-              <conditions>
-                <condition type="greaterThan" value="50" field="selections" scope="parent" childId="c26e-414e-293-2621" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" value="1" field="cbfc-731b-08fc-958d">
-              <conditions>
-                <condition type="greaterThan" value="56" field="selections" scope="parent" childId="c26e-414e-293-2621" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" value="1" field="cbfc-731b-08fc-958d">
-              <conditions>
-                <condition type="greaterThan" value="62" field="selections" scope="parent" childId="c26e-414e-293-2621" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" value="1" field="cbfc-731b-08fc-958d">
-              <conditions>
-                <condition type="greaterThan" value="68" field="selections" scope="parent" childId="c26e-414e-293-2621" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" value="1" field="cbfc-731b-08fc-958d">
-              <conditions>
-                <condition type="greaterThan" value="75" field="selections" scope="parent" childId="c26e-414e-293-2621" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" value="1" field="cbfc-731b-08fc-958d">
-              <conditions>
-                <condition type="greaterThan" value="82" field="selections" scope="parent" childId="c26e-414e-293-2621" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" value="1" field="cbfc-731b-08fc-958d">
-              <conditions>
-                <condition type="greaterThan" value="89" field="selections" scope="parent" childId="c26e-414e-293-2621" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" value="1" field="c1d5-569c-c755-0e07">
-              <conditions>
-                <condition type="greaterThan" value="1" field="selections" scope="parent" childId="c26e-414e-293-2621" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" value="1" field="c1d5-569c-c755-0e07">
-              <conditions>
-                <condition type="greaterThan" value="3" field="selections" scope="parent" childId="c26e-414e-293-2621" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" value="1" field="c1d5-569c-c755-0e07">
-              <conditions>
-                <condition type="greaterThan" value="5" field="selections" scope="parent" childId="c26e-414e-293-2621" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" value="1" field="c1d5-569c-c755-0e07">
-              <conditions>
-                <condition type="greaterThan" value="7" field="selections" scope="parent" childId="c26e-414e-293-2621" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" value="1" field="c1d5-569c-c755-0e07">
-              <conditions>
-                <condition type="greaterThan" value="10" field="selections" scope="parent" childId="c26e-414e-293-2621" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" value="1" field="c1d5-569c-c755-0e07">
-              <conditions>
-                <condition type="greaterThan" value="13" field="selections" scope="parent" childId="c26e-414e-293-2621" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" value="1" field="c1d5-569c-c755-0e07">
-              <conditions>
-                <condition type="greaterThan" value="16" field="selections" scope="parent" childId="c26e-414e-293-2621" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" value="1" field="c1d5-569c-c755-0e07">
-              <conditions>
-                <condition type="greaterThan" value="19" field="selections" scope="parent" childId="c26e-414e-293-2621" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" value="1" field="c1d5-569c-c755-0e07">
-              <conditions>
-                <condition type="greaterThan" value="23" field="selections" scope="parent" childId="c26e-414e-293-2621" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" value="1" field="c1d5-569c-c755-0e07">
-              <conditions>
-                <condition type="greaterThan" value="27" field="selections" scope="parent" childId="c26e-414e-293-2621" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" value="1" field="c1d5-569c-c755-0e07">
-              <conditions>
-                <condition type="greaterThan" value="31" field="selections" scope="parent" childId="c26e-414e-293-2621" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" value="1" field="c1d5-569c-c755-0e07">
-              <conditions>
-                <condition type="greaterThan" value="35" field="selections" scope="parent" childId="c26e-414e-293-2621" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" value="1" field="c1d5-569c-c755-0e07">
-              <conditions>
-                <condition type="greaterThan" value="40" field="selections" scope="parent" childId="c26e-414e-293-2621" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" value="1" field="c1d5-569c-c755-0e07">
-              <conditions>
-                <condition type="greaterThan" value="45" field="selections" scope="parent" childId="c26e-414e-293-2621" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" value="1" field="c1d5-569c-c755-0e07">
-              <conditions>
-                <condition type="greaterThan" value="50" field="selections" scope="parent" childId="c26e-414e-293-2621" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" value="1" field="c1d5-569c-c755-0e07">
-              <conditions>
-                <condition type="greaterThan" value="56" field="selections" scope="parent" childId="c26e-414e-293-2621" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" value="1" field="c1d5-569c-c755-0e07">
-              <conditions>
-                <condition type="greaterThan" value="62" field="selections" scope="parent" childId="c26e-414e-293-2621" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" value="1" field="c1d5-569c-c755-0e07">
-              <conditions>
-                <condition type="greaterThan" value="68" field="selections" scope="parent" childId="c26e-414e-293-2621" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" value="1" field="c1d5-569c-c755-0e07">
-              <conditions>
-                <condition type="greaterThan" value="75" field="selections" scope="parent" childId="c26e-414e-293-2621" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" value="1" field="c1d5-569c-c755-0e07">
-              <conditions>
-                <condition type="greaterThan" value="82" field="selections" scope="parent" childId="c26e-414e-293-2621" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" value="1" field="c1d5-569c-c755-0e07">
-              <conditions>
-                <condition type="greaterThan" value="89" field="selections" scope="parent" childId="c26e-414e-293-2621" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
             <modifier type="set" value="false" field="hidden">
               <conditions>
                 <condition type="atLeast" value="1" field="selections" scope="parent" childId="0f2c78d6-e019-6b88-136a-9e00031645e5" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="1" field="ddbc-2ac7-97b9-fe1d">
+              <conditions>
+                <condition type="greaterThan" value="1" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="1" field="ddbc-2ac7-97b9-fe1d">
+              <conditions>
+                <condition type="greaterThan" value="3" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="1" field="ddbc-2ac7-97b9-fe1d">
+              <conditions>
+                <condition type="greaterThan" value="5" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="1" field="ddbc-2ac7-97b9-fe1d">
+              <conditions>
+                <condition type="greaterThan" value="7" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="1" field="8eee-26f1-24b2-89f1">
+              <conditions>
+                <condition type="greaterThan" value="1" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="1" field="8eee-26f1-24b2-89f1">
+              <conditions>
+                <condition type="greaterThan" value="3" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="1" field="8eee-26f1-24b2-89f1">
+              <conditions>
+                <condition type="greaterThan" value="5" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="1" field="8eee-26f1-24b2-89f1">
+              <conditions>
+                <condition type="greaterThan" value="7" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="1" field="ddbc-2ac7-97b9-fe1d">
+              <conditions>
+                <condition type="greaterThan" value="23" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="1" field="ddbc-2ac7-97b9-fe1d">
+              <conditions>
+                <condition type="greaterThan" value="27" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="1" field="ddbc-2ac7-97b9-fe1d">
+              <conditions>
+                <condition type="greaterThan" value="31" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="1" field="ddbc-2ac7-97b9-fe1d">
+              <conditions>
+                <condition type="greaterThan" value="35" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="1" field="ddbc-2ac7-97b9-fe1d">
+              <conditions>
+                <condition type="greaterThan" value="40" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="1" field="ddbc-2ac7-97b9-fe1d">
+              <conditions>
+                <condition type="greaterThan" value="45" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="1" field="ddbc-2ac7-97b9-fe1d">
+              <conditions>
+                <condition type="greaterThan" value="50" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="1" field="ddbc-2ac7-97b9-fe1d">
+              <conditions>
+                <condition type="greaterThan" value="56" field="selections" scope="parent" childId="c26e-414e-293-2621" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="1" field="ddbc-2ac7-97b9-fe1d">
+              <conditions>
+                <condition type="greaterThan" value="62" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="1" field="ddbc-2ac7-97b9-fe1d">
+              <conditions>
+                <condition type="greaterThan" value="68" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="1" field="ddbc-2ac7-97b9-fe1d">
+              <conditions>
+                <condition type="greaterThan" value="75" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="1" field="ddbc-2ac7-97b9-fe1d">
+              <conditions>
+                <condition type="greaterThan" value="82" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="1" field="ddbc-2ac7-97b9-fe1d">
+              <conditions>
+                <condition type="greaterThan" value="89" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="1" field="8eee-26f1-24b2-89f1">
+              <conditions>
+                <condition type="greaterThan" value="23" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="1" field="8eee-26f1-24b2-89f1">
+              <conditions>
+                <condition type="greaterThan" value="27" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="1" field="8eee-26f1-24b2-89f1">
+              <conditions>
+                <condition type="greaterThan" value="31" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="1" field="8eee-26f1-24b2-89f1">
+              <conditions>
+                <condition type="greaterThan" value="35" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="1" field="8eee-26f1-24b2-89f1">
+              <conditions>
+                <condition type="greaterThan" value="40" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="1" field="8eee-26f1-24b2-89f1">
+              <conditions>
+                <condition type="greaterThan" value="45" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="1" field="8eee-26f1-24b2-89f1">
+              <conditions>
+                <condition type="greaterThan" value="50" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="1" field="8eee-26f1-24b2-89f1">
+              <conditions>
+                <condition type="greaterThan" value="56" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="1" field="8eee-26f1-24b2-89f1">
+              <conditions>
+                <condition type="greaterThan" value="62" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="1" field="8eee-26f1-24b2-89f1">
+              <conditions>
+                <condition type="greaterThan" value="68" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="1" field="8eee-26f1-24b2-89f1">
+              <conditions>
+                <condition type="greaterThan" value="75" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="1" field="8eee-26f1-24b2-89f1">
+              <conditions>
+                <condition type="greaterThan" value="82" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="1" field="8eee-26f1-24b2-89f1">
+              <conditions>
+                <condition type="greaterThan" value="89" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="1" field="8eee-26f1-24b2-89f1">
+              <conditions>
+                <condition type="greaterThan" value="10" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="1" field="8eee-26f1-24b2-89f1">
+              <conditions>
+                <condition type="greaterThan" value="13" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="1" field="8eee-26f1-24b2-89f1">
+              <conditions>
+                <condition type="greaterThan" value="16" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="1" field="8eee-26f1-24b2-89f1">
+              <conditions>
+                <condition type="greaterThan" value="19" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="1" field="ddbc-2ac7-97b9-fe1d">
+              <conditions>
+                <condition type="greaterThan" value="10" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="1" field="ddbc-2ac7-97b9-fe1d">
+              <conditions>
+                <condition type="greaterThan" value="13" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="1" field="ddbc-2ac7-97b9-fe1d">
+              <conditions>
+                <condition type="greaterThan" value="16" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="1" field="ddbc-2ac7-97b9-fe1d">
+              <conditions>
+                <condition type="greaterThan" value="19" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -1014,7 +1014,7 @@ from a safe distance).</description>
         <categoryLink name="Heroes" hidden="false" id="ff36-2de9-3ec2-69c1" targetId="a0fce0bc-02e0-a064-7a39-5b97ff8a9c94" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Equipment" hidden="false" id="d86d-b1fc-dd5a-521d" page="0" collective="false" sortIndex="3">
+        <selectionEntry type="upgrade" import="true" name="Equipment" hidden="false" id="d86d-b1fc-dd5a-521d" page="0" collective="false" sortIndex="4">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="false" id="9772-cdd9-d978-a5ca" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="1448-3b09-d783-97da" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
@@ -1040,7 +1040,7 @@ from a safe distance).</description>
             <cost name="Warband Rating" typeId="wb-rating" value="0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Characteristic Increases" hidden="false" id="8c4e-f34b-f671-632a" page="0" collective="false" sortIndex="2">
+        <selectionEntry type="upgrade" import="true" name="Characteristic Increases" hidden="false" id="8c4e-f34b-f671-632a" page="0" collective="false" sortIndex="3">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="false" id="fda4-f1bc-3508-bb77" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="ea91-81ca-fc5b-7714" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
@@ -1074,181 +1074,181 @@ from a safe distance).</description>
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink import="true" name="Experience" hidden="false" id="5b73-3dd9-e773-72ba" collective="false" targetId="d769-0d85-e810-df60" type="selectionEntry" sortIndex="4">
+        <entryLink import="true" name="Experience" hidden="false" id="5b73-3dd9-e773-72ba" collective="false" targetId="d769-0d85-e810-df60" type="selectionEntry" sortIndex="2">
           <constraints>
             <constraint type="min" value="12" field="selections" scope="parent" shared="true" id="b153-1d36-b29e-de56" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
           </constraints>
         </entryLink>
-        <entryLink import="true" name="Advancement (Hero)" hidden="false" id="3f03-8782-c0da-3dab" type="selectionEntry" targetId="c26e-414e-293-2621" sortIndex="1">
+        <entryLink import="true" name="Advancement (Hero)" hidden="false" id="3f03-8782-c0da-3dab" type="selectionEntry" targetId="58d8-3f16-6d18-b1d2" sortIndex="1">
           <modifiers>
-            <modifier type="increment" value="1" field="cbfc-731b-08fc-958d">
+            <modifier type="increment" value="1" field="ddbc-2ac7-97b9-fe1d">
               <conditions>
-                <condition type="greaterThan" value="10" field="selections" scope="parent" childId="d769-0d85-e810-df60" shared="true" includeChildSelections="true"/>
+                <condition type="greaterThan" value="23" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
               </conditions>
             </modifier>
-            <modifier type="increment" value="1" field="cbfc-731b-08fc-958d">
+            <modifier type="increment" value="1" field="ddbc-2ac7-97b9-fe1d">
               <conditions>
-                <condition type="greaterThan" value="13" field="selections" scope="parent" childId="d769-0d85-e810-df60" shared="true" includeChildSelections="true"/>
+                <condition type="greaterThan" value="27" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
               </conditions>
             </modifier>
-            <modifier type="increment" value="1" field="cbfc-731b-08fc-958d">
+            <modifier type="increment" value="1" field="ddbc-2ac7-97b9-fe1d">
               <conditions>
-                <condition type="greaterThan" value="16" field="selections" scope="parent" childId="d769-0d85-e810-df60" shared="true" includeChildSelections="true"/>
+                <condition type="greaterThan" value="31" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
               </conditions>
             </modifier>
-            <modifier type="increment" value="1" field="cbfc-731b-08fc-958d">
+            <modifier type="increment" value="1" field="ddbc-2ac7-97b9-fe1d">
               <conditions>
-                <condition type="greaterThan" value="19" field="selections" scope="parent" childId="d769-0d85-e810-df60" shared="true" includeChildSelections="true"/>
+                <condition type="greaterThan" value="35" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
               </conditions>
             </modifier>
-            <modifier type="increment" value="1" field="cbfc-731b-08fc-958d">
+            <modifier type="increment" value="1" field="ddbc-2ac7-97b9-fe1d">
               <conditions>
-                <condition type="greaterThan" value="23" field="selections" scope="parent" childId="d769-0d85-e810-df60" shared="true" includeChildSelections="true"/>
+                <condition type="greaterThan" value="40" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
               </conditions>
             </modifier>
-            <modifier type="increment" value="1" field="cbfc-731b-08fc-958d">
+            <modifier type="increment" value="1" field="ddbc-2ac7-97b9-fe1d">
               <conditions>
-                <condition type="greaterThan" value="27" field="selections" scope="parent" childId="d769-0d85-e810-df60" shared="true" includeChildSelections="true"/>
+                <condition type="greaterThan" value="45" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
               </conditions>
             </modifier>
-            <modifier type="increment" value="1" field="cbfc-731b-08fc-958d">
+            <modifier type="increment" value="1" field="ddbc-2ac7-97b9-fe1d">
               <conditions>
-                <condition type="greaterThan" value="31" field="selections" scope="parent" childId="d769-0d85-e810-df60" shared="true" includeChildSelections="true"/>
+                <condition type="greaterThan" value="50" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
               </conditions>
             </modifier>
-            <modifier type="increment" value="1" field="cbfc-731b-08fc-958d">
+            <modifier type="increment" value="1" field="ddbc-2ac7-97b9-fe1d">
               <conditions>
-                <condition type="greaterThan" value="35" field="selections" scope="parent" childId="d769-0d85-e810-df60" shared="true" includeChildSelections="true"/>
+                <condition type="greaterThan" value="56" field="selections" scope="parent" childId="c26e-414e-293-2621" shared="true" includeChildSelections="true"/>
               </conditions>
             </modifier>
-            <modifier type="increment" value="1" field="cbfc-731b-08fc-958d">
+            <modifier type="increment" value="1" field="ddbc-2ac7-97b9-fe1d">
               <conditions>
-                <condition type="greaterThan" value="40" field="selections" scope="parent" childId="d769-0d85-e810-df60" shared="true" includeChildSelections="true"/>
+                <condition type="greaterThan" value="62" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
               </conditions>
             </modifier>
-            <modifier type="increment" value="1" field="cbfc-731b-08fc-958d">
+            <modifier type="increment" value="1" field="ddbc-2ac7-97b9-fe1d">
               <conditions>
-                <condition type="greaterThan" value="45" field="selections" scope="parent" childId="d769-0d85-e810-df60" shared="true" includeChildSelections="true"/>
+                <condition type="greaterThan" value="68" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
               </conditions>
             </modifier>
-            <modifier type="increment" value="1" field="cbfc-731b-08fc-958d">
+            <modifier type="increment" value="1" field="ddbc-2ac7-97b9-fe1d">
               <conditions>
-                <condition type="greaterThan" value="50" field="selections" scope="parent" childId="d769-0d85-e810-df60" shared="true" includeChildSelections="true"/>
+                <condition type="greaterThan" value="75" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
               </conditions>
             </modifier>
-            <modifier type="increment" value="1" field="cbfc-731b-08fc-958d">
+            <modifier type="increment" value="1" field="ddbc-2ac7-97b9-fe1d">
               <conditions>
-                <condition type="greaterThan" value="56" field="selections" scope="parent" childId="d769-0d85-e810-df60" shared="true" includeChildSelections="true"/>
+                <condition type="greaterThan" value="82" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
               </conditions>
             </modifier>
-            <modifier type="increment" value="1" field="cbfc-731b-08fc-958d">
+            <modifier type="increment" value="1" field="ddbc-2ac7-97b9-fe1d">
               <conditions>
-                <condition type="greaterThan" value="62" field="selections" scope="parent" childId="d769-0d85-e810-df60" shared="true" includeChildSelections="true"/>
+                <condition type="greaterThan" value="89" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
               </conditions>
             </modifier>
-            <modifier type="increment" value="1" field="cbfc-731b-08fc-958d">
+            <modifier type="increment" value="1" field="8eee-26f1-24b2-89f1">
               <conditions>
-                <condition type="greaterThan" value="68" field="selections" scope="parent" childId="d769-0d85-e810-df60" shared="true" includeChildSelections="true"/>
+                <condition type="greaterThan" value="23" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
               </conditions>
             </modifier>
-            <modifier type="increment" value="1" field="cbfc-731b-08fc-958d">
+            <modifier type="increment" value="1" field="8eee-26f1-24b2-89f1">
               <conditions>
-                <condition type="greaterThan" value="75" field="selections" scope="parent" childId="d769-0d85-e810-df60" shared="true" includeChildSelections="true"/>
+                <condition type="greaterThan" value="27" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
               </conditions>
             </modifier>
-            <modifier type="increment" value="1" field="cbfc-731b-08fc-958d">
+            <modifier type="increment" value="1" field="8eee-26f1-24b2-89f1">
               <conditions>
-                <condition type="greaterThan" value="82" field="selections" scope="parent" childId="d769-0d85-e810-df60" shared="true" includeChildSelections="true"/>
+                <condition type="greaterThan" value="31" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
               </conditions>
             </modifier>
-            <modifier type="increment" value="1" field="cbfc-731b-08fc-958d">
+            <modifier type="increment" value="1" field="8eee-26f1-24b2-89f1">
               <conditions>
-                <condition type="greaterThan" value="89" field="selections" scope="parent" childId="d769-0d85-e810-df60" shared="true" includeChildSelections="true"/>
+                <condition type="greaterThan" value="35" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
               </conditions>
             </modifier>
-            <modifier type="increment" value="1" field="c1d5-569c-c755-0e07">
+            <modifier type="increment" value="1" field="8eee-26f1-24b2-89f1">
               <conditions>
-                <condition type="greaterThan" value="10" field="selections" scope="parent" childId="d769-0d85-e810-df60" shared="true" includeChildSelections="true"/>
+                <condition type="greaterThan" value="40" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
               </conditions>
             </modifier>
-            <modifier type="increment" value="1" field="c1d5-569c-c755-0e07">
+            <modifier type="increment" value="1" field="8eee-26f1-24b2-89f1">
               <conditions>
-                <condition type="greaterThan" value="13" field="selections" scope="parent" childId="d769-0d85-e810-df60" shared="true" includeChildSelections="true"/>
+                <condition type="greaterThan" value="45" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
               </conditions>
             </modifier>
-            <modifier type="increment" value="1" field="c1d5-569c-c755-0e07">
+            <modifier type="increment" value="1" field="8eee-26f1-24b2-89f1">
               <conditions>
-                <condition type="greaterThan" value="16" field="selections" scope="parent" childId="d769-0d85-e810-df60" shared="true" includeChildSelections="true"/>
+                <condition type="greaterThan" value="50" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
               </conditions>
             </modifier>
-            <modifier type="increment" value="1" field="c1d5-569c-c755-0e07">
+            <modifier type="increment" value="1" field="8eee-26f1-24b2-89f1">
               <conditions>
-                <condition type="greaterThan" value="19" field="selections" scope="parent" childId="d769-0d85-e810-df60" shared="true" includeChildSelections="true"/>
+                <condition type="greaterThan" value="56" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
               </conditions>
             </modifier>
-            <modifier type="increment" value="1" field="c1d5-569c-c755-0e07">
+            <modifier type="increment" value="1" field="8eee-26f1-24b2-89f1">
               <conditions>
-                <condition type="greaterThan" value="23" field="selections" scope="parent" childId="d769-0d85-e810-df60" shared="true" includeChildSelections="true"/>
+                <condition type="greaterThan" value="62" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
               </conditions>
             </modifier>
-            <modifier type="increment" value="1" field="c1d5-569c-c755-0e07">
+            <modifier type="increment" value="1" field="8eee-26f1-24b2-89f1">
               <conditions>
-                <condition type="greaterThan" value="27" field="selections" scope="parent" childId="d769-0d85-e810-df60" shared="true" includeChildSelections="true"/>
+                <condition type="greaterThan" value="68" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
               </conditions>
             </modifier>
-            <modifier type="increment" value="1" field="c1d5-569c-c755-0e07">
+            <modifier type="increment" value="1" field="8eee-26f1-24b2-89f1">
               <conditions>
-                <condition type="greaterThan" value="31" field="selections" scope="parent" childId="d769-0d85-e810-df60" shared="true" includeChildSelections="true"/>
+                <condition type="greaterThan" value="75" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
               </conditions>
             </modifier>
-            <modifier type="increment" value="1" field="c1d5-569c-c755-0e07">
+            <modifier type="increment" value="1" field="8eee-26f1-24b2-89f1">
               <conditions>
-                <condition type="greaterThan" value="35" field="selections" scope="parent" childId="d769-0d85-e810-df60" shared="true" includeChildSelections="true"/>
+                <condition type="greaterThan" value="82" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
               </conditions>
             </modifier>
-            <modifier type="increment" value="1" field="c1d5-569c-c755-0e07">
+            <modifier type="increment" value="1" field="8eee-26f1-24b2-89f1">
               <conditions>
-                <condition type="greaterThan" value="40" field="selections" scope="parent" childId="d769-0d85-e810-df60" shared="true" includeChildSelections="true"/>
+                <condition type="greaterThan" value="89" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
               </conditions>
             </modifier>
-            <modifier type="increment" value="1" field="c1d5-569c-c755-0e07">
+            <modifier type="increment" value="1" field="8eee-26f1-24b2-89f1">
               <conditions>
-                <condition type="greaterThan" value="45" field="selections" scope="parent" childId="d769-0d85-e810-df60" shared="true" includeChildSelections="true"/>
+                <condition type="greaterThan" value="10" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
               </conditions>
             </modifier>
-            <modifier type="increment" value="1" field="c1d5-569c-c755-0e07">
+            <modifier type="increment" value="1" field="8eee-26f1-24b2-89f1">
               <conditions>
-                <condition type="greaterThan" value="50" field="selections" scope="parent" childId="d769-0d85-e810-df60" shared="true" includeChildSelections="true"/>
+                <condition type="greaterThan" value="13" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
               </conditions>
             </modifier>
-            <modifier type="increment" value="1" field="c1d5-569c-c755-0e07">
+            <modifier type="increment" value="1" field="8eee-26f1-24b2-89f1">
               <conditions>
-                <condition type="greaterThan" value="56" field="selections" scope="parent" childId="d769-0d85-e810-df60" shared="true" includeChildSelections="true"/>
+                <condition type="greaterThan" value="16" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
               </conditions>
             </modifier>
-            <modifier type="increment" value="1" field="c1d5-569c-c755-0e07">
+            <modifier type="increment" value="1" field="8eee-26f1-24b2-89f1">
               <conditions>
-                <condition type="greaterThan" value="62" field="selections" scope="parent" childId="d769-0d85-e810-df60" shared="true" includeChildSelections="true"/>
+                <condition type="greaterThan" value="19" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
               </conditions>
             </modifier>
-            <modifier type="increment" value="1" field="c1d5-569c-c755-0e07">
+            <modifier type="increment" value="1" field="ddbc-2ac7-97b9-fe1d">
               <conditions>
-                <condition type="greaterThan" value="68" field="selections" scope="parent" childId="d769-0d85-e810-df60" shared="true" includeChildSelections="true"/>
+                <condition type="greaterThan" value="10" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
               </conditions>
             </modifier>
-            <modifier type="increment" value="1" field="c1d5-569c-c755-0e07">
+            <modifier type="increment" value="1" field="ddbc-2ac7-97b9-fe1d">
               <conditions>
-                <condition type="greaterThan" value="75" field="selections" scope="parent" childId="d769-0d85-e810-df60" shared="true" includeChildSelections="true"/>
+                <condition type="greaterThan" value="13" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
               </conditions>
             </modifier>
-            <modifier type="increment" value="1" field="c1d5-569c-c755-0e07">
+            <modifier type="increment" value="1" field="ddbc-2ac7-97b9-fe1d">
               <conditions>
-                <condition type="greaterThan" value="82" field="selections" scope="parent" childId="d769-0d85-e810-df60" shared="true" includeChildSelections="true"/>
+                <condition type="greaterThan" value="16" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
               </conditions>
             </modifier>
-            <modifier type="increment" value="1" field="c1d5-569c-c755-0e07">
+            <modifier type="increment" value="1" field="ddbc-2ac7-97b9-fe1d">
               <conditions>
-                <condition type="greaterThan" value="89" field="selections" scope="parent" childId="d769-0d85-e810-df60" shared="true" includeChildSelections="true"/>
+                <condition type="greaterThan" value="19" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -1378,7 +1378,7 @@ from a safe distance).</description>
         <categoryLink name="Heroes" hidden="false" id="876b-9718-8850-4d6f" targetId="a0fce0bc-02e0-a064-7a39-5b97ff8a9c94" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Equipment" hidden="false" id="5367-d277-79c3-e1c4" page="0" collective="false" sortIndex="3">
+        <selectionEntry type="upgrade" import="true" name="Equipment" hidden="false" id="5367-d277-79c3-e1c4" page="0" collective="false" sortIndex="4">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="false" id="acb1-6e33-0936-0fd0" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="9b1a-c788-33b4-bf85" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
@@ -1408,7 +1408,7 @@ from a safe distance).</description>
             <cost name="Warband Rating" typeId="wb-rating" value="0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Characteristic Increases" hidden="false" id="8f4c-af48-868c-c98d" page="0" collective="false" sortIndex="2">
+        <selectionEntry type="upgrade" import="true" name="Characteristic Increases" hidden="false" id="8f4c-af48-868c-c98d" page="0" collective="false" sortIndex="3">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="false" id="8690-8076-311d-7c4a" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="c1dc-4f94-0f72-e512" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
@@ -1440,221 +1440,141 @@ from a safe distance).</description>
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink import="true" name="Experience" hidden="false" id="4d7e-c21f-be31-0736" collective="false" targetId="d769-0d85-e810-df60" type="selectionEntry" sortIndex="4">
+        <entryLink import="true" name="Experience" hidden="false" id="4d7e-c21f-be31-0736" collective="false" targetId="d769-0d85-e810-df60" type="selectionEntry" sortIndex="2">
           <constraints>
             <constraint type="min" value="20" field="selections" scope="parent" shared="true" id="4a8a-52d7-233f-b291" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
           </constraints>
         </entryLink>
         <entryLink import="true" name="Advancement (Hero)" hidden="false" id="a393-071f-daea-4a22" type="selectionEntry" targetId="58d8-3f16-6d18-b1d2" sortIndex="1">
           <modifiers>
-            <modifier type="increment" value="1" field="cbfc-731b-08fc-958d">
+            <modifier type="increment" value="1" field="ddbc-2ac7-97b9-fe1d">
               <conditions>
-                <condition type="greaterThan" value="1" field="selections" scope="parent" childId="d769-0d85-e810-df60" shared="true" includeChildSelections="true"/>
+                <condition type="greaterThan" value="23" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
               </conditions>
             </modifier>
-            <modifier type="increment" value="1" field="cbfc-731b-08fc-958d">
+            <modifier type="increment" value="1" field="ddbc-2ac7-97b9-fe1d">
               <conditions>
-                <condition type="greaterThan" value="3" field="selections" scope="parent" childId="c26e-414e-293-2621" shared="true" includeChildSelections="true"/>
+                <condition type="greaterThan" value="27" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
               </conditions>
             </modifier>
-            <modifier type="increment" value="1" field="cbfc-731b-08fc-958d">
+            <modifier type="increment" value="1" field="ddbc-2ac7-97b9-fe1d">
               <conditions>
-                <condition type="greaterThan" value="5" field="selections" scope="parent" childId="c26e-414e-293-2621" shared="true" includeChildSelections="true"/>
+                <condition type="greaterThan" value="31" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
               </conditions>
             </modifier>
-            <modifier type="increment" value="1" field="cbfc-731b-08fc-958d">
+            <modifier type="increment" value="1" field="ddbc-2ac7-97b9-fe1d">
               <conditions>
-                <condition type="greaterThan" value="7" field="selections" scope="parent" childId="c26e-414e-293-2621" shared="true" includeChildSelections="true"/>
+                <condition type="greaterThan" value="35" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
               </conditions>
             </modifier>
-            <modifier type="increment" value="1" field="cbfc-731b-08fc-958d">
+            <modifier type="increment" value="1" field="ddbc-2ac7-97b9-fe1d">
               <conditions>
-                <condition type="greaterThan" value="10" field="selections" scope="parent" childId="c26e-414e-293-2621" shared="true" includeChildSelections="true"/>
+                <condition type="greaterThan" value="40" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
               </conditions>
             </modifier>
-            <modifier type="increment" value="1" field="cbfc-731b-08fc-958d">
+            <modifier type="increment" value="1" field="ddbc-2ac7-97b9-fe1d">
               <conditions>
-                <condition type="greaterThan" value="13" field="selections" scope="parent" childId="c26e-414e-293-2621" shared="true" includeChildSelections="true"/>
+                <condition type="greaterThan" value="45" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
               </conditions>
             </modifier>
-            <modifier type="increment" value="1" field="cbfc-731b-08fc-958d">
+            <modifier type="increment" value="1" field="ddbc-2ac7-97b9-fe1d">
               <conditions>
-                <condition type="greaterThan" value="16" field="selections" scope="parent" childId="c26e-414e-293-2621" shared="true" includeChildSelections="true"/>
+                <condition type="greaterThan" value="50" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
               </conditions>
             </modifier>
-            <modifier type="increment" value="1" field="cbfc-731b-08fc-958d">
+            <modifier type="increment" value="1" field="ddbc-2ac7-97b9-fe1d">
               <conditions>
-                <condition type="greaterThan" value="19" field="selections" scope="parent" childId="c26e-414e-293-2621" shared="true" includeChildSelections="true"/>
+                <condition type="greaterThan" value="56" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
               </conditions>
             </modifier>
-            <modifier type="increment" value="1" field="cbfc-731b-08fc-958d">
+            <modifier type="increment" value="1" field="ddbc-2ac7-97b9-fe1d">
               <conditions>
-                <condition type="greaterThan" value="23" field="selections" scope="parent" childId="c26e-414e-293-2621" shared="true" includeChildSelections="true"/>
+                <condition type="greaterThan" value="62" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
               </conditions>
             </modifier>
-            <modifier type="increment" value="1" field="cbfc-731b-08fc-958d">
+            <modifier type="increment" value="1" field="ddbc-2ac7-97b9-fe1d">
               <conditions>
-                <condition type="greaterThan" value="27" field="selections" scope="parent" childId="c26e-414e-293-2621" shared="true" includeChildSelections="true"/>
+                <condition type="greaterThan" value="68" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
               </conditions>
             </modifier>
-            <modifier type="increment" value="1" field="cbfc-731b-08fc-958d">
+            <modifier type="increment" value="1" field="ddbc-2ac7-97b9-fe1d">
               <conditions>
-                <condition type="greaterThan" value="31" field="selections" scope="parent" childId="c26e-414e-293-2621" shared="true" includeChildSelections="true"/>
+                <condition type="greaterThan" value="75" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
               </conditions>
             </modifier>
-            <modifier type="increment" value="1" field="cbfc-731b-08fc-958d">
+            <modifier type="increment" value="1" field="ddbc-2ac7-97b9-fe1d">
               <conditions>
-                <condition type="greaterThan" value="35" field="selections" scope="parent" childId="c26e-414e-293-2621" shared="true" includeChildSelections="true"/>
+                <condition type="greaterThan" value="82" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
               </conditions>
             </modifier>
-            <modifier type="increment" value="1" field="cbfc-731b-08fc-958d">
+            <modifier type="increment" value="1" field="ddbc-2ac7-97b9-fe1d">
               <conditions>
-                <condition type="greaterThan" value="40" field="selections" scope="parent" childId="c26e-414e-293-2621" shared="true" includeChildSelections="true"/>
+                <condition type="greaterThan" value="89" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
               </conditions>
             </modifier>
-            <modifier type="increment" value="1" field="cbfc-731b-08fc-958d">
+            <modifier type="increment" value="1" field="8eee-26f1-24b2-89f1">
               <conditions>
-                <condition type="greaterThan" value="45" field="selections" scope="parent" childId="c26e-414e-293-2621" shared="true" includeChildSelections="true"/>
+                <condition type="greaterThan" value="23" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
               </conditions>
             </modifier>
-            <modifier type="increment" value="1" field="cbfc-731b-08fc-958d">
+            <modifier type="increment" value="1" field="8eee-26f1-24b2-89f1">
               <conditions>
-                <condition type="greaterThan" value="50" field="selections" scope="parent" childId="c26e-414e-293-2621" shared="true" includeChildSelections="true"/>
+                <condition type="greaterThan" value="27" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
               </conditions>
             </modifier>
-            <modifier type="increment" value="1" field="cbfc-731b-08fc-958d">
+            <modifier type="increment" value="1" field="8eee-26f1-24b2-89f1">
               <conditions>
-                <condition type="greaterThan" value="56" field="selections" scope="parent" childId="c26e-414e-293-2621" shared="true" includeChildSelections="true"/>
+                <condition type="greaterThan" value="31" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
               </conditions>
             </modifier>
-            <modifier type="increment" value="1" field="cbfc-731b-08fc-958d">
+            <modifier type="increment" value="1" field="8eee-26f1-24b2-89f1">
               <conditions>
-                <condition type="greaterThan" value="62" field="selections" scope="parent" childId="c26e-414e-293-2621" shared="true" includeChildSelections="true"/>
+                <condition type="greaterThan" value="35" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
               </conditions>
             </modifier>
-            <modifier type="increment" value="1" field="cbfc-731b-08fc-958d">
+            <modifier type="increment" value="1" field="8eee-26f1-24b2-89f1">
               <conditions>
-                <condition type="greaterThan" value="68" field="selections" scope="parent" childId="c26e-414e-293-2621" shared="true" includeChildSelections="true"/>
+                <condition type="greaterThan" value="40" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
               </conditions>
             </modifier>
-            <modifier type="increment" value="1" field="cbfc-731b-08fc-958d">
+            <modifier type="increment" value="1" field="8eee-26f1-24b2-89f1">
               <conditions>
-                <condition type="greaterThan" value="75" field="selections" scope="parent" childId="c26e-414e-293-2621" shared="true" includeChildSelections="true"/>
+                <condition type="greaterThan" value="45" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
               </conditions>
             </modifier>
-            <modifier type="increment" value="1" field="cbfc-731b-08fc-958d">
+            <modifier type="increment" value="1" field="8eee-26f1-24b2-89f1">
               <conditions>
-                <condition type="greaterThan" value="82" field="selections" scope="parent" childId="c26e-414e-293-2621" shared="true" includeChildSelections="true"/>
+                <condition type="greaterThan" value="50" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
               </conditions>
             </modifier>
-            <modifier type="increment" value="1" field="cbfc-731b-08fc-958d">
+            <modifier type="increment" value="1" field="8eee-26f1-24b2-89f1">
               <conditions>
-                <condition type="greaterThan" value="89" field="selections" scope="parent" childId="c26e-414e-293-2621" shared="true" includeChildSelections="true"/>
+                <condition type="greaterThan" value="56" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
               </conditions>
             </modifier>
-            <modifier type="increment" value="1" field="c1d5-569c-c755-0e07">
+            <modifier type="increment" value="1" field="8eee-26f1-24b2-89f1">
               <conditions>
-                <condition type="greaterThan" value="1" field="selections" scope="parent" childId="c26e-414e-293-2621" shared="true" includeChildSelections="true"/>
+                <condition type="greaterThan" value="62" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
               </conditions>
             </modifier>
-            <modifier type="increment" value="1" field="c1d5-569c-c755-0e07">
+            <modifier type="increment" value="1" field="8eee-26f1-24b2-89f1">
               <conditions>
-                <condition type="greaterThan" value="3" field="selections" scope="parent" childId="c26e-414e-293-2621" shared="true" includeChildSelections="true"/>
+                <condition type="greaterThan" value="68" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
               </conditions>
             </modifier>
-            <modifier type="increment" value="1" field="c1d5-569c-c755-0e07">
+            <modifier type="increment" value="1" field="8eee-26f1-24b2-89f1">
               <conditions>
-                <condition type="greaterThan" value="5" field="selections" scope="parent" childId="c26e-414e-293-2621" shared="true" includeChildSelections="true"/>
+                <condition type="greaterThan" value="75" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
               </conditions>
             </modifier>
-            <modifier type="increment" value="1" field="c1d5-569c-c755-0e07">
+            <modifier type="increment" value="1" field="8eee-26f1-24b2-89f1">
               <conditions>
-                <condition type="greaterThan" value="7" field="selections" scope="parent" childId="c26e-414e-293-2621" shared="true" includeChildSelections="true"/>
+                <condition type="greaterThan" value="82" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
               </conditions>
             </modifier>
-            <modifier type="increment" value="1" field="c1d5-569c-c755-0e07">
+            <modifier type="increment" value="1" field="8eee-26f1-24b2-89f1">
               <conditions>
-                <condition type="greaterThan" value="10" field="selections" scope="parent" childId="c26e-414e-293-2621" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" value="1" field="c1d5-569c-c755-0e07">
-              <conditions>
-                <condition type="greaterThan" value="13" field="selections" scope="parent" childId="c26e-414e-293-2621" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" value="1" field="c1d5-569c-c755-0e07">
-              <conditions>
-                <condition type="greaterThan" value="16" field="selections" scope="parent" childId="c26e-414e-293-2621" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" value="1" field="c1d5-569c-c755-0e07">
-              <conditions>
-                <condition type="greaterThan" value="19" field="selections" scope="parent" childId="c26e-414e-293-2621" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" value="1" field="c1d5-569c-c755-0e07">
-              <conditions>
-                <condition type="greaterThan" value="23" field="selections" scope="parent" childId="c26e-414e-293-2621" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" value="1" field="c1d5-569c-c755-0e07">
-              <conditions>
-                <condition type="greaterThan" value="27" field="selections" scope="parent" childId="c26e-414e-293-2621" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" value="1" field="c1d5-569c-c755-0e07">
-              <conditions>
-                <condition type="greaterThan" value="31" field="selections" scope="parent" childId="c26e-414e-293-2621" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" value="1" field="c1d5-569c-c755-0e07">
-              <conditions>
-                <condition type="greaterThan" value="35" field="selections" scope="parent" childId="c26e-414e-293-2621" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" value="1" field="c1d5-569c-c755-0e07">
-              <conditions>
-                <condition type="greaterThan" value="40" field="selections" scope="parent" childId="c26e-414e-293-2621" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" value="1" field="c1d5-569c-c755-0e07">
-              <conditions>
-                <condition type="greaterThan" value="45" field="selections" scope="parent" childId="c26e-414e-293-2621" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" value="1" field="c1d5-569c-c755-0e07">
-              <conditions>
-                <condition type="greaterThan" value="50" field="selections" scope="parent" childId="c26e-414e-293-2621" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" value="1" field="c1d5-569c-c755-0e07">
-              <conditions>
-                <condition type="greaterThan" value="56" field="selections" scope="parent" childId="c26e-414e-293-2621" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" value="1" field="c1d5-569c-c755-0e07">
-              <conditions>
-                <condition type="greaterThan" value="62" field="selections" scope="parent" childId="c26e-414e-293-2621" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" value="1" field="c1d5-569c-c755-0e07">
-              <conditions>
-                <condition type="greaterThan" value="68" field="selections" scope="parent" childId="c26e-414e-293-2621" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" value="1" field="c1d5-569c-c755-0e07">
-              <conditions>
-                <condition type="greaterThan" value="75" field="selections" scope="parent" childId="c26e-414e-293-2621" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" value="1" field="c1d5-569c-c755-0e07">
-              <conditions>
-                <condition type="greaterThan" value="82" field="selections" scope="parent" childId="c26e-414e-293-2621" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" value="1" field="c1d5-569c-c755-0e07">
-              <conditions>
-                <condition type="greaterThan" value="89" field="selections" scope="parent" childId="c26e-414e-293-2621" shared="true" includeChildSelections="true"/>
+                <condition type="greaterThan" value="89" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -1850,270 +1770,270 @@ from a safe distance).</description>
       <entryLinks>
         <entryLink import="true" name="Experience" hidden="false" id="148b-f558-079c-fc26" collective="false" targetId="d769-0d85-e810-df60" type="selectionEntry" sortIndex="5"/>
         <entryLink import="true" name="Promoted" hidden="false" id="b224-678d-2cee-dd2f" collective="false" targetId="0f2c78d6-e019-6b88-136a-9e00031645e5" type="selectionEntry" sortIndex="6"/>
-        <entryLink import="true" name="Advancement (Henchmen)" hidden="false" id="8338-0b59-98fb-427f" type="selectionEntry" targetId="583e-a0c5-873-acdc" sortIndex="1">
+        <entryLink import="true" name="Advancement (Henchmen)" hidden="false" id="8338-0b59-98fb-427f" type="selectionEntry" targetId="672a-c6fb-d1d0-5c4c" sortIndex="1">
           <modifiers>
-            <modifier type="increment" value="1" field="5feb-168d-0f82-f739">
-              <conditions>
-                <condition type="greaterThan" value="1" field="selections" scope="parent" childId="583e-a0c5-873-acdc" shared="true" includeChildSelections="false"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" value="1" field="5feb-168d-0f82-f739">
-              <conditions>
-                <condition type="greaterThan" value="4" field="selections" scope="parent" childId="583e-a0c5-873-acdc" shared="true" includeChildSelections="false"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" value="1" field="5feb-168d-0f82-f739">
-              <conditions>
-                <condition type="greaterThan" value="8" field="selections" scope="parent" childId="583e-a0c5-873-acdc" shared="true" includeChildSelections="false"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" value="1" field="5feb-168d-0f82-f739">
-              <conditions>
-                <condition type="greaterThan" value="13" field="selections" scope="parent" childId="583e-a0c5-873-acdc" shared="true" includeChildSelections="false"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" value="1" field="f476-aea1-3a67-fc2d">
-              <conditions>
-                <condition type="greaterThan" value="1" field="selections" scope="parent" childId="583e-a0c5-873-acdc" shared="true" includeChildSelections="false"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" value="1" field="f476-aea1-3a67-fc2d">
-              <conditions>
-                <condition type="greaterThan" value="4" field="selections" scope="parent" childId="583e-a0c5-873-acdc" shared="true" includeChildSelections="false"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" value="1" field="f476-aea1-3a67-fc2d">
-              <conditions>
-                <condition type="greaterThan" value="8" field="selections" scope="parent" childId="583e-a0c5-873-acdc" shared="true" includeChildSelections="false"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" value="1" field="f476-aea1-3a67-fc2d">
-              <conditions>
-                <condition type="greaterThan" value="13" field="selections" scope="parent" childId="583e-a0c5-873-acdc" shared="true" includeChildSelections="false"/>
-              </conditions>
-            </modifier>
             <modifier type="set" value="true" field="hidden">
               <conditions>
                 <condition type="atLeast" value="1" field="selections" scope="parent" childId="0f2c78d6-e019-6b88-136a-9e00031645e5" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
               </conditions>
             </modifier>
+            <modifier type="increment" value="1" field="cb7f-7be7-a042-c941">
+              <conditions>
+                <condition type="greaterThan" value="1" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="false"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="1" field="cb7f-7be7-a042-c941">
+              <conditions>
+                <condition type="greaterThan" value="4" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="false"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="1" field="cb7f-7be7-a042-c941">
+              <conditions>
+                <condition type="greaterThan" value="8" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="false"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="1" field="cb7f-7be7-a042-c941">
+              <conditions>
+                <condition type="greaterThan" value="13" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="false"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="1" field="11ea-2487-41c2-b42e">
+              <conditions>
+                <condition type="greaterThan" value="1" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="false"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="1" field="11ea-2487-41c2-b42e">
+              <conditions>
+                <condition type="greaterThan" value="4" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="false"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="1" field="11ea-2487-41c2-b42e">
+              <conditions>
+                <condition type="greaterThan" value="8" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="false"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="1" field="11ea-2487-41c2-b42e">
+              <conditions>
+                <condition type="greaterThan" value="13" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="false"/>
+              </conditions>
+            </modifier>
           </modifiers>
         </entryLink>
-        <entryLink import="true" name="Advancement (Hero)" hidden="true" id="0c8a-c3e5-b2cb-1ec2" type="selectionEntry" targetId="c26e-414e-293-2621" sortIndex="2">
+        <entryLink import="true" name="Advancement (Hero)" hidden="true" id="0c8a-c3e5-b2cb-1ec2" type="selectionEntry" targetId="58d8-3f16-6d18-b1d2" sortIndex="2">
           <modifiers>
-            <modifier type="increment" value="1" field="cbfc-731b-08fc-958d">
-              <conditions>
-                <condition type="greaterThan" value="1" field="selections" scope="parent" childId="c26e-414e-293-2621" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" value="1" field="cbfc-731b-08fc-958d">
-              <conditions>
-                <condition type="greaterThan" value="3" field="selections" scope="parent" childId="c26e-414e-293-2621" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" value="1" field="cbfc-731b-08fc-958d">
-              <conditions>
-                <condition type="greaterThan" value="5" field="selections" scope="parent" childId="c26e-414e-293-2621" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" value="1" field="cbfc-731b-08fc-958d">
-              <conditions>
-                <condition type="greaterThan" value="7" field="selections" scope="parent" childId="c26e-414e-293-2621" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" value="1" field="cbfc-731b-08fc-958d">
-              <conditions>
-                <condition type="greaterThan" value="10" field="selections" scope="parent" childId="c26e-414e-293-2621" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" value="1" field="cbfc-731b-08fc-958d">
-              <conditions>
-                <condition type="greaterThan" value="13" field="selections" scope="parent" childId="c26e-414e-293-2621" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" value="1" field="cbfc-731b-08fc-958d">
-              <conditions>
-                <condition type="greaterThan" value="16" field="selections" scope="parent" childId="c26e-414e-293-2621" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" value="1" field="cbfc-731b-08fc-958d">
-              <conditions>
-                <condition type="greaterThan" value="19" field="selections" scope="parent" childId="c26e-414e-293-2621" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" value="1" field="cbfc-731b-08fc-958d">
-              <conditions>
-                <condition type="greaterThan" value="23" field="selections" scope="parent" childId="c26e-414e-293-2621" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" value="1" field="cbfc-731b-08fc-958d">
-              <conditions>
-                <condition type="greaterThan" value="27" field="selections" scope="parent" childId="c26e-414e-293-2621" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" value="1" field="cbfc-731b-08fc-958d">
-              <conditions>
-                <condition type="greaterThan" value="31" field="selections" scope="parent" childId="c26e-414e-293-2621" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" value="1" field="cbfc-731b-08fc-958d">
-              <conditions>
-                <condition type="greaterThan" value="35" field="selections" scope="parent" childId="c26e-414e-293-2621" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" value="1" field="cbfc-731b-08fc-958d">
-              <conditions>
-                <condition type="greaterThan" value="40" field="selections" scope="parent" childId="c26e-414e-293-2621" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" value="1" field="cbfc-731b-08fc-958d">
-              <conditions>
-                <condition type="greaterThan" value="45" field="selections" scope="parent" childId="c26e-414e-293-2621" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" value="1" field="cbfc-731b-08fc-958d">
-              <conditions>
-                <condition type="greaterThan" value="50" field="selections" scope="parent" childId="c26e-414e-293-2621" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" value="1" field="cbfc-731b-08fc-958d">
-              <conditions>
-                <condition type="greaterThan" value="56" field="selections" scope="parent" childId="c26e-414e-293-2621" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" value="1" field="cbfc-731b-08fc-958d">
-              <conditions>
-                <condition type="greaterThan" value="62" field="selections" scope="parent" childId="c26e-414e-293-2621" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" value="1" field="cbfc-731b-08fc-958d">
-              <conditions>
-                <condition type="greaterThan" value="68" field="selections" scope="parent" childId="c26e-414e-293-2621" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" value="1" field="cbfc-731b-08fc-958d">
-              <conditions>
-                <condition type="greaterThan" value="75" field="selections" scope="parent" childId="c26e-414e-293-2621" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" value="1" field="cbfc-731b-08fc-958d">
-              <conditions>
-                <condition type="greaterThan" value="82" field="selections" scope="parent" childId="c26e-414e-293-2621" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" value="1" field="cbfc-731b-08fc-958d">
-              <conditions>
-                <condition type="greaterThan" value="89" field="selections" scope="parent" childId="c26e-414e-293-2621" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" value="1" field="c1d5-569c-c755-0e07">
-              <conditions>
-                <condition type="greaterThan" value="1" field="selections" scope="parent" childId="c26e-414e-293-2621" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" value="1" field="c1d5-569c-c755-0e07">
-              <conditions>
-                <condition type="greaterThan" value="3" field="selections" scope="parent" childId="c26e-414e-293-2621" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" value="1" field="c1d5-569c-c755-0e07">
-              <conditions>
-                <condition type="greaterThan" value="5" field="selections" scope="parent" childId="c26e-414e-293-2621" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" value="1" field="c1d5-569c-c755-0e07">
-              <conditions>
-                <condition type="greaterThan" value="7" field="selections" scope="parent" childId="c26e-414e-293-2621" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" value="1" field="c1d5-569c-c755-0e07">
-              <conditions>
-                <condition type="greaterThan" value="10" field="selections" scope="parent" childId="c26e-414e-293-2621" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" value="1" field="c1d5-569c-c755-0e07">
-              <conditions>
-                <condition type="greaterThan" value="13" field="selections" scope="parent" childId="c26e-414e-293-2621" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" value="1" field="c1d5-569c-c755-0e07">
-              <conditions>
-                <condition type="greaterThan" value="16" field="selections" scope="parent" childId="c26e-414e-293-2621" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" value="1" field="c1d5-569c-c755-0e07">
-              <conditions>
-                <condition type="greaterThan" value="19" field="selections" scope="parent" childId="c26e-414e-293-2621" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" value="1" field="c1d5-569c-c755-0e07">
-              <conditions>
-                <condition type="greaterThan" value="23" field="selections" scope="parent" childId="c26e-414e-293-2621" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" value="1" field="c1d5-569c-c755-0e07">
-              <conditions>
-                <condition type="greaterThan" value="27" field="selections" scope="parent" childId="c26e-414e-293-2621" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" value="1" field="c1d5-569c-c755-0e07">
-              <conditions>
-                <condition type="greaterThan" value="31" field="selections" scope="parent" childId="c26e-414e-293-2621" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" value="1" field="c1d5-569c-c755-0e07">
-              <conditions>
-                <condition type="greaterThan" value="35" field="selections" scope="parent" childId="c26e-414e-293-2621" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" value="1" field="c1d5-569c-c755-0e07">
-              <conditions>
-                <condition type="greaterThan" value="40" field="selections" scope="parent" childId="c26e-414e-293-2621" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" value="1" field="c1d5-569c-c755-0e07">
-              <conditions>
-                <condition type="greaterThan" value="45" field="selections" scope="parent" childId="c26e-414e-293-2621" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" value="1" field="c1d5-569c-c755-0e07">
-              <conditions>
-                <condition type="greaterThan" value="50" field="selections" scope="parent" childId="c26e-414e-293-2621" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" value="1" field="c1d5-569c-c755-0e07">
-              <conditions>
-                <condition type="greaterThan" value="56" field="selections" scope="parent" childId="c26e-414e-293-2621" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" value="1" field="c1d5-569c-c755-0e07">
-              <conditions>
-                <condition type="greaterThan" value="62" field="selections" scope="parent" childId="c26e-414e-293-2621" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" value="1" field="c1d5-569c-c755-0e07">
-              <conditions>
-                <condition type="greaterThan" value="68" field="selections" scope="parent" childId="c26e-414e-293-2621" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" value="1" field="c1d5-569c-c755-0e07">
-              <conditions>
-                <condition type="greaterThan" value="75" field="selections" scope="parent" childId="c26e-414e-293-2621" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" value="1" field="c1d5-569c-c755-0e07">
-              <conditions>
-                <condition type="greaterThan" value="82" field="selections" scope="parent" childId="c26e-414e-293-2621" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" value="1" field="c1d5-569c-c755-0e07">
-              <conditions>
-                <condition type="greaterThan" value="89" field="selections" scope="parent" childId="c26e-414e-293-2621" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
             <modifier type="set" value="false" field="hidden">
               <conditions>
                 <condition type="atLeast" value="1" field="selections" scope="parent" childId="0f2c78d6-e019-6b88-136a-9e00031645e5" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="1" field="ddbc-2ac7-97b9-fe1d">
+              <conditions>
+                <condition type="greaterThan" value="1" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="1" field="ddbc-2ac7-97b9-fe1d">
+              <conditions>
+                <condition type="greaterThan" value="3" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="1" field="ddbc-2ac7-97b9-fe1d">
+              <conditions>
+                <condition type="greaterThan" value="5" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="1" field="ddbc-2ac7-97b9-fe1d">
+              <conditions>
+                <condition type="greaterThan" value="7" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="1" field="ddbc-2ac7-97b9-fe1d">
+              <conditions>
+                <condition type="greaterThan" value="10" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="1" field="ddbc-2ac7-97b9-fe1d">
+              <conditions>
+                <condition type="greaterThan" value="13" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="1" field="ddbc-2ac7-97b9-fe1d">
+              <conditions>
+                <condition type="greaterThan" value="16" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="1" field="ddbc-2ac7-97b9-fe1d">
+              <conditions>
+                <condition type="greaterThan" value="19" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="1" field="ddbc-2ac7-97b9-fe1d">
+              <conditions>
+                <condition type="greaterThan" value="23" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="1" field="ddbc-2ac7-97b9-fe1d">
+              <conditions>
+                <condition type="greaterThan" value="27" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="1" field="ddbc-2ac7-97b9-fe1d">
+              <conditions>
+                <condition type="greaterThan" value="31" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="1" field="ddbc-2ac7-97b9-fe1d">
+              <conditions>
+                <condition type="greaterThan" value="35" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="1" field="ddbc-2ac7-97b9-fe1d">
+              <conditions>
+                <condition type="greaterThan" value="40" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="1" field="ddbc-2ac7-97b9-fe1d">
+              <conditions>
+                <condition type="greaterThan" value="45" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="1" field="ddbc-2ac7-97b9-fe1d">
+              <conditions>
+                <condition type="greaterThan" value="50" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="1" field="ddbc-2ac7-97b9-fe1d">
+              <conditions>
+                <condition type="greaterThan" value="56" field="selections" scope="parent" childId="c26e-414e-293-2621" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="1" field="ddbc-2ac7-97b9-fe1d">
+              <conditions>
+                <condition type="greaterThan" value="62" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="1" field="ddbc-2ac7-97b9-fe1d">
+              <conditions>
+                <condition type="greaterThan" value="68" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="1" field="ddbc-2ac7-97b9-fe1d">
+              <conditions>
+                <condition type="greaterThan" value="75" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="1" field="ddbc-2ac7-97b9-fe1d">
+              <conditions>
+                <condition type="greaterThan" value="82" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="1" field="ddbc-2ac7-97b9-fe1d">
+              <conditions>
+                <condition type="greaterThan" value="89" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="1" field="8eee-26f1-24b2-89f1">
+              <conditions>
+                <condition type="greaterThan" value="1" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="1" field="8eee-26f1-24b2-89f1">
+              <conditions>
+                <condition type="greaterThan" value="3" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="1" field="8eee-26f1-24b2-89f1">
+              <conditions>
+                <condition type="greaterThan" value="5" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="1" field="8eee-26f1-24b2-89f1">
+              <conditions>
+                <condition type="greaterThan" value="7" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="1" field="8eee-26f1-24b2-89f1">
+              <conditions>
+                <condition type="greaterThan" value="10" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="1" field="8eee-26f1-24b2-89f1">
+              <conditions>
+                <condition type="greaterThan" value="13" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="1" field="8eee-26f1-24b2-89f1">
+              <conditions>
+                <condition type="greaterThan" value="16" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="1" field="8eee-26f1-24b2-89f1">
+              <conditions>
+                <condition type="greaterThan" value="19" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="1" field="8eee-26f1-24b2-89f1">
+              <conditions>
+                <condition type="greaterThan" value="23" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="1" field="8eee-26f1-24b2-89f1">
+              <conditions>
+                <condition type="greaterThan" value="27" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="1" field="8eee-26f1-24b2-89f1">
+              <conditions>
+                <condition type="greaterThan" value="31" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="1" field="8eee-26f1-24b2-89f1">
+              <conditions>
+                <condition type="greaterThan" value="35" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="1" field="8eee-26f1-24b2-89f1">
+              <conditions>
+                <condition type="greaterThan" value="40" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="1" field="8eee-26f1-24b2-89f1">
+              <conditions>
+                <condition type="greaterThan" value="45" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="1" field="8eee-26f1-24b2-89f1">
+              <conditions>
+                <condition type="greaterThan" value="50" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="1" field="8eee-26f1-24b2-89f1">
+              <conditions>
+                <condition type="greaterThan" value="56" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="1" field="8eee-26f1-24b2-89f1">
+              <conditions>
+                <condition type="greaterThan" value="62" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="1" field="8eee-26f1-24b2-89f1">
+              <conditions>
+                <condition type="greaterThan" value="68" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="1" field="8eee-26f1-24b2-89f1">
+              <conditions>
+                <condition type="greaterThan" value="75" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="1" field="8eee-26f1-24b2-89f1">
+              <conditions>
+                <condition type="greaterThan" value="82" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="1" field="8eee-26f1-24b2-89f1">
+              <conditions>
+                <condition type="greaterThan" value="89" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -2239,7 +2159,7 @@ from a safe distance).</description>
         <categoryLink name="Heroes" hidden="false" id="67b2-5a8f-70a7-b493" targetId="a0fce0bc-02e0-a064-7a39-5b97ff8a9c94" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry type="upgrade" import="true" name="Equipment" hidden="false" id="6f70-8c7d-4edd-c014" page="0" collective="false" sortIndex="3">
+        <selectionEntry type="upgrade" import="true" name="Equipment" hidden="false" id="6f70-8c7d-4edd-c014" page="0" collective="false" sortIndex="4">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="false" id="2d91-016c-1d51-5eac" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="26b1-4d63-d496-c30b" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
@@ -2265,7 +2185,7 @@ from a safe distance).</description>
             <cost name="Warband Rating" typeId="wb-rating" value="0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry type="upgrade" import="true" name="Characteristic Increases" hidden="false" id="ae04-c203-fb12-7ac7" page="0" collective="false" sortIndex="2">
+        <selectionEntry type="upgrade" import="true" name="Characteristic Increases" hidden="false" id="ae04-c203-fb12-7ac7" page="0" collective="false" sortIndex="3">
           <constraints>
             <constraint type="min" value="1" field="selections" scope="parent" shared="false" id="4021-50f2-b935-ae97" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="a742-7610-2915-d81d" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
@@ -2295,182 +2215,182 @@ from a safe distance).</description>
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink import="true" name="Experience" hidden="false" id="1c5e-29bd-7f61-59a2" collective="false" targetId="d769-0d85-e810-df60" type="selectionEntry" sortIndex="4">
+        <entryLink import="true" name="Experience" hidden="false" id="1c5e-29bd-7f61-59a2" collective="false" targetId="d769-0d85-e810-df60" type="selectionEntry" sortIndex="2">
           <constraints>
             <constraint type="min" value="12" field="selections" scope="parent" shared="true" id="2b5d-8321-53c2-895a" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
           </constraints>
         </entryLink>
         <entryLink import="true" name="Magic" hidden="false" id="710f-ece3-1de8-3d82" collective="false" targetId="0c29-5ce4-ba2b-9f51" type="selectionEntryGroup" sortIndex="7"/>
-        <entryLink import="true" name="Advancement (Hero)" hidden="false" id="a188-32f3-313d-4200" type="selectionEntry" targetId="c26e-414e-293-2621" sortIndex="1">
+        <entryLink import="true" name="Advancement (Hero)" hidden="false" id="a188-32f3-313d-4200" type="selectionEntry" targetId="58d8-3f16-6d18-b1d2" sortIndex="1">
           <modifiers>
-            <modifier type="increment" value="1" field="cbfc-731b-08fc-958d">
+            <modifier type="increment" value="1" field="ddbc-2ac7-97b9-fe1d">
               <conditions>
-                <condition type="greaterThan" value="10" field="selections" scope="parent" childId="d769-0d85-e810-df60" shared="true" includeChildSelections="true"/>
+                <condition type="greaterThan" value="10" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
               </conditions>
             </modifier>
-            <modifier type="increment" value="1" field="cbfc-731b-08fc-958d">
+            <modifier type="increment" value="1" field="ddbc-2ac7-97b9-fe1d">
               <conditions>
-                <condition type="greaterThan" value="13" field="selections" scope="parent" childId="d769-0d85-e810-df60" shared="true" includeChildSelections="true"/>
+                <condition type="greaterThan" value="13" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
               </conditions>
             </modifier>
-            <modifier type="increment" value="1" field="cbfc-731b-08fc-958d">
+            <modifier type="increment" value="1" field="ddbc-2ac7-97b9-fe1d">
               <conditions>
-                <condition type="greaterThan" value="16" field="selections" scope="parent" childId="d769-0d85-e810-df60" shared="true" includeChildSelections="true"/>
+                <condition type="greaterThan" value="16" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
               </conditions>
             </modifier>
-            <modifier type="increment" value="1" field="cbfc-731b-08fc-958d">
+            <modifier type="increment" value="1" field="ddbc-2ac7-97b9-fe1d">
               <conditions>
-                <condition type="greaterThan" value="19" field="selections" scope="parent" childId="d769-0d85-e810-df60" shared="true" includeChildSelections="true"/>
+                <condition type="greaterThan" value="19" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
               </conditions>
             </modifier>
-            <modifier type="increment" value="1" field="cbfc-731b-08fc-958d">
+            <modifier type="increment" value="1" field="ddbc-2ac7-97b9-fe1d">
               <conditions>
-                <condition type="greaterThan" value="23" field="selections" scope="parent" childId="d769-0d85-e810-df60" shared="true" includeChildSelections="true"/>
+                <condition type="greaterThan" value="23" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
               </conditions>
             </modifier>
-            <modifier type="increment" value="1" field="cbfc-731b-08fc-958d">
+            <modifier type="increment" value="1" field="ddbc-2ac7-97b9-fe1d">
               <conditions>
-                <condition type="greaterThan" value="27" field="selections" scope="parent" childId="d769-0d85-e810-df60" shared="true" includeChildSelections="true"/>
+                <condition type="greaterThan" value="27" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
               </conditions>
             </modifier>
-            <modifier type="increment" value="1" field="cbfc-731b-08fc-958d">
+            <modifier type="increment" value="1" field="ddbc-2ac7-97b9-fe1d">
               <conditions>
-                <condition type="greaterThan" value="31" field="selections" scope="parent" childId="d769-0d85-e810-df60" shared="true" includeChildSelections="true"/>
+                <condition type="greaterThan" value="31" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
               </conditions>
             </modifier>
-            <modifier type="increment" value="1" field="cbfc-731b-08fc-958d">
+            <modifier type="increment" value="1" field="ddbc-2ac7-97b9-fe1d">
               <conditions>
-                <condition type="greaterThan" value="35" field="selections" scope="parent" childId="d769-0d85-e810-df60" shared="true" includeChildSelections="true"/>
+                <condition type="greaterThan" value="35" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
               </conditions>
             </modifier>
-            <modifier type="increment" value="1" field="cbfc-731b-08fc-958d">
+            <modifier type="increment" value="1" field="ddbc-2ac7-97b9-fe1d">
               <conditions>
-                <condition type="greaterThan" value="40" field="selections" scope="parent" childId="d769-0d85-e810-df60" shared="true" includeChildSelections="true"/>
+                <condition type="greaterThan" value="40" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
               </conditions>
             </modifier>
-            <modifier type="increment" value="1" field="cbfc-731b-08fc-958d">
+            <modifier type="increment" value="1" field="ddbc-2ac7-97b9-fe1d">
               <conditions>
-                <condition type="greaterThan" value="45" field="selections" scope="parent" childId="d769-0d85-e810-df60" shared="true" includeChildSelections="true"/>
+                <condition type="greaterThan" value="45" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
               </conditions>
             </modifier>
-            <modifier type="increment" value="1" field="cbfc-731b-08fc-958d">
+            <modifier type="increment" value="1" field="ddbc-2ac7-97b9-fe1d">
               <conditions>
-                <condition type="greaterThan" value="50" field="selections" scope="parent" childId="d769-0d85-e810-df60" shared="true" includeChildSelections="true"/>
+                <condition type="greaterThan" value="50" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
               </conditions>
             </modifier>
-            <modifier type="increment" value="1" field="cbfc-731b-08fc-958d">
+            <modifier type="increment" value="1" field="ddbc-2ac7-97b9-fe1d">
               <conditions>
-                <condition type="greaterThan" value="56" field="selections" scope="parent" childId="d769-0d85-e810-df60" shared="true" includeChildSelections="true"/>
+                <condition type="greaterThan" value="56" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
               </conditions>
             </modifier>
-            <modifier type="increment" value="1" field="cbfc-731b-08fc-958d">
+            <modifier type="increment" value="1" field="ddbc-2ac7-97b9-fe1d">
               <conditions>
-                <condition type="greaterThan" value="62" field="selections" scope="parent" childId="d769-0d85-e810-df60" shared="true" includeChildSelections="true"/>
+                <condition type="greaterThan" value="62" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
               </conditions>
             </modifier>
-            <modifier type="increment" value="1" field="cbfc-731b-08fc-958d">
+            <modifier type="increment" value="1" field="ddbc-2ac7-97b9-fe1d">
               <conditions>
-                <condition type="greaterThan" value="68" field="selections" scope="parent" childId="d769-0d85-e810-df60" shared="true" includeChildSelections="true"/>
+                <condition type="greaterThan" value="68" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
               </conditions>
             </modifier>
-            <modifier type="increment" value="1" field="cbfc-731b-08fc-958d">
+            <modifier type="increment" value="1" field="ddbc-2ac7-97b9-fe1d">
               <conditions>
-                <condition type="greaterThan" value="75" field="selections" scope="parent" childId="d769-0d85-e810-df60" shared="true" includeChildSelections="true"/>
+                <condition type="greaterThan" value="75" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
               </conditions>
             </modifier>
-            <modifier type="increment" value="1" field="cbfc-731b-08fc-958d">
+            <modifier type="increment" value="1" field="ddbc-2ac7-97b9-fe1d">
               <conditions>
-                <condition type="greaterThan" value="82" field="selections" scope="parent" childId="d769-0d85-e810-df60" shared="true" includeChildSelections="true"/>
+                <condition type="greaterThan" value="82" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
               </conditions>
             </modifier>
-            <modifier type="increment" value="1" field="cbfc-731b-08fc-958d">
+            <modifier type="increment" value="1" field="ddbc-2ac7-97b9-fe1d">
               <conditions>
-                <condition type="greaterThan" value="89" field="selections" scope="parent" childId="d769-0d85-e810-df60" shared="true" includeChildSelections="true"/>
+                <condition type="greaterThan" value="89" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
               </conditions>
             </modifier>
-            <modifier type="increment" value="1" field="c1d5-569c-c755-0e07">
+            <modifier type="increment" value="1" field="8eee-26f1-24b2-89f1">
               <conditions>
-                <condition type="greaterThan" value="10" field="selections" scope="parent" childId="d769-0d85-e810-df60" shared="true" includeChildSelections="true"/>
+                <condition type="greaterThan" value="10" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
               </conditions>
             </modifier>
-            <modifier type="increment" value="1" field="c1d5-569c-c755-0e07">
+            <modifier type="increment" value="1" field="8eee-26f1-24b2-89f1">
               <conditions>
-                <condition type="greaterThan" value="13" field="selections" scope="parent" childId="d769-0d85-e810-df60" shared="true" includeChildSelections="true"/>
+                <condition type="greaterThan" value="13" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
               </conditions>
             </modifier>
-            <modifier type="increment" value="1" field="c1d5-569c-c755-0e07">
+            <modifier type="increment" value="1" field="8eee-26f1-24b2-89f1">
               <conditions>
-                <condition type="greaterThan" value="16" field="selections" scope="parent" childId="d769-0d85-e810-df60" shared="true" includeChildSelections="true"/>
+                <condition type="greaterThan" value="16" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
               </conditions>
             </modifier>
-            <modifier type="increment" value="1" field="c1d5-569c-c755-0e07">
+            <modifier type="increment" value="1" field="8eee-26f1-24b2-89f1">
               <conditions>
-                <condition type="greaterThan" value="19" field="selections" scope="parent" childId="d769-0d85-e810-df60" shared="true" includeChildSelections="true"/>
+                <condition type="greaterThan" value="19" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
               </conditions>
             </modifier>
-            <modifier type="increment" value="1" field="c1d5-569c-c755-0e07">
+            <modifier type="increment" value="1" field="8eee-26f1-24b2-89f1">
               <conditions>
-                <condition type="greaterThan" value="23" field="selections" scope="parent" childId="d769-0d85-e810-df60" shared="true" includeChildSelections="true"/>
+                <condition type="greaterThan" value="23" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
               </conditions>
             </modifier>
-            <modifier type="increment" value="1" field="c1d5-569c-c755-0e07">
+            <modifier type="increment" value="1" field="8eee-26f1-24b2-89f1">
               <conditions>
-                <condition type="greaterThan" value="27" field="selections" scope="parent" childId="d769-0d85-e810-df60" shared="true" includeChildSelections="true"/>
+                <condition type="greaterThan" value="27" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
               </conditions>
             </modifier>
-            <modifier type="increment" value="1" field="c1d5-569c-c755-0e07">
+            <modifier type="increment" value="1" field="8eee-26f1-24b2-89f1">
               <conditions>
-                <condition type="greaterThan" value="31" field="selections" scope="parent" childId="d769-0d85-e810-df60" shared="true" includeChildSelections="true"/>
+                <condition type="greaterThan" value="31" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
               </conditions>
             </modifier>
-            <modifier type="increment" value="1" field="c1d5-569c-c755-0e07">
+            <modifier type="increment" value="1" field="8eee-26f1-24b2-89f1">
               <conditions>
-                <condition type="greaterThan" value="35" field="selections" scope="parent" childId="d769-0d85-e810-df60" shared="true" includeChildSelections="true"/>
+                <condition type="greaterThan" value="35" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
               </conditions>
             </modifier>
-            <modifier type="increment" value="1" field="c1d5-569c-c755-0e07">
+            <modifier type="increment" value="1" field="8eee-26f1-24b2-89f1">
               <conditions>
-                <condition type="greaterThan" value="40" field="selections" scope="parent" childId="d769-0d85-e810-df60" shared="true" includeChildSelections="true"/>
+                <condition type="greaterThan" value="40" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
               </conditions>
             </modifier>
-            <modifier type="increment" value="1" field="c1d5-569c-c755-0e07">
+            <modifier type="increment" value="1" field="8eee-26f1-24b2-89f1">
               <conditions>
-                <condition type="greaterThan" value="45" field="selections" scope="parent" childId="d769-0d85-e810-df60" shared="true" includeChildSelections="true"/>
+                <condition type="greaterThan" value="45" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
               </conditions>
             </modifier>
-            <modifier type="increment" value="1" field="c1d5-569c-c755-0e07">
+            <modifier type="increment" value="1" field="8eee-26f1-24b2-89f1">
               <conditions>
-                <condition type="greaterThan" value="50" field="selections" scope="parent" childId="d769-0d85-e810-df60" shared="true" includeChildSelections="true"/>
+                <condition type="greaterThan" value="50" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
               </conditions>
             </modifier>
-            <modifier type="increment" value="1" field="c1d5-569c-c755-0e07">
+            <modifier type="increment" value="1" field="8eee-26f1-24b2-89f1">
               <conditions>
-                <condition type="greaterThan" value="56" field="selections" scope="parent" childId="d769-0d85-e810-df60" shared="true" includeChildSelections="true"/>
+                <condition type="greaterThan" value="56" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
               </conditions>
             </modifier>
-            <modifier type="increment" value="1" field="c1d5-569c-c755-0e07">
+            <modifier type="increment" value="1" field="8eee-26f1-24b2-89f1">
               <conditions>
-                <condition type="greaterThan" value="62" field="selections" scope="parent" childId="d769-0d85-e810-df60" shared="true" includeChildSelections="true"/>
+                <condition type="greaterThan" value="62" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
               </conditions>
             </modifier>
-            <modifier type="increment" value="1" field="c1d5-569c-c755-0e07">
+            <modifier type="increment" value="1" field="8eee-26f1-24b2-89f1">
               <conditions>
-                <condition type="greaterThan" value="68" field="selections" scope="parent" childId="d769-0d85-e810-df60" shared="true" includeChildSelections="true"/>
+                <condition type="greaterThan" value="68" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
               </conditions>
             </modifier>
-            <modifier type="increment" value="1" field="c1d5-569c-c755-0e07">
+            <modifier type="increment" value="1" field="8eee-26f1-24b2-89f1">
               <conditions>
-                <condition type="greaterThan" value="75" field="selections" scope="parent" childId="d769-0d85-e810-df60" shared="true" includeChildSelections="true"/>
+                <condition type="greaterThan" value="75" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
               </conditions>
             </modifier>
-            <modifier type="increment" value="1" field="c1d5-569c-c755-0e07">
+            <modifier type="increment" value="1" field="8eee-26f1-24b2-89f1">
               <conditions>
-                <condition type="greaterThan" value="82" field="selections" scope="parent" childId="d769-0d85-e810-df60" shared="true" includeChildSelections="true"/>
+                <condition type="greaterThan" value="82" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
               </conditions>
             </modifier>
-            <modifier type="increment" value="1" field="c1d5-569c-c755-0e07">
+            <modifier type="increment" value="1" field="8eee-26f1-24b2-89f1">
               <conditions>
-                <condition type="greaterThan" value="89" field="selections" scope="parent" childId="d769-0d85-e810-df60" shared="true" includeChildSelections="true"/>
+                <condition type="greaterThan" value="89" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -2688,270 +2608,270 @@ from a safe distance).</description>
       <entryLinks>
         <entryLink import="true" name="Promoted" hidden="false" id="13d7-6d34-7002-0d57" collective="false" targetId="0f2c78d6-e019-6b88-136a-9e00031645e5" type="selectionEntry" sortIndex="6"/>
         <entryLink import="true" name="Experience" hidden="false" id="96a0-3e26-6f3b-b0e5" collective="false" targetId="d769-0d85-e810-df60" type="selectionEntry" sortIndex="5"/>
-        <entryLink import="true" name="Advancement (Henchmen)" hidden="false" id="ccf9-a231-6ce2-9821" type="selectionEntry" targetId="583e-a0c5-873-acdc" sortIndex="1">
+        <entryLink import="true" name="Advancement (Henchmen)" hidden="false" id="ccf9-a231-6ce2-9821" type="selectionEntry" targetId="672a-c6fb-d1d0-5c4c" sortIndex="1">
           <modifiers>
-            <modifier type="increment" value="1" field="5feb-168d-0f82-f739">
-              <conditions>
-                <condition type="greaterThan" value="1" field="selections" scope="parent" childId="583e-a0c5-873-acdc" shared="true" includeChildSelections="false"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" value="1" field="5feb-168d-0f82-f739">
-              <conditions>
-                <condition type="greaterThan" value="4" field="selections" scope="parent" childId="583e-a0c5-873-acdc" shared="true" includeChildSelections="false"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" value="1" field="5feb-168d-0f82-f739">
-              <conditions>
-                <condition type="greaterThan" value="8" field="selections" scope="parent" childId="583e-a0c5-873-acdc" shared="true" includeChildSelections="false"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" value="1" field="5feb-168d-0f82-f739">
-              <conditions>
-                <condition type="greaterThan" value="13" field="selections" scope="parent" childId="583e-a0c5-873-acdc" shared="true" includeChildSelections="false"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" value="1" field="f476-aea1-3a67-fc2d">
-              <conditions>
-                <condition type="greaterThan" value="1" field="selections" scope="parent" childId="583e-a0c5-873-acdc" shared="true" includeChildSelections="false"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" value="1" field="f476-aea1-3a67-fc2d">
-              <conditions>
-                <condition type="greaterThan" value="4" field="selections" scope="parent" childId="583e-a0c5-873-acdc" shared="true" includeChildSelections="false"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" value="1" field="f476-aea1-3a67-fc2d">
-              <conditions>
-                <condition type="greaterThan" value="8" field="selections" scope="parent" childId="583e-a0c5-873-acdc" shared="true" includeChildSelections="false"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" value="1" field="f476-aea1-3a67-fc2d">
-              <conditions>
-                <condition type="greaterThan" value="13" field="selections" scope="parent" childId="583e-a0c5-873-acdc" shared="true" includeChildSelections="false"/>
-              </conditions>
-            </modifier>
             <modifier type="set" value="true" field="hidden">
               <conditions>
                 <condition type="atLeast" value="1" field="selections" scope="parent" childId="0f2c78d6-e019-6b88-136a-9e00031645e5" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
               </conditions>
             </modifier>
+            <modifier type="increment" value="1" field="cb7f-7be7-a042-c941">
+              <conditions>
+                <condition type="greaterThan" value="1" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="false"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="1" field="cb7f-7be7-a042-c941">
+              <conditions>
+                <condition type="greaterThan" value="4" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="false"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="1" field="cb7f-7be7-a042-c941">
+              <conditions>
+                <condition type="greaterThan" value="8" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="false"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="1" field="cb7f-7be7-a042-c941">
+              <conditions>
+                <condition type="greaterThan" value="13" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="false"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="1" field="11ea-2487-41c2-b42e">
+              <conditions>
+                <condition type="greaterThan" value="1" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="false"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="1" field="11ea-2487-41c2-b42e">
+              <conditions>
+                <condition type="greaterThan" value="4" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="false"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="1" field="11ea-2487-41c2-b42e">
+              <conditions>
+                <condition type="greaterThan" value="8" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="false"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="1" field="11ea-2487-41c2-b42e">
+              <conditions>
+                <condition type="greaterThan" value="13" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="false"/>
+              </conditions>
+            </modifier>
           </modifiers>
         </entryLink>
-        <entryLink import="true" name="Advancement (Hero)" hidden="true" id="1477-8f14-1eed-022b" type="selectionEntry" targetId="c26e-414e-293-2621" sortIndex="2">
+        <entryLink import="true" name="Advancement (Hero)" hidden="true" id="1477-8f14-1eed-022b" type="selectionEntry" targetId="58d8-3f16-6d18-b1d2" sortIndex="2">
           <modifiers>
-            <modifier type="increment" value="1" field="cbfc-731b-08fc-958d">
-              <conditions>
-                <condition type="greaterThan" value="1" field="selections" scope="parent" childId="c26e-414e-293-2621" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" value="1" field="cbfc-731b-08fc-958d">
-              <conditions>
-                <condition type="greaterThan" value="3" field="selections" scope="parent" childId="c26e-414e-293-2621" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" value="1" field="cbfc-731b-08fc-958d">
-              <conditions>
-                <condition type="greaterThan" value="5" field="selections" scope="parent" childId="c26e-414e-293-2621" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" value="1" field="cbfc-731b-08fc-958d">
-              <conditions>
-                <condition type="greaterThan" value="7" field="selections" scope="parent" childId="c26e-414e-293-2621" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" value="1" field="cbfc-731b-08fc-958d">
-              <conditions>
-                <condition type="greaterThan" value="10" field="selections" scope="parent" childId="c26e-414e-293-2621" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" value="1" field="cbfc-731b-08fc-958d">
-              <conditions>
-                <condition type="greaterThan" value="13" field="selections" scope="parent" childId="c26e-414e-293-2621" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" value="1" field="cbfc-731b-08fc-958d">
-              <conditions>
-                <condition type="greaterThan" value="16" field="selections" scope="parent" childId="c26e-414e-293-2621" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" value="1" field="cbfc-731b-08fc-958d">
-              <conditions>
-                <condition type="greaterThan" value="19" field="selections" scope="parent" childId="c26e-414e-293-2621" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" value="1" field="cbfc-731b-08fc-958d">
-              <conditions>
-                <condition type="greaterThan" value="23" field="selections" scope="parent" childId="c26e-414e-293-2621" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" value="1" field="cbfc-731b-08fc-958d">
-              <conditions>
-                <condition type="greaterThan" value="27" field="selections" scope="parent" childId="c26e-414e-293-2621" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" value="1" field="cbfc-731b-08fc-958d">
-              <conditions>
-                <condition type="greaterThan" value="31" field="selections" scope="parent" childId="c26e-414e-293-2621" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" value="1" field="cbfc-731b-08fc-958d">
-              <conditions>
-                <condition type="greaterThan" value="35" field="selections" scope="parent" childId="c26e-414e-293-2621" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" value="1" field="cbfc-731b-08fc-958d">
-              <conditions>
-                <condition type="greaterThan" value="40" field="selections" scope="parent" childId="c26e-414e-293-2621" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" value="1" field="cbfc-731b-08fc-958d">
-              <conditions>
-                <condition type="greaterThan" value="45" field="selections" scope="parent" childId="c26e-414e-293-2621" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" value="1" field="cbfc-731b-08fc-958d">
-              <conditions>
-                <condition type="greaterThan" value="50" field="selections" scope="parent" childId="c26e-414e-293-2621" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" value="1" field="cbfc-731b-08fc-958d">
-              <conditions>
-                <condition type="greaterThan" value="56" field="selections" scope="parent" childId="c26e-414e-293-2621" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" value="1" field="cbfc-731b-08fc-958d">
-              <conditions>
-                <condition type="greaterThan" value="62" field="selections" scope="parent" childId="c26e-414e-293-2621" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" value="1" field="cbfc-731b-08fc-958d">
-              <conditions>
-                <condition type="greaterThan" value="68" field="selections" scope="parent" childId="c26e-414e-293-2621" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" value="1" field="cbfc-731b-08fc-958d">
-              <conditions>
-                <condition type="greaterThan" value="75" field="selections" scope="parent" childId="c26e-414e-293-2621" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" value="1" field="cbfc-731b-08fc-958d">
-              <conditions>
-                <condition type="greaterThan" value="82" field="selections" scope="parent" childId="c26e-414e-293-2621" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" value="1" field="cbfc-731b-08fc-958d">
-              <conditions>
-                <condition type="greaterThan" value="89" field="selections" scope="parent" childId="c26e-414e-293-2621" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" value="1" field="c1d5-569c-c755-0e07">
-              <conditions>
-                <condition type="greaterThan" value="1" field="selections" scope="parent" childId="c26e-414e-293-2621" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" value="1" field="c1d5-569c-c755-0e07">
-              <conditions>
-                <condition type="greaterThan" value="3" field="selections" scope="parent" childId="c26e-414e-293-2621" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" value="1" field="c1d5-569c-c755-0e07">
-              <conditions>
-                <condition type="greaterThan" value="5" field="selections" scope="parent" childId="c26e-414e-293-2621" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" value="1" field="c1d5-569c-c755-0e07">
-              <conditions>
-                <condition type="greaterThan" value="7" field="selections" scope="parent" childId="c26e-414e-293-2621" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" value="1" field="c1d5-569c-c755-0e07">
-              <conditions>
-                <condition type="greaterThan" value="10" field="selections" scope="parent" childId="c26e-414e-293-2621" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" value="1" field="c1d5-569c-c755-0e07">
-              <conditions>
-                <condition type="greaterThan" value="13" field="selections" scope="parent" childId="c26e-414e-293-2621" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" value="1" field="c1d5-569c-c755-0e07">
-              <conditions>
-                <condition type="greaterThan" value="16" field="selections" scope="parent" childId="c26e-414e-293-2621" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" value="1" field="c1d5-569c-c755-0e07">
-              <conditions>
-                <condition type="greaterThan" value="19" field="selections" scope="parent" childId="c26e-414e-293-2621" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" value="1" field="c1d5-569c-c755-0e07">
-              <conditions>
-                <condition type="greaterThan" value="23" field="selections" scope="parent" childId="c26e-414e-293-2621" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" value="1" field="c1d5-569c-c755-0e07">
-              <conditions>
-                <condition type="greaterThan" value="27" field="selections" scope="parent" childId="c26e-414e-293-2621" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" value="1" field="c1d5-569c-c755-0e07">
-              <conditions>
-                <condition type="greaterThan" value="31" field="selections" scope="parent" childId="c26e-414e-293-2621" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" value="1" field="c1d5-569c-c755-0e07">
-              <conditions>
-                <condition type="greaterThan" value="35" field="selections" scope="parent" childId="c26e-414e-293-2621" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" value="1" field="c1d5-569c-c755-0e07">
-              <conditions>
-                <condition type="greaterThan" value="40" field="selections" scope="parent" childId="c26e-414e-293-2621" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" value="1" field="c1d5-569c-c755-0e07">
-              <conditions>
-                <condition type="greaterThan" value="45" field="selections" scope="parent" childId="c26e-414e-293-2621" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" value="1" field="c1d5-569c-c755-0e07">
-              <conditions>
-                <condition type="greaterThan" value="50" field="selections" scope="parent" childId="c26e-414e-293-2621" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" value="1" field="c1d5-569c-c755-0e07">
-              <conditions>
-                <condition type="greaterThan" value="56" field="selections" scope="parent" childId="c26e-414e-293-2621" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" value="1" field="c1d5-569c-c755-0e07">
-              <conditions>
-                <condition type="greaterThan" value="62" field="selections" scope="parent" childId="c26e-414e-293-2621" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" value="1" field="c1d5-569c-c755-0e07">
-              <conditions>
-                <condition type="greaterThan" value="68" field="selections" scope="parent" childId="c26e-414e-293-2621" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" value="1" field="c1d5-569c-c755-0e07">
-              <conditions>
-                <condition type="greaterThan" value="75" field="selections" scope="parent" childId="c26e-414e-293-2621" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" value="1" field="c1d5-569c-c755-0e07">
-              <conditions>
-                <condition type="greaterThan" value="82" field="selections" scope="parent" childId="c26e-414e-293-2621" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
-            <modifier type="increment" value="1" field="c1d5-569c-c755-0e07">
-              <conditions>
-                <condition type="greaterThan" value="89" field="selections" scope="parent" childId="c26e-414e-293-2621" shared="true" includeChildSelections="true"/>
-              </conditions>
-            </modifier>
             <modifier type="set" value="false" field="hidden">
               <conditions>
                 <condition type="atLeast" value="1" field="selections" scope="parent" childId="0f2c78d6-e019-6b88-136a-9e00031645e5" shared="true" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="1" field="ddbc-2ac7-97b9-fe1d">
+              <conditions>
+                <condition type="greaterThan" value="1" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="1" field="ddbc-2ac7-97b9-fe1d">
+              <conditions>
+                <condition type="greaterThan" value="3" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="1" field="ddbc-2ac7-97b9-fe1d">
+              <conditions>
+                <condition type="greaterThan" value="5" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="1" field="ddbc-2ac7-97b9-fe1d">
+              <conditions>
+                <condition type="greaterThan" value="7" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="1" field="ddbc-2ac7-97b9-fe1d">
+              <conditions>
+                <condition type="greaterThan" value="10" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="1" field="ddbc-2ac7-97b9-fe1d">
+              <conditions>
+                <condition type="greaterThan" value="13" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="1" field="ddbc-2ac7-97b9-fe1d">
+              <conditions>
+                <condition type="greaterThan" value="16" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="1" field="ddbc-2ac7-97b9-fe1d">
+              <conditions>
+                <condition type="greaterThan" value="19" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="1" field="ddbc-2ac7-97b9-fe1d">
+              <conditions>
+                <condition type="greaterThan" value="23" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="1" field="ddbc-2ac7-97b9-fe1d">
+              <conditions>
+                <condition type="greaterThan" value="27" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="1" field="ddbc-2ac7-97b9-fe1d">
+              <conditions>
+                <condition type="greaterThan" value="31" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="1" field="ddbc-2ac7-97b9-fe1d">
+              <conditions>
+                <condition type="greaterThan" value="35" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="1" field="ddbc-2ac7-97b9-fe1d">
+              <conditions>
+                <condition type="greaterThan" value="40" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="1" field="ddbc-2ac7-97b9-fe1d">
+              <conditions>
+                <condition type="greaterThan" value="45" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="1" field="ddbc-2ac7-97b9-fe1d">
+              <conditions>
+                <condition type="greaterThan" value="50" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="1" field="ddbc-2ac7-97b9-fe1d">
+              <conditions>
+                <condition type="greaterThan" value="56" field="selections" scope="parent" childId="c26e-414e-293-2621" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="1" field="ddbc-2ac7-97b9-fe1d">
+              <conditions>
+                <condition type="greaterThan" value="62" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="1" field="ddbc-2ac7-97b9-fe1d">
+              <conditions>
+                <condition type="greaterThan" value="68" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="1" field="ddbc-2ac7-97b9-fe1d">
+              <conditions>
+                <condition type="greaterThan" value="75" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="1" field="ddbc-2ac7-97b9-fe1d">
+              <conditions>
+                <condition type="greaterThan" value="82" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="1" field="ddbc-2ac7-97b9-fe1d">
+              <conditions>
+                <condition type="greaterThan" value="89" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="1" field="8eee-26f1-24b2-89f1">
+              <conditions>
+                <condition type="greaterThan" value="1" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="1" field="8eee-26f1-24b2-89f1">
+              <conditions>
+                <condition type="greaterThan" value="3" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="1" field="8eee-26f1-24b2-89f1">
+              <conditions>
+                <condition type="greaterThan" value="5" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="1" field="8eee-26f1-24b2-89f1">
+              <conditions>
+                <condition type="greaterThan" value="7" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="1" field="8eee-26f1-24b2-89f1">
+              <conditions>
+                <condition type="greaterThan" value="10" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="1" field="8eee-26f1-24b2-89f1">
+              <conditions>
+                <condition type="greaterThan" value="13" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="1" field="8eee-26f1-24b2-89f1">
+              <conditions>
+                <condition type="greaterThan" value="16" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="1" field="8eee-26f1-24b2-89f1">
+              <conditions>
+                <condition type="greaterThan" value="19" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="1" field="8eee-26f1-24b2-89f1">
+              <conditions>
+                <condition type="greaterThan" value="23" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="1" field="8eee-26f1-24b2-89f1">
+              <conditions>
+                <condition type="greaterThan" value="27" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="1" field="8eee-26f1-24b2-89f1">
+              <conditions>
+                <condition type="greaterThan" value="31" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="1" field="8eee-26f1-24b2-89f1">
+              <conditions>
+                <condition type="greaterThan" value="35" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="1" field="8eee-26f1-24b2-89f1">
+              <conditions>
+                <condition type="greaterThan" value="40" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="1" field="8eee-26f1-24b2-89f1">
+              <conditions>
+                <condition type="greaterThan" value="45" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="1" field="8eee-26f1-24b2-89f1">
+              <conditions>
+                <condition type="greaterThan" value="50" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="1" field="8eee-26f1-24b2-89f1">
+              <conditions>
+                <condition type="greaterThan" value="56" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="1" field="8eee-26f1-24b2-89f1">
+              <conditions>
+                <condition type="greaterThan" value="62" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="1" field="8eee-26f1-24b2-89f1">
+              <conditions>
+                <condition type="greaterThan" value="68" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="1" field="8eee-26f1-24b2-89f1">
+              <conditions>
+                <condition type="greaterThan" value="75" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="1" field="8eee-26f1-24b2-89f1">
+              <conditions>
+                <condition type="greaterThan" value="82" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" value="1" field="8eee-26f1-24b2-89f1">
+              <conditions>
+                <condition type="greaterThan" value="89" field="selections" scope="parent" childId="6ef4-ee68-c1ef-2e48" shared="true" includeChildSelections="true"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -2964,7 +2884,7 @@ from a safe distance).</description>
     </selectionEntry>
   </selectionEntries>
   <catalogueLinks>
-    <catalogueLink type="catalogue" name="common-data" id="1a44-c1df-b672-a22d" targetId="7759-6909-4fc3-892b"/>
+    <catalogueLink type="catalogue" name="common-data" id="1a44-c1df-b672-a22d" targetId="ed2d-8853-04a6-35b5"/>
   </catalogueLinks>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup name="Special Skills" id="af3f-c177-e4bb-3789" hidden="false" collective="false" import="true">
@@ -3186,7 +3106,21 @@ If she engages a ﬂeeing enemy in the close combat phase she will score 1 autom
     <selectionEntryGroup name="Dark Elf Equipment" id="fcdc-21f3-0bfb-0885" hidden="false">
       <comment>Dark Elf Equipment</comment>
       <selectionEntryGroups>
-        <selectionEntryGroup name="Armor" id="2736-137c-3c59-d850" hidden="false" sortIndex="2"/>
+        <selectionEntryGroup name="Armor" id="2736-137c-3c59-d850" hidden="false" sortIndex="2">
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Sea Dragon Cloak" hidden="false" id="6576-5e78-4ea9-a52f">
+              <rules>
+                <rule name="Scales" id="3f3f-47ba-76d4-e9b8" hidden="false">
+                  <description>The wearer of the Sea Dragon Cloak receives a +2 bonus to his save against shooting (or in the event where he has none, a 5+ save) and a +1 bonus to his save in close combat (or, if he has none, a 6+ save). A Sea Dragon Cloak may be combined with other pieces of armour (shield, light armour) with no penalty.</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name="pts" typeId="points" value="30"/>
+                <cost name="Warband Rating" typeId="wb-rating" value="0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
         <selectionEntryGroup name="Hand to Hand Weapons" id="4b7c-d630-edea-b877" hidden="false" sortIndex="1">
           <selectionEntries>
             <selectionEntry type="upgrade" import="true" name="Draich" hidden="false" id="a589-8078-65e2-3f2a">
@@ -3249,6 +3183,37 @@ A roll of 2-4 on the injury table is a stunned result.</description>
                   </rules>
                 </selectionEntry>
               </selectionEntries>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Beastlash" hidden="false" id="53e8-3695-7359-f56b">
+              <profiles>
+                <profile name="Beastlash" typeId="9db87680-6ee5-b46c-48ca-dcd1c5de1bad" typeName="HtH Weapon" hidden="false" id="198e-b166-44f3-e914">
+                  <characteristics>
+                    <characteristic name="Str" typeId="f10cfcb7-b71e-4c27-9836-75d341e28f68"/>
+                    <characteristic name="Special" typeId="80dd3fd5-3811-af0b-e182-2ecbc7ad5d8e">Beastbane, Whipcrack, Cannot be parried, +1 enemy armor save</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules>
+                <rule name="Whipcrack" id="0d47-cbb5-8862-8a16" hidden="false">
+                  <description>When the wielder charges they gain +1A for that turn. This bonus attack is added after any other modifications. When the wielder is charged they gain +1A that they may only use against the charger. This additional attack will ‘strike first’. If the wielder is simultaneously charged by two or more opponents he will still only receive a total of +1A. If the wielder is using two whips at the same time then he gets +1A for the additional hand weapon, but only the first whip gets the Whipcrack +1A.
+
+</description>
+                </rule>
+                <rule name="Beastbane" id="25d5-5ef9-eedb-a861" hidden="false">
+                  <description>The Beastmaster wielding a Beastlash causes Fear in animals. Any animal charged by or
+wishing to charge a Beastmaster with one of these weapons must first take a fear test as mentioned in the psychology section of the Mordheim rules.</description>
+                </rule>
+                <rule name="Cannot be parried" id="78f0-3733-070a-eff9" hidden="false">
+                  <description>A Beastlash, being a very flexible weapon and used with great expertise by the Beastmaster wielding it, cannot be parried.</description>
+                </rule>
+                <rule name="+1 Enemy armor save" id="27ab-7c55-e2a5-aea3" hidden="false">
+                  <description>Whips are not made for penetrating an enemy model&apos;s armour. An enemy wounded by a Beastlash gains a +1 bonus to his armour save, and a 6+ armour save if he has none normally.</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name="pts" typeId="points" value="10"/>
+                <cost name="Warband Rating" typeId="wb-rating" value="0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
