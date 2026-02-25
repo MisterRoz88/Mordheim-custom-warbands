@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="3f05-fa3b-7b5a-8ef2" name="Druchii (2a)" gameSystemId="0401-55e9-1af4-df75" gameSystemRevision="15" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="false" id="f744-506d-9e47-71c3" name="Druchii (2a)" gameSystemId="4c90-7d0e-7948-4546" gameSystemRevision="15" revision="1" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <selectionEntries>
     <selectionEntry type="model" import="true" name="Beast Master" hidden="false" id="86f0-d83c-2aba-7197" page="0" collective="false">
       <constraints>
@@ -529,7 +529,7 @@
       <selectionEntries>
         <selectionEntry type="upgrade" import="true" name="Equipment" hidden="false" id="aa9a-736f-4b9c-fbfb" page="0" collective="false" sortIndex="5">
           <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="false" id="a482-8a56-7cab-42de" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <constraint type="min" value="0" field="selections" scope="parent" shared="false" id="a482-8a56-7cab-42de" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="1cdb-677d-0897-b292" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
           </constraints>
           <entryLinks>
@@ -989,7 +989,7 @@
       <selectionEntries>
         <selectionEntry type="upgrade" import="true" name="Equipment" hidden="false" id="d86d-b1fc-dd5a-521d" page="0" collective="false" sortIndex="4">
           <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="false" id="9772-cdd9-d978-a5ca" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <constraint type="min" value="0" field="selections" scope="parent" shared="false" id="9772-cdd9-d978-a5ca" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="1448-3b09-d783-97da" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
           </constraints>
           <entryLinks>
@@ -1354,7 +1354,7 @@
       <selectionEntries>
         <selectionEntry type="upgrade" import="true" name="Equipment" hidden="false" id="5367-d277-79c3-e1c4" page="0" collective="false" sortIndex="4">
           <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="false" id="acb1-6e33-0936-0fd0" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <constraint type="min" value="0" field="selections" scope="parent" shared="false" id="acb1-6e33-0936-0fd0" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="9b1a-c788-33b4-bf85" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
           </constraints>
           <entryLinks>
@@ -1673,7 +1673,7 @@
       <selectionEntries>
         <selectionEntry type="upgrade" import="true" name="Equipment" hidden="false" id="13d6-def4-cf15-3e69" page="0" collective="false" sortIndex="5">
           <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="false" id="75b5-a7e9-0b0d-408b" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <constraint type="min" value="0" field="selections" scope="parent" shared="false" id="75b5-a7e9-0b0d-408b" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="d6bc-e90a-9f84-f396" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
           </constraints>
           <entryLinks>
@@ -2133,7 +2133,7 @@
       <selectionEntries>
         <selectionEntry type="upgrade" import="true" name="Equipment" hidden="false" id="6f70-8c7d-4edd-c014" page="0" collective="false" sortIndex="4">
           <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="false" id="2d91-016c-1d51-5eac" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <constraint type="min" value="0" field="selections" scope="parent" shared="false" id="2d91-016c-1d51-5eac" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="26b1-4d63-d496-c30b" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
           </constraints>
           <entryLinks>
@@ -2513,7 +2513,7 @@
       <selectionEntries>
         <selectionEntry type="upgrade" import="true" name="Equipment" hidden="false" id="a8ee-cdb5-d2d4-ebad" page="0" collective="false" sortIndex="4">
           <constraints>
-            <constraint type="min" value="1" field="selections" scope="parent" shared="false" id="f0de-b67c-4632-f651" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
+            <constraint type="min" value="0" field="selections" scope="parent" shared="false" id="f0de-b67c-4632-f651" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
             <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="9a45-38ba-2b1c-0a8f" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
           </constraints>
           <entryLinks>
@@ -2864,7 +2864,7 @@
     </selectionEntry>
   </selectionEntries>
   <catalogueLinks>
-    <catalogueLink type="catalogue" name="common-data" id="1a44-c1df-b672-a22d" targetId="b1bc-3f6f-204c-15c3"/>
+    <catalogueLink type="catalogue" name="common-data" id="1a44-c1df-b672-a22d" targetId="b658-b989-8dda-226c"/>
   </catalogueLinks>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup name="Special Skills" id="af3f-c177-e4bb-3789" hidden="false" collective="false" import="true">
@@ -2914,13 +2914,8 @@ If both players have models which infiltrate, roll a D6 for each, and the lowest
             <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="9116-fdb6-9d68-eaf8" percentValue="false" includeChildSelections="false" includeChildForces="false"/>
           </constraints>
           <rules>
-            <rule name="Powerful Build" id="1b01-03e3-37c2-46bc" hidden="false">
-              <description>Eyes of this hero are so keen and hands so steady that
-he can completely omit the penalty for long range if
-using a crossbow type weapon. Further, if he did not
-move this turn, he can shoot from repeater crossbow
-twice per turn without penalty or three times per turn
-with -1 penalty to hit.</description>
+            <rule name="Wraithen Master" id="1b01-03e3-37c2-46bc" hidden="false">
+              <description>Eyes of this hero are so keen and hands so steady that he can completely omit the penalty for long range if using a crossbow type weapon. Further, if he did not move this turn, he can shoot from repeater crossbow twice per turn without penalty or three times per turn with -1 penalty to hit.</description>
             </rule>
           </rules>
           <costs>
@@ -2959,24 +2954,14 @@ with -1 penalty to hit.</description>
         <selectionEntry type="upgrade" import="true" name="Survival of the fittest" hidden="false" id="7e5d-6b3f-9c2e-9530" sortIndex="6">
           <rules>
             <rule name="Survival of the fittest" id="161c-a02f-e59f-ab04" hidden="false">
-              <description>Naggaroth is a harsh land with harsh inhabitants and
-weaklings are shown no mercy. This elf is able to survive
-by pure strength of will. If the model gets out of
-action and result of the Serious Injuries roll is death,
-make a Leadership test against unmodified Ld of the
-model (no holy relics etc.). If you succeed, the model
-will survive but will miss D3 battles instead.</description>
+              <description>Naggaroth is a harsh land with harsh inhabitants and weaklings are shown no mercy. This elf is able to survive by pure strength of will. If the model gets out of action and result of the Serious Injuries roll is death, make a Leadership test against unmodified Ld of the model (no holy relics etc.). If you succeed, the model will survive but will miss D3 battles instead.</description>
             </rule>
           </rules>
         </selectionEntry>
         <selectionEntry type="upgrade" import="true" name="Excellent sight" hidden="false" id="b643-29e3-2240-525d" sortIndex="1">
           <rules>
             <rule name="Excellent sight" id="b107-a6ec-764f-4a8f" hidden="false" page="Excellent sight">
-              <description>There are numerous legends detailing the excellent
-eyesight of the Elves, both Druchii and Asur kin. This
-elf can spot Hidden enemies from twice as far
-away than normal warriors (i.e. twice his Initiative value
-in inches).</description>
+              <description>There are numerous legends detailing the excellent eyesight of the Elves, both Druchii and Asur kin. This elf can spot Hidden enemies from twice as far away than normal warriors (i.e. twice his Initiative value in inches).</description>
             </rule>
           </rules>
         </selectionEntry>
