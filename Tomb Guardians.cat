@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="7d2b-89ab-a974-f328" name="Tomb Guardians (1b)" gameSystemId="c73d-68de-5e05-0350" gameSystemRevision="15" revision="2" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="false" id="400c-9dea-155a-e263" name="Tomb Guardians (1b)" gameSystemId="641b-9f42-43e8-9ef3" gameSystemRevision="15" revision="2" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <catalogueLinks>
-    <catalogueLink type="catalogue" name="common-data" id="488d-4919-cbab-67d9" targetId="e020-c282-277b-b173"/>
+    <catalogueLink type="catalogue" name="common-data" id="488d-4919-cbab-67d9"/>
   </catalogueLinks>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup name="Undead Equipment" id="982b-baae-2892-3979" hidden="false">
@@ -2565,4 +2565,3 @@ A Tomb Guardian warband always roll one extra dice in the Exploration phase.</
     </rule>
   </rules>
 </catalogue>
-
