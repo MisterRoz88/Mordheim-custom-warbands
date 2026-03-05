@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="facb1142-7463-7676-00c0-d78150e13a50" name="Skaven (1a)" revision="10" battleScribeVersion="2.03" library="false" gameSystemId="9481a749-7900-614b-1695-bdc2899069c1" gameSystemRevision="15" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
+<catalogue id="facb1142-7463-7676-00c0-d78150e13a50" name="Skaven (1a)" revision="10" battleScribeVersion="2.03" library="false" gameSystemId="c73d-68de-5e05-0350" gameSystemRevision="15" xmlns="http://www.battlescribe.net/schema/catalogueSchema" type="catalogue">
   <publications>
     <publication id="facb1142--pubN71023" name="Mordheim Official"/>
   </publications>
@@ -6325,3 +6325,4 @@ combat, roll a D6.
     <catalogueLink type="catalogue" name="common-data" id="cc6d-d673-91b7-4454" targetId="e020-c282-277b-b173"/>
   </catalogueLinks>
 </catalogue>
+
