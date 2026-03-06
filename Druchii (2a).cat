@@ -2370,7 +2370,7 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="55"/>
+        <cost name="pts" typeId="points" value="45"/>
         <cost name="Warband Rating" typeId="wb-rating" value="5"/>
       </costs>
     </selectionEntry>
@@ -3232,3 +3232,4 @@ wishing to charge a Beastmaster with one of these weapons must first take a fea
     </selectionEntry>
   </sharedSelectionEntries>
 </catalogue>
+
